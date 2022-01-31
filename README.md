@@ -28,7 +28,7 @@ I'm excited and can't wait to get started!
 ## *GamingServer* CTF on TryHackMe
 #### January 30th 2022
 
-[**GamingServer Walkthrough**](walkthroughs/2022-01-30 GamingServer.md)
+[**GamingServer Walkthrough**](walkthroughs/2022-01-30 - GamingServer.md)
 
 <br>
 
