@@ -5,7 +5,7 @@
 <br><br>
 
 ## Today is the day my Evolve Security bootcamp starts!
-##### January 31st 2022
+#### January 31st 2022
 
 
 
@@ -28,7 +28,7 @@ I'm excited and can't wait to get started!
 ## *GamingServer* CTF on TryHackMe
 #### January 30th 2022
 
-[**GamingServer**](walkthroughs/2022-01-30 GamingServer.md) CTF on TryHackMe.
+[**GamingServer Walkthrough**](walkthroughs/2022-01-30 GamingServer.md)
 
 <br>
 
@@ -39,7 +39,7 @@ I'm excited and can't wait to get started!
 ## *Corp* CTF on TryHackMe
 #### January 28th 2022
 
-[**Corp**](walkthroughs/2022-01-28 - Corp.md) CTF on TryHackMe.
+[**Corp Walkthrough**](walkthroughs/2022-01-28 - Corp.md)
 
 <br>
 
@@ -50,7 +50,7 @@ I'm excited and can't wait to get started!
 ## *Retro* CTF on TryHackMe
 #### January 27th 2022
 
-[**Retro**](walkthroughs/2022-01-27 - Retro.md) CTF on TryHackMe.
+[**Retro Walkthrough**](walkthroughs/2022-01-27 - Retro.md)
 
 <br>
 
@@ -61,7 +61,7 @@ I'm excited and can't wait to get started!
 ## *Game Zone* CTF on TryHackMe
 #### January 25th 2022
 
-[**Game Zone**](walkthroughs/2022-01-25 - Game Zone.md) CTF on TryHackMe.
+[**Game Zone Walkthrough**](walkthroughs/2022-01-25 - Game Zone.md)
 
 <br>
 
@@ -72,7 +72,7 @@ I'm excited and can't wait to get started!
 ## *Anonymous* CTF on TryHackMe
 #### January 24th 2022
 
-[**Anonymous**](walkthroughs/2022-01-24 - Anonymous.md) CTF on TryHackMe.
+[**Anonymous Walkthrough**](walkthroughs/2022-01-24 - Anonymous.md)
 
 <br>
 
@@ -83,7 +83,7 @@ I'm excited and can't wait to get started!
 ## *Crack the hash* CTF on TryHackMe
 #### January 21st 2022
 
-[**Crack the hash**](walkthroughs/2022-01-21 - Crack the hash.md) CTF on TryHackMe.
+[**Crack the hash Walkthrough**](walkthroughs/2022-01-21 - Crack the hash.md)
 
 <br>
 
@@ -94,7 +94,7 @@ I'm excited and can't wait to get started!
 ## *Pickle Rick* CTF on TryHackMe
 #### January 20th 2022
 
-[**Pickle Rick**](walkthroughs/2022-01-20 - Pickle Rick.md) CTF on TryHackMe.
+[**Pickle Rick Walkthrough**](walkthroughs/2022-01-20 - Pickle Rick.md)
 
 <br>
 
