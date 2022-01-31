@@ -5,7 +5,9 @@
 <br><br>
 
 ## Today is the day my Evolve Security bootcamp starts!
-#### January 31st 2022
+##### January 31st 2022
+
+
 
 About 3 months ago I finished some local college courses in their Cybersecurity learning path, and it turned out that the next step in the path wasn't available in the spring semester and I'd have to wait many months until the summer semester to be able to continue on. That was too long to wait so I decided to look around for other learning opportunities.
 
