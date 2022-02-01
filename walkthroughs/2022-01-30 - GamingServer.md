@@ -62,8 +62,6 @@ It found an uploads folder and a secret folder, and both have a status of 200 so
 
 Heading over to website:
 
-<br>
-
 ![](images/gamingserver1.png)
 
 <br>
@@ -76,13 +74,13 @@ Viewing the source of the page reveals a comment at the bottom with a potential 
 <br>
 
 Checking out the /uploads directory shows us the following files:
+
 ```
 dict.lst		2020-02-05 14:10 	2.0K
 manifesto.txt	2020-02-05 13:05 	3.0K
 meme.jpg		2020-02-05 13:32 	15k
 ```
 
-<br>
 
 The **meme.jpg** picture ends up being Beaker from the muppets. Running it through steganography tools doesn't give us anything. meme indeed.
 
@@ -95,11 +93,13 @@ And **dict.lst** is a dictionary list that we can use to potentially crack passw
 <br>
 
 Let's take a look at the /secret we found during the gobuster scan:
+
 ```
 secretKey	2020-02-05 13:41 	1.7K	 
 ```
 
 A single file exists, and opening it up reveals a private ssh key:
+
 ```
 -----BEGIN RSA PRIVATE KEY-----
 Proc-Type: 4,ENCRYPTED
@@ -172,6 +172,7 @@ john@exploitable:~$
 ```
 
 We're in! User flag here we come:
+
 ```
 john@exploitable:~$ pwd
 /home/john
