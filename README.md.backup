@@ -1,4 +1,6 @@
-## j.info Cybersecurity Walkthroughs
+
+
+## j.info Cybersecurity Blog
 
 ---
 
@@ -27,6 +29,8 @@ I'm excited and can't wait to get started!
 
 ## *GamingServer* CTF on TryHackMe
 #### January 30th 2022
+
+![](images/LFI.png) * ![](images/Git.png)
 
 [**GamingServer Walkthrough**](walkthroughs/2022-01-30 - GamingServer.md)
 
