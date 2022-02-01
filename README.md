@@ -9,7 +9,7 @@
 ## Today is the day my Evolve Security bootcamp starts!
 #### January 31st 2022
 
-
+Topics: ![](images/learning.png)
 
 About 3 months ago I finished some local college courses in their Cybersecurity learning path, and it turned out that the next step in the path wasn't available in the spring semester and I'd have to wait many months until the summer semester to be able to continue on. That was too long to wait so I decided to look around for other learning opportunities.
 
@@ -30,7 +30,7 @@ I'm excited and can't wait to get started!
 ## *GamingServer* CTF on TryHackMe
 #### January 30th 2022
 
-![](images/LFI.png) ![](images/Git.png)
+Topics: ![](images/Linux.png) ![](images/web.png) ![](images/sshkey.png) ![](images/cracking.png) ![](images/lxc.png) ![](images/container.png)
 
 [**GamingServer Walkthrough**](walkthroughs/2022-01-30 - GamingServer.md)
 
@@ -43,6 +43,8 @@ I'm excited and can't wait to get started!
 ## *Corp* CTF on TryHackMe
 #### January 28th 2022
 
+Topics: ![](images/Windows.png) ![](images/AppLocker.png) ![](images/powershell.png) ![](images/kerberos.png) ![](images/cracking.png) ![](images/decoding.png)
+
 [**Corp Walkthrough**](walkthroughs/2022-01-28 - Corp.md)
 
 <br>
@@ -53,6 +55,8 @@ I'm excited and can't wait to get started!
 
 ## *Retro* CTF on TryHackMe
 #### January 27th 2022
+
+Topics: ![](images/Windows.png) ![](images/web.png) ![](images/Wordpress.png) ![](images/MySQL.png)
 
 [**Retro Walkthrough**](walkthroughs/2022-01-27 - Retro.md)
 
@@ -65,6 +69,8 @@ I'm excited and can't wait to get started!
 ## *Game Zone* CTF on TryHackMe
 #### January 25th 2022
 
+Topics: ![](images/Linux.png) ![](images/web.png) ![](images/SQLi.png) ![](images/sqlmap.png) ![](images/Burp.png) ![](images/MySQL.png) ![](images/cracking.png) ![](images/sshtunnel.png) ![](images/metasploit.png) 
+
 [**Game Zone Walkthrough**](walkthroughs/2022-01-25 - Game Zone.md)
 
 <br>
@@ -75,6 +81,8 @@ I'm excited and can't wait to get started!
 
 ## *Anonymous* CTF on TryHackMe
 #### January 24th 2022
+
+Topics: ![](images/Linux.png) ![](images/SMB.png) ![](images/FTP.png) ![](images/scripting.png) ![](images/SUID.png)
 
 [**Anonymous Walkthrough**](walkthroughs/2022-01-24 - Anonymous.md)
 
@@ -87,6 +95,8 @@ I'm excited and can't wait to get started!
 ## *Crack the hash* CTF on TryHackMe
 #### January 21st 2022
 
+Topics: ![](images/Linux.png) ![](images/hash.png) ![](images/cracking.png)
+
 [**Crack the hash Walkthrough**](walkthroughs/2022-01-21 - Crack the hash.md)
 
 <br>
@@ -98,6 +108,8 @@ I'm excited and can't wait to get started!
 ## *Pickle Rick* CTF on TryHackMe
 #### January 20th 2022
 
+Topics: ![](images/Linux.png) ![](images/web.png) ![](images/sudo.png)
+
 [**Pickle Rick Walkthrough**](walkthroughs/2022-01-20 - Pickle Rick.md)
 
 <br>
@@ -108,6 +120,8 @@ I'm excited and can't wait to get started!
 
 ## *Inclusion* CTF on TryHackMe
 #### January 20th 2022
+
+Topics: ![](images/Linux.png) ![](images/web.png) ![](images/LFI.png) ![](images/sudo.png)
 
 [**Check out my first walkthrough**](walkthroughs/2022-01-20 - Inclusion.md) of the **Inclusion** CTF on TryHackMe.
 
