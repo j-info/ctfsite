@@ -86,11 +86,7 @@ meme.jpg		2020-02-05 13:32 	15k
 
 The **meme.jpg** picture ends up being Beaker from the muppets. Running it through steganography tools doesn't give us anything. meme indeed.
 
-<br>
-
 ![](images/gamingserver3.png)
-
-<br>
 
 The **manifesto.txt** file is a copy of the famous [**Hacker Manifesto**](http://phrack.org/issues/7/3.html) written by a member of The Legion of Doom hacker group named The Mentor back in 1986. It's a quick read, take a look.
 
@@ -207,7 +203,7 @@ He's a member of sudo, but we don't have his password yet and can't see what he'
 [sudo] password for john: 
 ```
 
-Maybe there is a quick privilege escalation using a SUID file? I run
+Maybe there is a quick privilege escalation using a SUID file? I run:
 
 `find / -type f -perm /4000 2> /dev/null`
 
@@ -259,7 +255,7 @@ Resolving deltas: 100% (15/15), done.
 
 Change to the created directory:
 
-`cd lxd-alpine-builder`.
+`cd lxd-alpine-builder`
 
 Build the container with the provided file:
 
@@ -328,6 +324,8 @@ root.txt
 
 With that we've solved this CTF!
 
+<br>
+
 ![](images/gamingserver4.png)
 
 <br>
@@ -351,5 +349,7 @@ A quick run down of what we covered in this CTF:
 Many thanks to:
 - [**SuitGuy**](https://tryhackme.com/p/SuitGuy) for creating this CTF.
 - **TryHackMe** for hosting this CTF.
+
+<br>
 
 You can visit them at: [**https://tryhackme.com**](https://tryhackme.com)
