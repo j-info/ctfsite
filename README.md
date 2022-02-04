@@ -6,6 +6,35 @@
 
 <br><br>
 
+## Week 1 of the Evolve bootcamp complete
+
+Topics: ![](images/learning.png)
+
+I couldn't be happier with how well the first week went. The lead instructor, Michael Creaney, is not only extremely knowledgeable but is good at teaching as well. Sometimes you get one or the other, but not this time thankfully.
+
+The assistant instructors are also very good and seem like they truly care. They're all Evolve alumni so they've been through the bootcamp and can help out with any general questions we have in addition to what we're learning.
+
+So far so good!
+
+<br>
+
+---
+
+<br>
+
+## *Wonderland* CTF on TryHackMe
+#### February 4th 2022
+
+Topics: ![](images/Linux.png) ![](images/web.png) ![](images/steg.png) ![](images/scripting.png) 
+
+[**Wonderland Walkthrough**](walkthroughs/2022-02-04 - Wonderland.md)
+
+<br>
+
+---
+
+<br>
+
 ## Today is the day my Evolve Security bootcamp starts!
 #### January 31st 2022
 
