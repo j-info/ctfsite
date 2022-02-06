@@ -115,9 +115,7 @@ And, something additional comes back:
 
 I realized almost immediately that the **_follow the r a b b i t_** hint above was going to be quite literal and end up being:
 
-```
-http://10.10.216.147/r/a/b/b/i/t
-```
+```http://10.10.216.147/r/a/b/b/i/t```
 
 Which it was, but for the sake of checking everything out and following the story I navigated to each letter:
 
