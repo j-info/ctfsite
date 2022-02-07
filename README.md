@@ -26,7 +26,7 @@ Topics: ![](images/learning.png)
 
 Made it to level 11 finally. I've learned so much from this site already, and there's so much more to learn!
 
-![](images/other/tryhackme-level11.png)
+![](https://github.com/j-info/ctfsite/blob/edb6a0af2095d0a3bc84f0c1dfe15b9ba3d52e1a/images/other/tryhackme-level11.jpg)
 
 <br>
 
