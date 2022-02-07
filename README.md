@@ -6,6 +6,19 @@
 
 <br><br>
 
+## *Relevant* CTF on TryHackMe
+#### February 4th 2022
+
+Topics: ![](images/Windows.png) ![](images/SMB.png)
+
+[**Relevant Walkthrough**](walkthroughs/2022-02-06 - Relevant.md)
+
+<br>
+
+---
+
+<br>
+
 ## Level 11 on TryHackMe
 #### February 6th 2022
 
