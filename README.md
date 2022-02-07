@@ -26,7 +26,7 @@ Topics: ![](images/learning.png)
 
 Made it to level 11 finally. I've learned so much from this site already, and there's so much more to learn!
 
-![](walkthroughs/images/tryhackme-level11.png)
+![](images/other/tryhackme-level11.png)
 
 <br>
 
