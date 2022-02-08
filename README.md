@@ -17,7 +17,7 @@ I also went through this with somebody from my **Evolve** bootcamp and when you 
 
 I won't post the actual walkthrough yet since this box is only 2 days old and it's against the HTB terms of service, but here's a completion screenshot:
 
-![](images-other/paper16.png
+![](images-other/paper16.png)
 
 <br>
 
