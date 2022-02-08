@@ -23,19 +23,6 @@ I also went through this with somebody from my **Evolve** bootcamp and when you 
 
 <br>
 
-## *Relevant* CTF on TryHackMe
-#### February 4th 2022
-
-Topics: ![](images/Windows.png) ![](images/SMB.png)
-
-[**Relevant Walkthrough**](walkthroughs/2022-02-06 - Relevant.md)
-
-<br>
-
----
-
-<br>
-
 ## Level 11 on TryHackMe
 #### February 6th 2022
 
@@ -44,6 +31,19 @@ Topics: ![](images/learning.png)
 Made it to level 11 finally. I've learned so much from this site already, and there's so much more to learn!
 
 ![](images-other/tryhackme-level11.jpg)
+
+<br>
+
+---
+
+<br>
+
+## *Relevant* CTF on TryHackMe
+#### February 4th 2022
+
+Topics: ![](images/Windows.png) ![](images/SMB.png)
+
+[**Relevant Walkthrough**](walkthroughs/2022-02-06 - Relevant.md)
 
 <br>
 
