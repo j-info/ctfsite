@@ -6,6 +6,23 @@
 
 <br><br>
 
+## *Paper* on Hack the Box
+#### February 7th 2022
+
+Topics: ![](images/Linux.png) ![](images/web.png) ![](images/Wordpress.png) ![](images/LFI.png)
+
+This is my first actual HTB machine other than the starting point so it was a lot of fun comparing how things are on HTB vs how they are on THM. HTB definitely holds your hand less so the difficulty I'd say is a bit higher than comparibly rated machines on THM.
+
+I also went through this with somebody from my **Evolve** bootcamp and when you see the term **I** you can take it as **we** since we both spent several hours in Discord banging our heads against a wall figuring out each piece of the puzzle. Despite that we loved every second of it!
+
+[**Paper Walkthrough**](walkthroughs/2022-02-07 - Paper.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Relevant* CTF on TryHackMe
 #### February 4th 2022
 
