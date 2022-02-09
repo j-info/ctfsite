@@ -62,12 +62,15 @@ It found an uploads folder and a secret folder, and both have a status of 200 so
 
 Heading over to website:
 
+<br>
+
 ![](images/gamingserver1.png)
 
 <br>
 
 Viewing the source of the page reveals a comment at the bottom with a potential username:
 
+<br>
 
 ![](images/gamingserver2.png)
 
@@ -84,7 +87,11 @@ meme.jpg		2020-02-05 13:32 	15k
 
 The **meme.jpg** picture ends up being Beaker from the muppets. Running it through steganography tools doesn't give us anything. meme indeed.
 
+<br>
+
 ![](images/gamingserver3.png)
+
+<br>
 
 The **manifesto.txt** file is a copy of the famous [**Hacker Manifesto**](http://phrack.org/issues/7/3.html) written by a member of The Legion of Doom hacker group named The Mentor back in 1986. It's a quick read, take a look.
 
@@ -92,7 +99,7 @@ And **dict.lst** is a dictionary list that we can use to potentially crack passw
 
 <br>
 
-Let's take a look at the /secret we found during the gobuster scan:
+Let's take a look at the **/secret** we found during the gobuster scan:
 
 ```
 secretKey	2020-02-05 13:41 	1.7K	 

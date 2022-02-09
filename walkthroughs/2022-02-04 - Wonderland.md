@@ -17,6 +17,8 @@
 
 ## Initial Enumeration
 
+<br>
+
 ### Nmap Scan
 
 Starting off with an nmap scan:
@@ -61,6 +63,8 @@ and get back 3 results:
 
 ## Website Digging
 
+<br>
+
 Opening up the default page shows us a picture of a rabbit:
 
 ![](images/wonderland1.png)
@@ -98,8 +102,6 @@ Looking at the **white_rabbit_1.jpg.out** shows us:
 ```
 follow the r a b b i t
 ```
-
-<br>
 
 I tried a few things at this point such as brute forcing some potential usersnames (Alice, Jabberwocky, etc) over ssh, full nmap -p- scan, and a nmap udp scan but didn't have any luck.
 
@@ -204,8 +206,6 @@ alice@wonderland:~$ cat /root/user.txt
 ```
 
 Hah, they did! Kudos to the maker of this CTF for switching things up a bit.
-
-<br>
 
 Let's see if we have any sudo abilities:
 
@@ -469,8 +469,12 @@ A quick run down of what we covered in this CTF:
 
 I had a great time going through this one. What a fun and creative CTF.
 
+<br>
+
 Many thanks to:
 - [**NinjaJc01**](https://tryhackme.com/p/NinjaJc01) for creating this CTF.
 - **TryHackMe** for hosting this CTF.
+
+<br>
 
 You can visit them at: [**https://tryhackme.com**](https://tryhackme.com)
