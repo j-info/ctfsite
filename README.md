@@ -6,6 +6,19 @@
 
 <br><br>
 
+## *Internal* on TryHackMe
+#### February 9th 2022
+
+Topics: ![](images/Linux.png) ![](images/web.png) ![](images/sqlmap.png) ![](images/Wordpress.png) ![](images/wpscan.png) ![](images/phpmyadmin.png) ![](images/MySQL.png) ![](images/sshtunnel.png) ![](images/hydra.png) ![](images/Jenkins.png)
+
+[**Internal Walkthrough**](walkthroughs/2022-02-09 - Internal.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Paper* on Hack the Box
 #### February 7th 2022
 
