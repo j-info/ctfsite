@@ -6,6 +6,26 @@
 
 <br><br>
 
+## *Secret* on Hack the Box
+#### February 10th 2022
+
+Topics: ![](images/Linux.png) ![](images/API.png) ![](images/JSON.png) ![](images/JWT.png) ![](images/git.png) ![](images/sourcecode.png) ![](images/Burp.png) ![](images/coredump.png)
+
+This was pretty challenging for an easy rated box and it took awhile and a lot of google searching to figure out how to do some things that were new to me like using curl to interact with an API, forge JWT tokens, create and interact with core dumps to pull information out of memory, and more.
+
+Again, no walkthrough since this box is not officially retired.
+
+<br>
+
+![](images-other/htb-secret.png)
+
+<br>
+
+---
+
+<br>
+
+
 ## *Internal* on TryHackMe
 #### February 9th 2022
 
