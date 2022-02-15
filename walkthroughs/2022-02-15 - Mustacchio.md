@@ -7,6 +7,8 @@
 
 **TryHackMe Difficulty Rating:** Easy
 
+<br>
+
 ![](images/mustacchio0.png)
 
 <br>
@@ -18,6 +20,8 @@
 <br>
 
 ## Initial Enumeration
+
+<br>
 
 ### Nmap Scan
 
@@ -67,9 +71,9 @@ Visiting the main website page:
 
 <br>
 
-The **robots.txt** file does not show anything interesting, nor does looking at the view source for each of the html pages.
+The **robots.txt** file does not show anything interesting, nor does looking at the view source for each of the other pages.
 
-I take a look in **/custom/js** directory and find a file called **users.bak** which appears to be a backup of the MySQL database users. Downloading the file to my system and running a `strings` on it:
+I take a look in the **/custom/js** directory and find a file called **users.bak** which appears to be a backup of the MySQL database users. I download the file to my system and run a `strings` on it:
 
 ```
 SQLite format 3
@@ -78,7 +82,7 @@ CREATE TABLE users(username text NOT NULL, password text NOT NULL)
 ]admin1868e36a6d2b17d4c2745f1659433a54d4bc5f4b
 ```
 
-You can also use the `sqllitebrowser users.bank` command to open it up in a GUI based reader:
+You can also use the `sqllitebrowser users.bak` command to open it up in a GUI based reader:
 
 <br>
 
@@ -154,9 +158,9 @@ Going to the **auth/dontforget.bak** link shows us an XML document:
 </comment>
 ```
 
-Now that we have a capture of the request in **burp** and the template for an xml document we should be able to build our own XML cdoe and get **file disclosure** on the server.
+Now that we have a capture of a request in **burp** and the template for an xml document we should be able to create our own XML code and get **file disclosure** on the server.
 
-I look up **XXE** examples on the [**OWASP site**](https://owasp.org/www-community/vulnerabilities/XML_External_Entity_(XXE)_Processing) and craft / send my request in **burp** like this:
+I look up **XXE** examples on the [**OWASP site**](https://owasp.org/www-community/vulnerabilities/XML_External_Entity_(XXE)_Processing) and craft / send my request in **burp** like this which sends us back the contents of the specified file:
 
 <br>
 
@@ -166,7 +170,7 @@ I look up **XXE** examples on the [**OWASP site**](https://owasp.org/www-communi
 
 ## Barry
 
-We now have a **private ssh key** for user **barry** that we can attempt to login with it. I copy the key out and place it in a file on my system called id, `chmod 600 id` and then try and ssh over:
+We now have a **private ssh key** for user **barry** that we can attempt to login with it. I copy the key out and place it in a file on my system called id, `chmod 600 id`, and then try and ssh over:
 
 `ssh -i id barry@10.10.72.4`
 
@@ -274,7 +278,7 @@ I run a search for any **SUID** flagged files that look out of place:
 
 The **/home/joe/live_log** looks interesting. Let's check that out.
 
-When I run the program it displays HTTP requests sent over, and I see the one I sent over to exploit **XXE** earlier. Other than that it doesn't seem to let me do anything and I have to break out of the program to get back to the command line. Let's examine it further with `strings live_log`. A lot shows up but this sticks out:
+When I run the program it displays HTTP requests sent over to the web server, and I see the one I sent over to exploit **XXE** earlier. Other than that it doesn't seem to let me do anything and I have to break out of the program to get back to the command line. Let's examine it further with `strings live_log`. A lot shows up but this sticks out:
 
 ```
 tail -f /var/log/nginx/access.log
