@@ -6,6 +6,19 @@
 
 <br><br>
 
+## *Mustacchio* on TryHackMe
+#### February 15th 2022
+
+Topics: ![](images/Linux.png) ![](images/web.png) ![](images/cracking.png) ![](images/Burp.png) ![](images/XXE.png)
+
+[**Mustacchio Walkthrough**](walkthroughs/2022-02-15 - Mustacchio.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Boiler* on TryHackMe
 #### February 13th 2022
 
