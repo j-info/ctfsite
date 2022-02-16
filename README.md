@@ -6,6 +6,19 @@
 
 <br><br>
 
+## *Chocolate Factory* on TryHackMe
+#### February 16th 2022
+
+Topics: ![](images/Linux.png) ![](images/web.png) ![](images/cracking.png) ![](images/Burp.png) ![](images/steg.png)
+
+[**Chocolate Factory Walkthrough**](walkthroughs/2022-02-16 - Chocolate Factory.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Mustacchio* on TryHackMe
 #### February 15th 2022
 
