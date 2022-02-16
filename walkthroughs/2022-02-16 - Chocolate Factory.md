@@ -23,6 +23,8 @@
 
 ## Initial Enumeration
 
+<br>
+
 ### Nmap Scan
 
 `sudo nmap -sV -sC -A -T4 10.10.103.173`
@@ -85,7 +87,7 @@ Visiting the main page:
 
 <br>
 
-The **robots.txt** file does not exist, and the page source also doesn't show anything interesting.
+The **robots.txt** file does not exist, and the **page source** also doesn't show anything interesting.
 
 I take a look at **/home.php** and find something that says you can execute commands:
 
@@ -147,6 +149,8 @@ We don't have read permissions on the **user.txt** flag yet so we can't view tha
 <br>
 
 ## System Access
+
+<br>
 
 `ssh -i id_rsa charlie@10.10.103.173`
 
@@ -219,6 +223,8 @@ This is definitely going to be a quick one!
 
 ## Root
 
+<br>
+
 We can break out of a sudo run vi and escalate to root with the following command:
 
 `sudo vi -c ':!/bin/sh' /dev/null`
@@ -279,6 +285,8 @@ I look back at my nmap scan and see that **port 113** mentioned something about 
 
 ## But Wait, there's More!
 
+<br>
+
 I haven't looked at the **FTP** site yet, and it did have anonymous access open. Logging in there is only a single image file called **gum_room.jpg**.
 
 Downloading it onto my system I run it through **stegseek**:
@@ -310,6 +318,8 @@ That gives us the answer to the **What is Charlie's password?** objective.
 <br>
 
 ## Key
+
+<br>
 
 If you telnet over to port **113** on the system it tells you (and this also was displayed in the **nmap** scan earlier):
 
@@ -356,7 +366,7 @@ ValueError: Fernet key must be 32 url-safe base64-encoded bytes.
 
 No luck, the program errors out and I was careful to copy and paste the key. I try and run it on my home system as well and it also errors out. What's strange is that pasting the exact same key into the **TryHackMe** website works fine and it accepts it as the correct answer. Oh well. Let's find a work around.
 
-I do a quick online search for **fernet decrypt** and run across [**this decoder**](https://asecuritysite.com/encryption/ferdecode). I manually type in the token (which is the encrypted_mess variable in the python program) and then add the key and it decodes it no problem giving us the answer to the final objective: **Enter the root flag**
+I do a quick online search for **fernet decrypt** and run across [**this decoder**](https://asecuritysite.com/encryption/ferdecode). I manually type in the token (which is the encrypted_mess variable in the python program) and then add the key and it decodes it no problem giving us the answer to the final objective: **Enter the root flag**.
 
 <br>
 
