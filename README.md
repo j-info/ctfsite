@@ -6,6 +6,19 @@
 
 <br><br>
 
+## *Plotted-TMS* on TryHackMe
+#### February 19th 2022
+
+Topics: ![](images/Linux.png) ![](images/web.png) ![](images/decoding.png) ![](images/SQLi.png) ![](images/MySQL.png) ![](images/cracking.png) ![](images/scripting.png)
+
+[**Plotted-TMS Walkthrough**](walkthroughs/2022-02-19 - Plotted-TMS.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Chocolate Factory* on TryHackMe
 #### February 16th 2022
 
