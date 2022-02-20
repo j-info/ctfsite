@@ -216,15 +216,13 @@ Not much to be found other than this in the users table:
 +----+--------------+----------+----------+----------------------------------+
 ```
 
-I was able to crack the **puser** password, but not the **admin** password. I quickly see if I can login to the system user **plot_admin** with this cracked password but it did not work. I login to the traffic management website as **puser** but there's nothing helpful that I couldn't already see with the **admin** user.
+I was able to crack the **puser** password, but not the **admin** password. I quickly see if I can login to the system as user **plot_admin** with this cracked password but it did not work. I login to the traffic management website as **puser** but there's nothing helpful that I couldn't already see with the **admin** user.
 
 I also try and crack the hash for **dev_or_etnom** listed above and don't have any luck.
 
 <br>
 
 ## Lateral Movement to plot_admin
-
-<br>
 
 Looking around more there is a **/scripts** in the **/var/www** directory and it has a file called **backup.sh** in it.
 
@@ -234,9 +232,9 @@ There is also a cron job setup for it in **/etc/crontab**:
 * *     * * *   plot_admin /var/www/scripts/backup.sh
 ```
 
-The **backup.sh** file is read only, but we do have write access to the directory it's in so we should be able to create a symbolic link to **backup.sh** and laterally move over to the **plot_admin** account.
+The **backup.sh** file is read only, but we do have write access to the directory it's in so we should be able to create a symbolic link from **backup.sh** and point it to a script of our choosing to laterally move over to the **plot_admin** account.
 
-I create a script called **test.sh**:
+I create a script called **test.sh** with the following inside it:
 
 ```
 cp /bin/bash ./shell.sh
@@ -246,13 +244,14 @@ chmod +xs ./shell.sh
 And then link **backup.sh** over to my script and make it executable:
 
 `ln -sf test.sh backup.sh`
+`chmod +x test.sh`
 
 ```
 lrwxrwxrwx 1 www-data www-data    7 Feb 20 04:44 backup.sh -> test.sh
 -rwxrwxrwx 1 www-data www-data   45 Feb 20 04:43 test.sh
 ```
 
-I wait for cron to run the backup.sh script which will in turn run my test.sh instead. After it runs you can see in **/home/plot_admin** that my newly created shell is there. If you look at the user/group it was created under the plot_admin user which is important for the next step.
+I wait for cron to run the backup.sh script which will in turn run my test.sh instead. After it runs you can see in **/home/plot_admin** that the newly created shell is there. If you look at the user/group it was created under it shows as plot_admin which is important for the next step. Also notice it has a **SUID** bit set since we instructed our script to do that.
 
 ```
 -rwsr-sr-x  1 plot_admin plot_admin 1183448 Feb 20 04:47 shell.sh
@@ -264,7 +263,7 @@ If you look at the man page for **bash**, which is what this shell.sh is, you ca
 If the -p option is supplied at invocation, the startup behavior is the same, but the effective user id is not reset.
 ```
 
-So that means we can now run this with **-p** and it will drop us into a **plot_admin** shell since the script we made changed it to **+xs**:
+So that means we can now run this with **-p** and it will drop us into a **plot_admin** shell:
 
 ```
 www-data@plotted:/var/www/scripts$ /home/plot_admin/shell.sh -p
@@ -278,15 +277,13 @@ I change over to his home directory and get the **user.txt** flag.
 
 ## Root
 
-<br>
-
 I search around the system for awhile and eventually see this in the **/etc/doas.conf** file:
 
 ```
 permit nopass plot_admin as root cmd openssl
 ```
 
-This means we can run the openssl command as root using the doas command.
+This means we can run the **openssl** command as root using the **doas** command.
 
 Looking on [GTFOBins](https://gtfobins.github.io/gtfobins/openssl/) we can see that we're able to read files using the openssl command. And since we can run that command as root we can just display the **/root/root.txt** file like so:
 
@@ -308,10 +305,10 @@ A quick run down of what we covered in this CTF:
 
 - Basic enumeration with **nmap** and **gobuster**
 - Using **SQLi** to bypass a login page
-- Changing a website via the admin panel to run a reverse shell instead of the intended code
+- Changing a website via the admin panel to run a reverse php shell instead of the intended code
 - Interacting with a MySQL database
-- Taking advantage of having write privileges in a directory that cron runs a script from as another user allowing lateral movement to a another user account
-- Noticing the user had the ability to run openssl as root, and that we can use openssl to view or change files we normally couldn't because of that
+- Taking advantage of having write privileges in a directory that cron runs a script from as another user allowing lateral movement to their user account
+- Using the **doas** command with the **openssl** command to view files as root
 
 <br>
 
