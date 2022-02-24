@@ -9,7 +9,7 @@
 ## *Archangel* on TryHackMe
 #### February 22nd 2022
 
-Topics: ![](images/Linux.png) ![](images/web.png) ![](images/LFI.png) ![](images/burp.png) ![](images/sourcecode.png) ![](images/logpoisoning.png) ![](images/scripting.png)
+Topics: ![](images/Linux.png) ![](images/web.png) ![](images/LFI.png) ![](images/Burp.png) ![](images/sourcecode.png) ![](images/logpoisoning.png) ![](images/scripting.png)
 
 [**Archangel Walkthrough**](walkthroughs/2022-02-22 - Archangel.md)
 
