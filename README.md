@@ -6,6 +6,19 @@
 
 <br><br>
 
+## *Return* on Hack the Box
+#### February 25th 2022
+
+Topics: ![](images/Windows.png) ![](images/web.png) ![](images/CVE.png)
+
+[**Return Walkthrough**](walkthroughs/2022-02-25 - Return.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Archangel* on TryHackMe
 #### February 22nd 2022
 
