@@ -6,6 +6,25 @@
 
 <br><br>
 
+## *RouterSpace* on Hack the Box
+#### March 3rd 2022
+
+Topics: ![](images/Linux.png) ![](images/androidapk.png) ![](images/emulation.png) ![](images/Burp.png) ![](images/CVE.png)
+
+This was a pretty frustrating box with the Android emulation. I ran into problem after problem that I had to look up fixes for in order to be able to install and launch the .apk file. But in the end I got it, and boy was I glad when it was finally done!
+
+No walkthrough since this is a brand new box that isn't officially retired yet.
+
+<br>
+
+![](images-other/htb-routerspace.png)
+
+<br>
+
+---
+
+<br>
+
 ## *Return* on Hack the Box
 #### February 25th 2022
 
