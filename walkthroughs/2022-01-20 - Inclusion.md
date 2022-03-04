@@ -1,9 +1,19 @@
+---
+title: Inclusion walkthrough on TryHackMe
+description: Inclusion walkthrough on TryHackMe
+image: /walkthroughs/images/inclusion0.png
+---
+
 # Inclusion
 **Date:** January 20th 2022
 
 [**Link**](https://tryhackme.com/room/inclusion) to the Inclusion CTF on TryHackMe.
 
 This is rated as an easy CTF for beginners.
+
+<br>
+
+![](images/inclusion0.png)
 
 <br>
 
