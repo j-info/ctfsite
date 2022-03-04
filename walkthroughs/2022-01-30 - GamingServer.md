@@ -1,3 +1,9 @@
+---
+title: GamingServer walkthrough on TryHackMe
+description: GamingServer walkthrough on TryHackMe
+image: /walkthroughs/images/gamingserver0.png
+---
+
 # GamingServer
 **Date:** January 30th 2022
 
@@ -6,6 +12,10 @@
 **Link:** [**GamingServer**](https://tryhackme.com/room/gamingserver) CTF on TryHackMe.
 
 **TryHackMe Difficulty Rating:** Easy
+
+<br>
+
+![](images/gamingserver0.png)
 
 <br>
 
