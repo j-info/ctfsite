@@ -3,3 +3,4 @@ image: cybersecurity.jpg
 google_analytics: G-BTGDQQLXXY
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
