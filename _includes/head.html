@@ -7,3 +7,9 @@
   <meta name="twitter:image" content="cybersecurity.jpg" />
 
 {% endif %}
+
+{% seo %}
+
+{% if site.google_analytics and jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}

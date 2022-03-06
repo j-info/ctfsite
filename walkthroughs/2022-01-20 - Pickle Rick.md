@@ -1,9 +1,19 @@
+---
+title: Pickle Rick walkthrough on TryHackMe
+description: Pickle Rick walkthrough on TryHackMe
+image: /walkthroughs/images/picklerick0.png
+---
+
 # Pickle Rick
 **Date:** January 20th 2022
 
 [**Link**](https://tryhackme.com/room/picklerick) to the Pickle Rick CTF on TryHackMe.
 
 This is rated as an easy CTF for beginners.
+
+<br>
+
+![](images/picklerick0.png)
 
 <br>
 

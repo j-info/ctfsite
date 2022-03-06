@@ -1,7 +1,17 @@
+---
+title: Crack the Hash walkthrough on TryHackMe
+description: Crack the Hash walkthrough on TryHackMe
+image: /walkthroughs/images/crackthehash0.png
+---
+
 # Crack the hash
 **Date:** January 21st 2022
 
 [**Link**](https://tryhackme.com/room/crackthehash) to the **Crack the hash** room on TryHackMe.
+
+<br>
+
+![](images/crackthehash0.png)
 
 <br>
 

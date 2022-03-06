@@ -1,9 +1,19 @@
+---
+title: Anonymous walkthrough on TryHackMe
+description: Anonymous walkthrough on TryHackMe
+image: /walkthroughs/images/anonymous0.png
+---
+
 # Anonymous
 **Date:** January 24th 2022
 
 [**Link**](https://tryhackme.com/room/anonymous) to the Anonymous CTF on TryHackMe.
 
 This is rated as an intermediate level CTF.
+
+<br>
+
+![](images/anonymous0.png)
 
 <br>
 

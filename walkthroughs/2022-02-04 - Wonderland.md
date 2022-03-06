@@ -1,3 +1,9 @@
+---
+title: Wonderland walkthrough on TryHackMe
+description: Wonderland walkthrough on TryHackMe
+image: /walkthroughs/images/wonderland0.png
+---
+
 # Wonderland
 **Date:** February 4th 2022
 
@@ -6,6 +12,10 @@
 **Link:** [**Wonderland**](https://tryhackme.com/room/wonderland) CTF on TryHackMe.
 
 **TryHackMe Difficulty Rating:** Medium
+
+<br>
+
+![](images/wonderland0.png)
 
 <br>
 

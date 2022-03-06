@@ -1,3 +1,17 @@
 theme: jekyll-theme-hacker
-image: cybersecurity.jpg
+title: j.info Cybersecurity Blog
+tagline: A blog about cybersecurity and sharing CTF walkthroughs
+description: A blog dedicated to learning about cybersecurity, and sharing CTF walkthroughs
+url: j-info.github.io/ctfsite/
+logo: cybersecurity.jpg
+locale: en_US
+social:
+  links:
+    - https://twitter.com/jdotinfo
+    - https://github.com/j-info
+twitter:
+  username: jdotinfo
 google_analytics: G-BTGDQQLXXY
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
