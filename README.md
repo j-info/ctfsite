@@ -6,6 +6,21 @@
 
 <br><br>
 
+## 90 Day Badge on TryHackMe!
+#### March 6th 2022
+
+Back in December I set a goal to take learning much more seriously, and today I hit a milestone. 90 days in a row of learning something new without missing a single day on TryHackMe! Make learning a daily habit.
+
+<br>
+
+![](images-other/thm-90-day-badge.png)
+
+<br>
+
+---
+
+<br>
+
 ## *RouterSpace* on Hack the Box
 #### March 3rd 2022
 
