@@ -131,7 +131,7 @@ I check to see if the docker socket is mounted and unfortunately it's not.
 
 `find / -name docker.sock 2>/dev/null`
 
-Running a 'hostname -I' shows our IP address to be **172.17.0.2**
+Running a 'hostname -I' shows our IP address to be **172.17.0.2**.
 
 I check the arp cache to see if I can discover the host systems IP address and find it:
 
@@ -182,17 +182,17 @@ I check to see if ssh is open on the host system and it is so maybe we can find 
 Port is open
 ```
 
-I transfer **nmap** over to the container to do some further port enumeration and the containers host system which shows me that in addition to ssh and http we have another port open, 5986.
+I transfer **nmap** over to the container to do some further port enumeration against the containers host system which shows me that in addition to ssh and http we have another port open, 5986.
 
 ```
 5986/tcp open  unknown  syn-ack
 ```
 
-I search google for this port to see what it is and a lot of results come back with WinRM, which isn't applicable here. So, I search again filtering those out. It looks like this port is used by **Open Management Infrastructure** and it has a known RCE exploit with it **CVE-2021-38647** aka **OMIGOD**.
+I search google for this port to see what it is and a lot of results come back with WinRM, which isn't applicable here. So, I search again filtering those out. It looks like this port is used by **Open Management Infrastructure** and it has a known RCE exploit with it: **CVE-2021-38647** aka **OMIGOD**.
 
-You can read more about the exploit [**here**](https://usa.kaspersky.com/blog/vulnerabilities-in-omi-azure/25371/)
+You can read more about the exploit [**here**](https://usa.kaspersky.com/blog/vulnerabilities-in-omi-azure/25371/).
 
-Looking on GitHub you can find a POC [**here**](https://github.com/AlteredSecurity/CVE-2021-38647), which I download and then transfer over to the docker container.
+Looking on GitHub you can find an OMIGOD POC [**here**](https://github.com/AlteredSecurity/CVE-2021-38647), which I download and then transfer over to the docker container.
 
 The instructions to run the exploit are as follows:
 
@@ -257,7 +257,7 @@ A quick run down of what we covered in this CTF:
 - Using **CVE-2021-41773** to exploit a vulnerable Apache 2.4.49 server and obtain a shell
 - Enumeration within a Docker container to figure out the host systems IP and open ports
 - Privilege escalation using a binary file with **cap_setuid** capabilities
-- Using the **CVE-2021-38647** aka **OMIGOD** exploit to gain RCE on the host system and break out of the Docker container
+- Using the **CVE-2021-38647** aka **OMIGOD** exploit to gain RCE on the host system and break out of a Docker container
 
 <br>
 
