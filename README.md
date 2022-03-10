@@ -6,6 +6,19 @@
 
 <br><br>
 
+## *Cyborg* on TryHackMe
+#### March 10th 2022
+
+Topics: ![](images/Linux.png) ![](images/web.png) ![](images/cracking.png) ![](images/borgarchive.png) ![](images/sourcecode.png)
+
+[**Cyborg Walkthrough**](walkthroughs/2022-03-10 - Cyborg.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Oh My WebServer* on TryHackMe
 #### March 7th 2022
 
