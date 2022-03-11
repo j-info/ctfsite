@@ -1,4 +1,4 @@
-<br><br>
+<br>
 
 ## Level 12 on TryHackMe
 #### February 6th 2022
