@@ -7,6 +7,8 @@ Topics: ![](images/learning.png)
 
 I advanced to level 12 on TryHackMe today! Out of almost a million users I'm currently #5518 in the overall rankings.
 
+<br>
+
 ![](images-other/tryhackme-level12.png)
 
 <br>
