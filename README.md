@@ -6,6 +6,21 @@
 
 <br><br>
 
+## Level 12 on TryHackMe
+#### February 6th 2022
+
+Topics: ![](images/learning.png)
+
+I advanced to level 12 on TryHackMe today! Out of almost a million users I'm currently #5518 in the overall rankings.
+
+![](images-other/tryhackme-level12.jpg)
+
+<br>
+
+---
+
+<br>
+
 ## *Cyborg* on TryHackMe
 #### March 10th 2022
 
