@@ -1,9 +1,3 @@
-
-
-## j.info Cybersecurity Blog
-
----
-
 <br><br>
 
 ## Level 12 on TryHackMe
