@@ -3,7 +3,7 @@
 ## *Source* on TryHackMe
 #### March 13th 2022
 
-Topics: ![](images/Linux.png) ![](images/web.png) ![](images/miniserv.png) ![](images/CVE.png)
+Topics: ![](images/Linux.png) ![](images/webmin.png) ![](images/CVE.png)
 
 [**Source Walkthrough**](walkthroughs/2022-03-13 - Source.md)
 
