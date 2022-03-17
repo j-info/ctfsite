@@ -1,5 +1,20 @@
 <br>
 
+## *Backdoor* on Hack the Box
+#### March 17th 2022
+
+Topics: ![](images/Linux.png) ![](images/web.png) ![](images/Wordpress.png) ![](images/LFI.png) ![](images/gdbserver.png) ![](images/msfvenom.png) ![](images/gdb.png)
+
+This was an interesting box with several vulnerabilities that required a bit more enumeration than other boxes I've done up to this point. Especially the part where you had to figure out what was running on port 1337. I definitely enjoyed this one!
+
+No walkthrough since this box isn't officially retired yet.
+
+<br>
+
+![](images-other/htb-backdoor.png)
+
+<br>
+
 ## *Validation* on Hack the Box
 #### March 14th 2022
 
