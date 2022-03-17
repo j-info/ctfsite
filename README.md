@@ -15,6 +15,10 @@ No walkthrough since this box isn't officially retired yet.
 
 <br>
 
+---
+
+<br>
+
 ## *Validation* on Hack the Box
 #### March 14th 2022
 
