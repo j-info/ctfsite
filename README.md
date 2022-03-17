@@ -18,7 +18,7 @@ No walkthrough since this box isn't officially retired yet.
 ## *Validation* on Hack the Box
 #### March 14th 2022
 
-Topics: ![](images/Linux.png) ![](images/web.png) ![](images/burp.png) ![](images/sqli.png) ![](images/docker.png)
+Topics: ![](images/Linux.png) ![](images/web.png) ![](images/Burp.png) ![](images/SQLi.png) ![](images/docker.png)
 
 [**Validation Walkthrough**](walkthroughs/2022-03-14 - Validation.md)
 
