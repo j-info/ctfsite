@@ -1,5 +1,26 @@
 <br>
 
+## *Pandora* on Hack the Box
+#### March 23rd 2022
+
+Topics: ![](images/Linux.png) ![](images/web.png) ![](images/snmp.png) ![](images/snmp-check.png) ![](images/sshtunnel.png) ![](images/pandorafms.png) ![](images/restrictedshell.png) ![](images/SUID.png)
+
+This one took awhile to finish with 2 lateral movements, both an internal and external webpage, and other things to trip you up along the way such as restricted shells. I had a great time going through it though!
+
+This was also the last easy rated active machine on HTB that I needed to finish, so they're all complete for now until the next one is released.
+
+No walkthrough since this box isn't officially retired yet.
+
+<br>
+
+![](images-other/htb-pandora.png)
+
+<br>
+
+---
+
+<br>
+
 ## *Napping* on TryHackMe (TOP 10 FINISH at #9!!!)
 #### March 19th 2022
 
