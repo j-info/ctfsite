@@ -1,5 +1,20 @@
 <br>
 
+## *Aratus* on TryHackMe
+#### March 26th 2022
+
+Brand new box that just came out yesterday and I had a lot of fun going through this one.
+
+Topics: ![](images/Linux.png) ![](images/SMB.png) ![](images/python.png) ![](images/scripting.png) ![](images/cracking.png) ![](images/tcpdump.png) ![](images/ansible.png)
+
+[**Aratus Walkthrough**](walkthroughs/2022-03-26 - Aratus.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Pandora* on Hack the Box
 #### March 23rd 2022
 
