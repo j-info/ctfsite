@@ -1,5 +1,34 @@
 <br>
 
+## Antisyphon - Intro to Social Engineering
+#### March 29th 2022
+
+Topics: ![](images/learning.png)
+
+I completed my first Antisyphon class today and it was very well done. I can see why their classes have been so highly praised and recommended!
+
+Ed Miro ([**@c1ph0r on Twitter**](https://twitter.com/c1ph0r)) taught us the basics about social engineering in a fun and engaging way and covered some of the following topics:
+
+- Common attack vectors
+- Good foundational books to get started with
+- Influence
+- Nonverbal communication
+- Effective pretexting
+- Sock puppets
+- Red flags to look out for if you think somebody is trying to target you
+
+He also did live demos for:
+
+- SEToolkit
+- Metasploit
+- GoPhish
+
+<br>
+
+---
+
+<br>
+
 ## *Aratus* on TryHackMe
 #### March 26th 2022
 
