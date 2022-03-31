@@ -1,5 +1,20 @@
 <br>
 
+## *VulnNet: Roasted* on TryHackMe
+#### March 31st 2022
+
+I've done quite a few Linux based boxes and am starting to feel more and more comfortable in that realm, but haven't done nearly as many Windows boxes. Because of that I'm going to start getting out of my comfort zone and working on Windows boxes to increase my skills there.
+
+Topics: ![](images/Windows.png) ![](images/SMB.png) ![](images/crackmapexec.png) ![](images/asreproast.png) ![](images/kerberoast.png) ![](images/hashcat.png) ![](images/cracking.png) ![](images/evilwinrm.png) ![](images/secretsdump.png)
+
+[**VulnNet: Roasted Walkthrough**](walkthroughs/2022-03-31 - VulnNet Roasted.md)
+
+<br>
+
+---
+
+<br>
+
 ## Antisyphon - Intro to Social Engineering
 #### March 29th 2022
 
