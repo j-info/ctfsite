@@ -1,5 +1,20 @@
 <br>
 
+## *Blueprint* on TryHackMe
+#### April 6th 2022
+
+Topics: ![](images/Windows.png) ![](images/web.png) ![](images/oscommerce.png) ![](images/sshtunnel.png) ![](images/mimikatz.png)
+
+In this CTF we get to poke around osCommerce to obtain a shell, and then use mimikatz to pull credentials out of memroy.
+
+[**Blueprint Walkthrough**](walkthroughs/2022-04-06 - Blueprint.md)
+
+<br>
+
+---
+
+<br>
+
 ## *VulnNet: Roasted* on TryHackMe
 #### March 31st 2022
 
