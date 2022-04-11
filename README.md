@@ -15,6 +15,29 @@ This Windows based CTF has us enumerate a website running the Umbraco CMS system
 
 <br>
 
+## SANS OSINT Summit 2022
+#### April 7th 2022
+
+Topics: ![](images/learning)
+
+I attended the 12 hour all day OSINT summit hosted by SANS today and it was such a fun and great day of learning. You can see from the list of topics and speakers that there was a wide variety of OSINT areas covered, as well as some truly exceptional speakers.
+
+At the end of her talk [**Alethe Denis**](https://twitter.com/AletheDenis) had a mini OSINT challenge that she gave to everyone attending where you had to search out her previous jobs and private message her the 2nd job she ever had, as well as where it was located.
+
+**I was the first person to complete the challenge!**
+
+Unexpected given I'm still a beginner with OSINT and the conference had veteran industry pros attending. So either they weren't competing, or I got lucky, but either way it was a lot of fun!
+
+Thanks to **SANS** for hosting this wonderful event and I look forward to next years!
+
+![](images-other/SANS-OSINT-Summit-2022.png)
+
+<br>
+
+---
+
+<br>
+
 ## *Blueprint* on TryHackMe
 #### April 6th 2022
 
