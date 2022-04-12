@@ -1,4 +1,6 @@
-[**Current TryHackMe Status**](TryHackMe Status.md)
+<a href="TryHackMeStats.md"><img src="images-other/thm-stats.png" alt="TryHackMe Stats"></a>
+
+---
 
 <br>
 
