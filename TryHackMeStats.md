@@ -88,7 +88,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 .collapsible {
-  background-color: #777;
+  background-color: #343C42;
   color: white;
   cursor: pointer;
   padding: 18px;
@@ -100,7 +100,7 @@
 }
 
 .active, .collapsible:hover {
-  background-color: #555;
+  background-color: #777777;
 }
 
 .content {
@@ -117,7 +117,7 @@
 
 <br>
 
-<h2>CTFs Completed:</h2>
+<h3>CTFs Completed:</h3>
 
 <br>
 
@@ -144,9 +144,9 @@
     </tr>
     <tr>
       <td style="text-align:center">You're in a cave</td>
-      <td>
-      <td>
-      <td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
   </table>
 </div>
