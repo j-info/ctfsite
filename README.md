@@ -1,4 +1,4 @@
-[<img src="TryHackMeStats.md">](TryHackMeStats.md)
+[<img src="images-other/thm-stats.png">](TryHackMeStats.md)
 
 ---
 
