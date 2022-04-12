@@ -2,13 +2,13 @@
 
 ---
 
-### Level 12 - Top 1%
+### Level 12 - Top 1% of All Users
 
 <script src="https://tryhackme.com/badge/800209"></script>
 
 <br>
 
-### Total CTFs Completed: 52 of 253
+### Total CTFs Completed: 53 of 253
 
 <table>
   <tr>
@@ -19,8 +19,8 @@
   </tr>
   <tr>
     <td style="text-align:center">38 of 82</td>
-    <td style="text-align:center">10 of 122</td>
-    <td style="text-align:center">4 of 144</td>
+    <td style="text-align:center">11 of 122</td>
+    <td style="text-align:center">4 of 44</td>
     <td style="text-align:center">0 of 5</td>
   </tr>
 </table>
@@ -45,7 +45,7 @@
   </tr>
   <tr>
     <td style="text-align:center">Pre Security</td>
-    <td style="text-align:center">Completed 2/24/2021</td>
+    <td style="text-align:center">Completed 12/24/2021</td>
     <td style="text-align:center">Easy</td>
     <td style="text-align:center">40 Hours</td>
   </tr>
@@ -123,15 +123,396 @@
 
 <button class="collapsible">Easy</button>
 <div class="content">
-  <p></p>
+  <table>
+    <tr>
+      <td style="text-align:center">0x41haz</td>
+      <td style="color:#B5E853;text-align:center">Agent Sudo</td>
+      <td style="text-align:center">All in One</td>
+      <td style="text-align:center">Anonforce</td>
+    </tr>
+    <tr>
+      <td style="color:#B5E853;text-align:center">Anthem</td>
+      <td style="color:#B5E853;text-align:center">Archangel</td>
+      <td style="color:#B5E853;text-align:center">Basic Pentesting</td>
+      <td style="color:#B5E853;text-align:center">Blueprint</td>
+    </tr>
+    <tr>
+      <td style="color:#B5E853;text-align:center">Bounty Hacker</td>
+      <td style="text-align:center">Break Out The Cage</td>
+      <td style="color:#B5E853;text-align:center">Brooklyn Nine Nine</td>
+      <td style="color:#B5E853;text-align:center">Brute It</td>
+    </tr>
+    <tr>
+      <td style="color:#B5E853;text-align:center">c4ptur3-th3-fl4g</td>
+      <td style="text-align:center">Cat Pictures</td>
+      <td style="text-align:center">CC: Radare2</td>
+      <td style="text-align:center">Chill Hack</td>
+    </tr>
+    <tr>
+      <td style="color:#B5E853;text-align:center">Chocolate Factory</td>
+      <td style="text-align:center">ColdBox: Easy</td>
+      <td style="text-align:center">Couch</td>
+      <td style="color:#B5E853;text-align:center">Crack the hash</td>
+    </tr>
+    <tr>
+      <td style="color:#B5E853;text-align:center">CTF collection Vol.1</td>
+      <td style="color:#B5E853;text-align:center">Cyborg</td>
+      <td style="text-align:center">Dav</td>
+      <td style="text-align:center">Dear QA</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Easy Peasy</td>
+      <td style="text-align:center">Flatline</td>
+      <td style="text-align:center">Fowsniff CTF</td>
+      <td style="color:#B5E853;text-align:center">Gallery</td>
+    </tr>
+    <tr>
+      <td style="color:#B5E853;text-align:center">GamingServer</td>
+      <td style="text-align:center">Git Happens</td>
+      <td style="text-align:center">GLITCH</td>
+      <td style="text-align:center">Gotta Catch'em All!</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">h4cked</td>
+      <td style="text-align:center">HeartBleed</td>
+      <td style="color:#B5E853;text-align:center">IDE</td>
+      <td style="color:#B5E853;text-align:center">Ignite</td>
+    </tr>
+    <tr>
+      <td style="color:#B5E853;text-align:center">Inclusion</td>
+      <td style="text-align:center">Intro to x86-64</td>
+      <td style="color:#B5E853;text-align:center">Investigating Windows</td>
+      <td style="text-align:center">Jack-of-All-Trades</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Jason</td>
+      <td style="text-align:center">JPGChat</td>
+      <td style="text-align:center">Juicy Details</td>
+      <td style="text-align:center">kiba</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">KoTH Food CTF</td>
+      <td style="color:#B5E853;text-align:center">LazyAdmin</td>
+      <td style="color:#B5E853;text-align:center">Lian_Yu</td>
+      <td style="text-align:center">Library</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Madness</td>
+      <td style="text-align:center">magician</td>
+      <td style="text-align:center">Memory Forensics</td>
+      <td style="color:#B5E853;text-align:center">Mustacchio</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Ninja Skills</td>
+      <td style="color:#B5E853;text-align:center">OhSINT</td>
+      <td style="color:#B5E853;text-align:center">Overpass</td>
+      <td style="text-align:center">Phishing Emails 5</td>
+    </tr>
+    <tr>
+      <td style="color:#B5E853;text-align:center">Pickle Rick</td>
+      <td style="text-align:center">Poster</td>
+      <td style="color:#B5E853;text-align:center">Potted-TMS</td>
+      <td style="text-align:center">Res</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Reversing ELF</td>
+      <td style="color:#B5E853;text-align:center">RootMe</td>
+      <td style="text-align:center">Sakura Room</td>
+      <td style="text-align:center">Searchlight - IMINT</td>
+    </tr>
+    <tr>
+      <td style="color:#B5E853;text-align:center">Simple CTF</td>
+      <td style="color:#B5E853;text-align:center">Skynet</td>
+      <td style="text-align:center">Smag Grott</td>
+      <td style="color:#B5E853;text-align:center">Source</td>
+    </tr>
+    <tr>
+      <td style="color:#B5E853;text-align:center">Startup</td>
+      <td style="color:#B5E853;text-align:center">Team</td>
+      <td style="text-align:center">Thompson</td>
+      <td style="color:#B5E853;text-align:center">tomghost</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Tony the Tiger</td>
+      <td style="color:#B5E853;text-align:center">ToolsRus</td>
+      <td style="text-align:center">Vulnerability Capstone</td>
+      <td style="color:#B5E853;text-align:center">VulnNet: Internal</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">VulnNet: Node</td>
+      <td style="color:#B5E853;text-align:center">VulnNet: Roasted</td>
+      <td style="text-align:center">WebOSINT</td>
+      <td style="color:#B5E853;text-align:center">Wgel CTF</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Wordpress: CVE-2021-29447</td>
+      <td style="color:#B5E853;text-align:center">Year of the Rabbit</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+    </tr>
+  </table>
 </div>
 <button class="collapsible">Medium</button>
 <div class="content">
-  <p></p>
+  <table>
+    <tr>
+      <td style="text-align:center">0day</td>
+      <td style="text-align:center">AllSignsPoint2Pwnage</td>
+      <td style="color:#B5E853;text-align:center">Anonymous</td>
+      <td style="color:#B5E853;text-align:center">Aratus</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Aster</td>
+      <td style="text-align:center">Attacking ICS Planet #2</td>
+      <td style="color:#B5E853;text-align:center">Attacktive Directory</td>
+      <td style="text-align:center">Basic Malware RE</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">battery</td>
+      <td style="text-align:center">Binary Heaven</td>
+      <td style="text-align:center">Binex</td>
+      <td style="text-align:center">Biohazard</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">biteme</td>
+      <td style="text-align:center">Blog</td>
+      <td style="color:#B5E853;text-align:center">Boiler CTF</td>
+      <td style="text-align:center">Bookstore</td>
+    </tr>
+    <tr>
+      <td style="color:#B5E853;text-align:center">Brainstorm</td>
+      <td style="text-align:center">Break it</td>
+      <td style="text-align:center">broker</td>
+      <td style="text-align:center">Carnage</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Chronicle</td>
+      <td style="text-align:center">Classic Passwd</td>
+      <td style="text-align:center">CMesS</td>
+      <td style="text-align:center">CMSplit</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Cold Wars</td>
+      <td style="text-align:center">ContainMe</td>
+      <td style="text-align:center">Conti</td>
+      <td style="text-align:center">ConvertMyVideo</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Cooctus Stories</td>
+      <td style="text-align:center">Crack The Hash Level 2</td>
+      <td style="text-align:center">CTF collection Vol.2</td>
+      <td style="text-align:center">CyberCrafted</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Debug</td>
+      <td style="text-align:center">Develpy</td>
+      <td style="text-align:center">Disk Analysis & Autopsy</td>
+      <td style="text-align:center">dogcat</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Dunkle Materie</td>
+      <td style="text-align:center">Empline</td>
+      <td style="text-align:center">En-pass</td>
+      <td style="text-align:center">Forensics</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Fortress</td>
+      <td style="text-align:center">Frank & Herby make an app</td>
+      <td style="color:#B5E853;text-align:center">Gatekeeper</td>
+      <td style="text-align:center">Ghizer</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Git and Crumpets</td>
+      <td style="text-align:center">GoldenEye</td>
+      <td style="text-align:center">HA Jocker CTF</td>
+      <td style="text-align:center">Hamlet</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">harder</td>
+      <td style="text-align:center">HaskHell</td>
+      <td style="text-align:center">Inferno</td>
+      <td style="text-align:center">Investigating Windows 2.0</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Investigating Windows 3.x</td>
+      <td style="text-align:center">Jacob the Boss</td>
+      <td style="text-align:center">JVM Reverse Engineering</td>
+      <td style="text-align:center">Keldagrim</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">KoTH Hackers</td>
+      <td style="text-align:center">Lockdown</td>
+      <td style="text-align:center">Looking Glass</td>
+      <td style="text-align:center">Lumberjack Turtle</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Lunizz CTF</td>
+      <td style="text-align:center">Madeye's Castle</td>
+      <td style="text-align:center">Masterminds</td>
+      <td style="text-align:center">Meltdown Explained</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Metamorphosis</td>
+      <td style="text-align:center">Mindgames</td>
+      <td style="text-align:center">Minotaur's Labyrinth</td>
+      <td style="text-align:center">Mnemonic</td>
+    </tr>
+    <tr>
+      <td style="color:#B5E853;text-align:center">Mr Robot CTF</td>
+      <td style="text-align:center">Musical Stego</td>
+      <td style="text-align:center">NahamStore</td>
+      <td style="color:#B5E853;text-align:center">Napping</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Nax</td>
+      <td style="text-align:center">NerdHerd</td>
+      <td style="text-align:center">Net Sec Challenge</td>
+      <td style="text-align:center">NoNameCTF</td>
+    </tr>
+    <tr>
+      <td style="color:#B5E853;text-align:center">Oh My WebServer</td>
+      <td style="text-align:center">Ollie</td>
+      <td style="text-align:center">One Piece</td>
+      <td style="text-align:center">Overpass 3 - Hosting</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">PalsForLife</td>
+      <td style="text-align:center">pyLon</td>
+      <td style="text-align:center">RazorBlack</td>
+      <td style="text-align:center">Recovery</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Red Stone One Carat</td>
+      <td style="text-align:center">Relevant</td>
+      <td style="color:#B5E853;text-align:center">Revenge</td>
+      <td style="text-align:center">Reverse Engineering</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">REvil Corp</td>
+      <td style="text-align:center">Road</td>
+      <td style="text-align:center">SafeZone</td>
+      <td style="text-align:center">Scripting</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Snort Challenge - Live Attacks</td>
+      <td style="text-align:center">Snort Challenge - The Basics</td>
+      <td style="text-align:center">SQHell</td>
+      <td style="text-align:center">StuxCTF</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Super-Spam</td>
+      <td style="text-align:center">Sustah</td>
+      <td style="text-align:center">Sweettooth Inc.</td>
+      <td style="text-align:center">That's The Ticket</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">The Blob Blog</td>
+      <td style="text-align:center">The Great Escape</td>
+      <td style="text-align:center">The Impossible Challenge</td>
+      <td style="text-align:center">The Marketplace</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">The Server From Hell</td>
+      <td style="text-align:center">toc2</td>
+      <td style="text-align:center">Tokyo Ghoul</td>
+      <td style="text-align:center">UltraTech</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Unbaked Pie</td>
+      <td style="text-align:center">Undiscovered</td>
+      <td style="text-align:center">Unstable Twin</td>
+      <td style="text-align:center">VulnNet</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">VulnNet: Active</td>
+      <td style="text-align:center">VulnNet: dogjar</td>
+      <td style="text-align:center">VulnNet: dotpy</td>
+      <td style="text-align:center">Watcher</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">WebAppSec 101</td>
+      <td style="text-align:center">Wekor</td>
+      <td style="text-align:center">Willow</td>
+      <td style="color:#B5E853;text-align:center">Wonderland</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">WWBuddy</td>
+      <td style="text-align:center">Zeno</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+    </tr>
+  </table>
 </div>
 <button class="collapsible">Hard</button>
 <div class="content">
-  <p></p>
+  <table>
+    <tr>
+      <td style="text-align:center">Adventure Time</td>
+      <td style="text-align:center">Anonymous Playground</td>
+      <td style="text-align:center">Borderlands</td>
+      <td style="color:#B5E853;text-align:center">Brainpan 1</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Carpe Diem 1</td>
+      <td style="text-align:center">CherryBlossom</td>
+      <td style="color:#B5E853;text-align:center">Daily Bugle</td>
+      <td style="text-align:center">Dave's Blog</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Different CTF</td>
+      <td style="text-align:center">Enterprise</td>
+      <td style="text-align:center">EnterPrize</td>
+      <td style="text-align:center">envzion</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">For Business Reasons</td>
+      <td style="text-align:center">Fusion Corp</td>
+      <td style="text-align:center">GameBuzz</td>
+      <td style="text-align:center">hc0n Christmas CTF</td>
+    </tr>
+    <tr>
+      <td style="color:#B5E853;text-align:center">Internal</td>
+      <td style="text-align:center">Iron Corp</td>
+      <td style="text-align:center">Jack</td>
+      <td style="text-align:center">Jeff</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Jurassic Park</td>
+      <td style="text-align:center">M4tr1x: Exit Denied</td>
+      <td style="text-align:center">Misguided Ghosts</td>
+      <td style="text-align:center">Motunui</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Plotted-EMR</td>
+      <td style="text-align:center">Python Playground</td>
+      <td style="text-align:center">Ra</td>
+      <td style="text-align:center">Ra 2</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Racetrack Bank</td>
+      <td style="text-align:center">REloaded</td>
+      <td style="color:#B5E853;text-align:center">Retro</td>
+      <td style="text-align:center">Rocket</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Set</td>
+      <td style="text-align:center">Shaker</td>
+      <td style="text-align:center">Spring</td>
+      <td style="text-align:center">Squid Game</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Temple</td>
+      <td style="text-align:center">Tempus Fugit Durius</td>
+      <td style="text-align:center">Uranium CTF</td>
+      <td style="text-align:center">Year of the Dog</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Year of the Fox</td>
+      <td style="text-align:center">Year of the Jellyfish</td>
+      <td style="text-align:center">Year of the Owl</td>
+      <td style="text-align:center">Year of the Pig</td>
+    </tr>
+  </table>
 </div>
 <button class="collapsible">Insane</button>
 <div class="content">
@@ -144,9 +525,9 @@
     </tr>
     <tr>
       <td style="text-align:center">You're in a cave</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
     </tr>
   </table>
 </div>
