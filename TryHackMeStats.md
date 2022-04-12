@@ -25,6 +25,7 @@
   </tr>
 </table>
 
+
 <br>
 
 ### Learning Paths
@@ -79,3 +80,83 @@
     <td style="text-align:center">32 Hours</td>
   </tr>
 </table>
+
+
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+<body>
+
+<h2>CTFs Completed:</h2>
+
+<button class="collapsible">Easy</button>
+<div class="content">
+  <p></p>
+</div>
+<button class="collapsible">Medium</button>
+<div class="content">
+  <p></p>
+</div>
+<button class="collapsible">Hard</button>
+<div class="content">
+  <p></p>
+</div>
+<button class="collapsible">Insane</button>
+<div class="content">
+  <table>
+    <tr>
+      <td style="text-align:center">CCT2019</td>
+      <td style="text-align:center">Crocc Crew</td>
+      <td style="text-align:center">Osiris</td>
+      <td style="text-align:center">Theseus</td>
+      <td style="text-align:center">You're in a cave</td>
+    </tr>
+  </table>
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+</body>
+</html>
