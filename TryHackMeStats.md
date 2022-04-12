@@ -4,6 +4,8 @@
 
 ### Level 12 - Top 1% of All Users
 
+<br>
+
 <script src="https://tryhackme.com/badge/800209"></script>
 
 <br>
@@ -126,8 +128,7 @@
 <br>
 
 <h3>CTFs Completed</h3>
-<h4>Click Sections to Expand</h4>
-<h4>Green = Completed</h4>
+<h4>Click Sections to Expand - Green = Completed</h4>
 
 <br>
 
