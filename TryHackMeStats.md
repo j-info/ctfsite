@@ -35,7 +35,7 @@
     <th style="text-align:center">Path</th>
     <th style="text-align:center">Status</th>
     <th style="text-align:center">Difficulty</th>
-    <th style="text-align:center">Total Training Hours</th>
+    <th style="text-align:center">Training Hours</th>
     <th style="text-align:center">Certificate</th>
   </tr>
   <tr>
@@ -75,9 +75,9 @@
   </tr>
   <tr>
     <td style="text-align:center">CompTIA Pentest+</td>
-    <td style="text-align:center">Completed 2/15/2022</td>
-    <td style="text-align:center">Intermediate</td>
-    <td style="text-align:center">47 Hours</td>
+    <td style="text-align:center">Completed 1/25/2022</td>
+    <td style="text-align:center">Easy</td>
+    <td style="text-align:center">51 Hours</td>
     <td style="text-align:center"><a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-DERDYJZ2QE.png">View Certificate</a></td>
   </tr>
   <tr>
