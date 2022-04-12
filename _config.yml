@@ -15,4 +15,4 @@ google_analytics: G-BTGDQQLXXY
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
-show_downloads: true
+show_downloads: false
