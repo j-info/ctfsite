@@ -2,9 +2,9 @@
 
 ---
 
-### Level 12 - Top 1% of All Users
-
 <br>
+
+### Level 12 - Top 1% of All Users
 
 <script src="https://tryhackme.com/badge/800209"></script>
 
