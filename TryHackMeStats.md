@@ -117,7 +117,7 @@
 
 <br>
 
-<h3>CTFs Completed:</h3>
+<h3>CTFs Completed (Click Sections to Expand)</h3>
 
 <br>
 
