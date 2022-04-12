@@ -1,4 +1,4 @@
-## TryHackMe Status
+## My TryHackMe Stats
 
 ---
 
