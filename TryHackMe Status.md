@@ -4,6 +4,8 @@
 
 ### Level 12 - Top 1%
 
+<script src="https://tryhackme.com/badge/800209"></script>
+
 <br>
 
 ### Total CTFs Completed: 52 of 253
