@@ -108,13 +108,18 @@
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
+  color: #EAEAEA
+  background-color: #F1F1F1;
 }
 </style>
 </head>
 <body>
 
-<h2>CTFs Completed:</h2>
+<br>
+
+<h3>CTFs Completed:</h2>
+
+<br>
 
 <button class="collapsible">Easy</button>
 <div class="content">
@@ -132,7 +137,7 @@
 <div class="content">
   <table>
     <tr>
-      <td style="text-align:center">CCT2019</td>
+      <td style="color:#B5E853;text-align:center">CCT2019</td>
       <td style="text-align:center">Crocc Crew</td>
       <td style="text-align:center">Osiris</td>
       <td style="text-align:center">Theseus</td>
