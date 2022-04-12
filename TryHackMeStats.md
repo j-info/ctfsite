@@ -137,13 +137,16 @@
 <div class="content">
   <table>
     <tr>
-      <td style="color:text-align:center">CCT2019</td>
+      <td style="text-align:center">CCT2019</td>
       <td style="text-align:center">Crocc Crew</td>
       <td style="text-align:center">Osiris</td>
       <td style="text-align:center">Theseus</td>
     </tr>
     <tr>
       <td style="text-align:center">You're in a cave</td>
+      <td>
+      <td>
+      <td>
     </tr>
   </table>
 </div>
