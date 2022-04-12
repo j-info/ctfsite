@@ -1,5 +1,9 @@
 ## TryHackMe Status
+
+---
+
 ### Level 12
+
 ### Total CTFs Completed: 52 of 253
 
 ```
