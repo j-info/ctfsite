@@ -1,4 +1,4 @@
-[img src="TryHackMeStats.md">](https://j-info.github.io/ctfsite/TryHackMeStats.md)
+[<img src="TryHackMeStats.md">](TryHackMeStats.md)
 
 ---
 
