@@ -1,4 +1,4 @@
-<a href="TryHackMeStats.md"><img src="images-other/thm-stats.png" alt="TryHackMe Stats"></a>
+[img src="TryHackMeStats.md">](https://j-info.github.io/ctfsite/TryHackMeStats.md)
 
 ---
 
