@@ -117,7 +117,9 @@
 
 <br>
 
-<h3>CTFs Completed (Click Sections to Expand)</h3>
+<h3>CTFs Completed</h3>
+<h4>Click Sections to Expand</h4>
+<h4>Green = Completed</h4>
 
 <br>
 
