@@ -36,7 +36,7 @@
     <th style="text-align:center">Status</th>
     <th style="text-align:center">Difficulty</th>
     <th style="text-align:center">Total Training Hours</th>
-    <th style="text-alsign:center">Certificate</th>
+    <th style="text-align:center">Certificate</th>
   </tr>
   <tr>
     <td style="text-align:center">Jr. Penetration Tester</td>
@@ -50,7 +50,7 @@
     <td style="text-align:center">Completed 12/24/2021</td>
     <td style="text-align:center">Easy</td>
     <td style="text-align:center">40 Hours</td>
-    <td style="text-align:center">[**View Certificate**](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-VEU8OLTWNO.png)</td>
+    <td style="text-align:center"><a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-VEU8OLTWNO.png">View Certificate</a></td>
   </tr>
   <tr>
     <td style="text-align:center">Cyber Defense</td>
@@ -64,21 +64,21 @@
     <td style="text-align:center">Completed 1/11/2022</td>
     <td style="text-align:center">Easy</td>
     <td style="text-align:center">64 Hours</td>
-    <td style="text-align:center"></td>
+    <td style="text-align:center"><a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-NCKTVZMVUX.png">View Certificate</a></td>
   </tr>
   <tr>
     <td style="text-align:center">Offensive Pentesting</td>
     <td style="text-align:center">Completed 2/15/2022</td>
     <td style="text-align:center">Intermediate</td>
     <td style="text-align:center">47 Hours</td>
-    <td style="text-align:center"></td>
+    <td style="text-align:center"><a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-ONWMZZGWDY.png">View Certificate</a></td>
   </tr>
   <tr>
     <td style="text-align:center">CompTIA Pentest+</td>
     <td style="text-align:center">Completed 2/15/2022</td>
     <td style="text-align:center">Intermediate</td>
     <td style="text-align:center">47 Hours</td>
-    <td style="text-align:center"></td>
+    <td style="text-align:center"><a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-DERDYJZ2QE.png">View Certificate</a></td>
   </tr>
   <tr>
     <td style="text-align:center">Web Fundamentals</td>
