@@ -1,3 +1,5 @@
+[**Current TryHackMe Status**](TryHackMe Status.md)
+
 <br>
 
 ## *Anthem* on TryHackMe
