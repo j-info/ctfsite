@@ -2,6 +2,21 @@
 
 ---
 
+## *Ninja Skills* on TryHackMe
+#### April 12th 2022
+
+Topics: ![](images/Linux.png)
+
+And now I know why I haven't done a lot of Windows boxes on TryHackMe...I'm already running out of ones to choose from. If there are more they're likely hidden in the hard and above rating which I'll have to check out.
+
+This ended up being a very quick and easy refresher on basic linux commands.
+
+[**Ninja Skills Walkthrough**](walkthroughs/2022-04-12 - Ninja Skills.md)
+
+<br>
+
+---
+
 <br>
 
 ## *Anthem* on TryHackMe
