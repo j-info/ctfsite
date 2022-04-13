@@ -4,6 +4,21 @@
 
 <br>
 
+## *Timelapse* on Hack the Box
+#### April 13th 2022
+
+Topics: ![](images/Windows.png) ![](images/smb.png) ![](images/cracking.png) ![](images/JtR.png) ![](images/openssl.png) ![](images/powershell.png) ![](images/laps.png)
+
+This was a fun Windows based box that was just released a couple weeks ago so I can't post the walkthrough quite yet. When it's retired I'll be sure to come and add it.
+
+![](images-other/htb-timelapse.png)
+
+<br>
+
+---
+
+<br>
+
 ## *Ninja Skills* on TryHackMe
 #### April 12th 2022
 
