@@ -10,7 +10,7 @@
 
 <br>
 
-### Total CTFs Completed: 53 of 253
+### Total CTFs Completed: 54 of 253
 
 <table>
   <tr>
@@ -20,7 +20,7 @@
     <th style="text-align:center">Insane</th>
   </tr>
   <tr>
-    <td style="text-align:center">38 of 82</td>
+    <td style="text-align:center">39 of 82</td>
     <td style="text-align:center">11 of 122</td>
     <td style="text-align:center">4 of 44</td>
     <td style="text-align:center">0 of 5</td>
@@ -42,7 +42,7 @@
   </tr>
   <tr>
     <td style="text-align:center">Jr. Penetration Tester</td>
-    <td style="text-align:center">20% Complete</td>
+    <td style="text-align:center">28% Complete</td>
     <td style="text-align:center">Intermediate</td>
     <td style="text-align:center">56 Hours</td>
     <td style="text-align:center"></td>
@@ -84,7 +84,7 @@
   </tr>
   <tr>
     <td style="text-align:center">Web Fundamentals</td>
-    <td style="text-align:center">64% Complete</td>
+    <td style="text-align:center">72% Complete</td>
     <td style="text-align:center">Easy</td>
     <td style="text-align:center">32 Hours</td>
     <td style="text-align:center"></td>
@@ -214,7 +214,7 @@
       <td style="color:#B5E853;text-align:center">Mustacchio</td>
     </tr>
     <tr>
-      <td style="text-align:center">Ninja Skills</td>
+      <td style="color:#B5E853;text-align:center">Ninja Skills</td>
       <td style="color:#B5E853;text-align:center">OhSINT</td>
       <td style="color:#B5E853;text-align:center">Overpass</td>
       <td style="text-align:center">Phishing Emails 5</td>
