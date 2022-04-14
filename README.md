@@ -4,6 +4,21 @@
 
 <br>
 
+## *Sumo* on Proving Grounds
+#### April 14th 2022
+
+Topics: ![](images/Linux.png) ![](images/cve.png)
+
+This was my first Proving Grounds box and I had a lot of fun going through it. To fully complete this it required the use of 2 different CVE's.
+
+[**Sumo Walkthrough**](walkthroughs/2022-04-14 - Sumo.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Timelapse* on Hack the Box
 #### April 13th 2022
 
