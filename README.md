@@ -7,7 +7,7 @@
 ## *Sumo* on Proving Grounds
 #### April 14th 2022
 
-Topics: ![](images/Linux.png) ![](images/cve.png)
+Topics: ![](images/Linux.png) ![](images/CVE.png)
 
 This was my first Proving Grounds box and I had a lot of fun going through it. To fully complete this it required the use of 2 different CVE's.
 
