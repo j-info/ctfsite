@@ -4,6 +4,38 @@
 
 <br>
 
+## *Hacker Rank* on Hack the Box
+#### April 18th 2022
+
+Topics: ![](images/learning.png)
+
+And as a bonus to my first medium rated HTB machine it also bumped me up in level to **Hacker** on completion!
+
+![](images-other/htb-hacker.png)
+
+<br>
+
+---
+
+<br>
+
+## *Meta* on Hack the Box
+#### April 18th 2022
+
+Topics: ![](images/linux.png) ![](images/wfuzz.png) ![](images/exiftool.png) ![](images/imagemagick.png) ![](images/sudo.png) ![](images/neofetch.png) ![](images/path.png)
+
+Since I ran out of still active easy boxes on HTB I decided to give my first medium rated HTB machine a try. After a lot of enumeration, use of multiple CVE's, and some modification of config files and environmental variables I was successful! This was a fun one to go through.
+
+No walkthrough yet since this is still an active box.
+
+![](images-other/htb-meta.png)
+
+<br>
+
+---
+
+<br>
+
 ## *Sumo* on Proving Grounds
 #### April 14th 2022
 
