@@ -10,7 +10,7 @@
 
 <br>
 
-### Total CTFs Completed: 54 of 253
+### Total CTFs Completed: 55 of 254
 
 <table>
   <tr>
@@ -20,7 +20,7 @@
     <th style="text-align:center">Insane</th>
   </tr>
   <tr>
-    <td style="text-align:center">39 of 82</td>
+    <td style="text-align:center">40 of 83</td>
     <td style="text-align:center">11 of 122</td>
     <td style="text-align:center">4 of 44</td>
     <td style="text-align:center">0 of 5</td>
@@ -258,7 +258,7 @@
     <tr>
       <td style="text-align:center">Wordpress: CVE-2021-29447</td>
       <td style="color:#B5E853;text-align:center">Year of the Rabbit</td>
-      <td style="text-align:center"></td>
+      <td style="color:#B5E853;text-align:center">Tech_Supp0rt: 1</td>
       <td style="text-align:center"></td>
     </tr>
   </table>
