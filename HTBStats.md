@@ -61,8 +61,6 @@
 </head>
 <body>
 
-<br>
-
 <h3>CTFs Completed</h3>
 <h4>Click Sections to Expand - Green = Completed</h4>
 
@@ -363,7 +361,7 @@
     </tr>
     <tr>
       <td style="text-align:center">Developer</td>
-      <td style="text-align:center"Dropzone></td>
+      <td style="text-align:center">Dropzone</td>
       <td style="text-align:center">EarlyAccess</td>
       <td style="text-align:center">Ellington</td>
     </tr>
@@ -481,7 +479,7 @@
       <td style="text-align:center">Mischief</td>
     </tr>
     <tr>
-      <td style="text-align:center"Multimaster</td>
+      <td style="text-align:center">Multimaster</td>
       <td style="text-align:center">Nightmare</td>
       <td style="text-align:center">Perspective</td>
       <td style="text-align:center">pivotapi</td>
