@@ -1,4 +1,4 @@
-[<img src="images-other/thm-progress.png">](TryHackMeStats.md)
+[<img src="images-other/thm-progress.png">](TryHackMeStats.md)   [<img src="images-other/htb-progress.png">](HTBStats.md)
 
 ---
 
