@@ -10,7 +10,7 @@
 
 <br>
 
-### Total CTFs Completed: 55 of 254
+### Total CTFs Completed: 56 of 254
 
 <table>
   <tr>
@@ -21,7 +21,7 @@
   </tr>
   <tr>
     <td style="text-align:center">40 of 83</td>
-    <td style="text-align:center">11 of 122</td>
+    <td style="text-align:center">12 of 122</td>
     <td style="text-align:center">4 of 44</td>
     <td style="text-align:center">0 of 5</td>
   </tr>
@@ -426,7 +426,7 @@
       <td height="58" style="text-align:center">The Server From Hell</td>
       <td height="58" style="text-align:center">toc2</td>
       <td height="58" style="text-align:center">Tokyo Ghoul</td>
-      <td height="58" style="text-align:center">UltraTech</td>
+      <td height="58" style="color:#B5E853;text-align:center">UltraTech</td>
     </tr>
     <tr>
       <td height="58" style="text-align:center">Unbaked Pie</td>
