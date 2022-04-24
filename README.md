@@ -4,6 +4,21 @@
 
 <br>
 
+## *UltraTech* on TryHackMe
+#### April 22nd 2022
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/api.png) ![](images/cracking.png) ![](images/docker.png)
+
+With this box we find an API vulnerable to command injection and use it to gather credentials and compromise the system. After that we find we're a member of the docker group, and use that to obtain the root private ssh key.
+
+[**UltraTech Walkthrough**](walkthroughs/2022-04-22-UltraTech)
+
+<br>
+
+---
+
+<br>
+
 ## *Tech_Supp0rt: 1* on TryHackMe
 #### April 20th 2022
 
