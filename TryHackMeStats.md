@@ -10,7 +10,7 @@
 
 <br>
 
-### Total CTFs Completed: 56 of 254
+### Total CTFs Completed: 57 of 255
 
 <table>
   <tr>
@@ -20,9 +20,9 @@
     <th style="text-align:center">Insane</th>
   </tr>
   <tr>
-    <td style="text-align:center">40 of 83</td>
+    <td style="text-align:center">41 of 83</td>
     <td style="text-align:center">12 of 122</td>
-    <td style="text-align:center">4 of 44</td>
+    <td style="text-align:center">4 of 45</td>
     <td style="text-align:center">0 of 5</td>
   </tr>
 </table>
@@ -174,7 +174,7 @@
     <tr>
       <td style="text-align:center">Easy Peasy</td>
       <td style="text-align:center">Flatline</td>
-      <td style="text-align:center">Fowsniff CTF</td>
+      <td style="color:#B5E853;text-align:center">Fowsniff CTF</td>
       <td style="color:#B5E853;text-align:center">Gallery</td>
     </tr>
     <tr>
@@ -522,6 +522,12 @@
       <td style="text-align:center">Year of the Jellyfish</td>
       <td style="text-align:center">Year of the Owl</td>
       <td style="text-align:center">Year of the Pig</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Plotted-LMS</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
     </tr>
   </table>
 </div>
