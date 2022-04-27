@@ -4,6 +4,21 @@
 
 <br>
 
+## *Fowsniff CTF* on TryHackMe
+#### April 26th 2022
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/twitter.png) ![](images/pastebin.png) ![](images/cracking.png) ![](images/hashcat.png) ![](images/pop3.png) ![](images/hydra.png) ![](images/scripting.png)
+
+We find ourselves visiting a companies website that is currently down due to a breach and end up finding that hackers posted a message on Twitter with a link to Pastebin containing password hashes for the companies employees. We crack these, use them to login to a POP3 mail server to find additional credentials, and finally get system access. Finally we take advantage of being able to write to a bash script that root runs to escalate privileges.
+
+[**Fowsniff CTF Walkthrough**](walkthroughs/2022-04-26-Fowsniff-CTF.md)
+
+<br>
+
+---
+
+<br>
+
 ## *UltraTech* on TryHackMe
 #### April 22nd 2022
 
@@ -11,7 +26,7 @@ Topics: ![](images/linux.png) ![](images/web.png) ![](images/api.png) ![](images
 
 With this box we find an API vulnerable to command injection and use it to gather credentials and compromise the system. After that we find we're a member of the docker group, and use that to obtain the root private ssh key.
 
-[**UltraTech Walkthrough**](walkthroughs/2022-04-22-UltraTech)
+[**UltraTech Walkthrough**](walkthroughs/2022-04-22-UltraTech.md)
 
 <br>
 
@@ -26,7 +41,7 @@ Topics: ![](images/linux.png) ![](images/smb.png) ![](images/web.png) ![](images
 
 This is a brand new box that just came out and it let's us interact with the **Subrion** CMS system to find it's weaknesses.
 
-[**Tech_Supp0rt: 1 Walkthrough**](walkthroughs/2022-04-20-Tech_Supp0rt1)
+[**Tech_Supp0rt: 1 Walkthrough**](walkthroughs/2022-04-20-Tech_Supp0rt1.md)
 
 <br>
 
