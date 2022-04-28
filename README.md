@@ -4,6 +4,21 @@
 
 <br>
 
+## *Wpwn* on Proving Grounds
+#### April 28th 2022
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/wordpress.png) ![](images/cve.png)
+
+On this box we find a Wordpress site that's vulnerable to CVE-2019-9978 and use that for an initial foothold on the system. We're able to escalate privileges using a password we found in the wp-config.php file. And finally gain root via sudo.
+
+[**Wpwn Walkthrough**](walkthroughs/2022-04-28-Wpwn.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Fowsniff CTF* on TryHackMe
 #### April 26th 2022
 
