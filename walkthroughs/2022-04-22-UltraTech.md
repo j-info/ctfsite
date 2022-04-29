@@ -44,7 +44,7 @@ PORT     STATE SERVICE VERSION
 
 I run an all port scan and get back the last 31331 port listed, and then run that through -sC -sV to get additional information on it.
 
-We can also answer the the first 4 object questions from this scan.
+We can also answer the the first 4 objective questions from this scan.
 
 <br>
 
@@ -134,7 +134,7 @@ I start by investigating the API using **/ping** and pointing it to the Google D
 
 <br>
 
-It doesn't receive a response, but it is working. Now let's see if we can use some command injection here. I try to get the hostname and it works:
+It doesn't receive a response, but it is taking our input and trying to use it. Now let's see if we can use some command injection here. I try to get the hostname and it works:
 
 ![](images/ultratech5.png)
 
@@ -174,7 +174,7 @@ cat: /root/.ssh/id_rsa: Permission denied
 
 ## System Access
 
-I try and ssh over as the user we have credentials for out of the database and am able to successfully login:
+I try and ssh over useing the credentials we just found in the database and am able to successfully login:
 
 `ssh r00t@10.10.111.32`
 
@@ -183,7 +183,7 @@ r00t@ultratech-prod:~$ whoami
 r00t
 ```
 
-I check `sudo -l` but we're not allowed. Looking for SUID files shows us nothing interesting. Nothing good under capabilities either. We do however see that we have the **docker** group:
+I check `sudo -l` but we're not allowed. Looking for SUID and SGID files shows us nothing interesting. Nothing good under capabilities either. We do however see that we have the **docker** group:
 
 ```
 uid=1001(r00t) gid=1001(r00t) groups=1001(r00t),116(docker)
