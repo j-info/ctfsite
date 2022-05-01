@@ -10,7 +10,7 @@
 
 <br>
 
-### Total CTFs Completed: 57 of 255
+### Total CTFs Completed: 58 of 255
 
 <table>
   <tr>
@@ -21,7 +21,7 @@
   </tr>
   <tr>
     <td style="text-align:center">41 of 83</td>
-    <td style="text-align:center">12 of 122</td>
+    <td style="text-align:center">13 of 122</td>
     <td style="text-align:center">4 of 45</td>
     <td style="text-align:center">0 of 5</td>
   </tr>
@@ -42,7 +42,7 @@
   </tr>
   <tr>
     <td style="text-align:center">Jr. Penetration Tester</td>
-    <td style="text-align:center">28% Complete</td>
+    <td style="text-align:center">33% Complete</td>
     <td style="text-align:center">Intermediate</td>
     <td style="text-align:center">56 Hours</td>
     <td style="text-align:center"></td>
@@ -84,7 +84,7 @@
   </tr>
   <tr>
     <td style="text-align:center">Web Fundamentals</td>
-    <td style="text-align:center">72% Complete</td>
+    <td style="text-align:center">75% Complete</td>
     <td style="text-align:center">Easy</td>
     <td style="text-align:center">32 Hours</td>
     <td style="text-align:center"></td>
@@ -318,7 +318,7 @@
       <td height="58" style="text-align:center">Debug</td>
       <td height="58" style="text-align:center">Develpy</td>
       <td height="58" style="text-align:center">Disk Analysis & Autopsy</td>
-      <td height="58" style="text-align:center">dogcat</td>
+      <td height="58" style="color:#B5E853;text-align:center">dogcat</td>
     </tr>
     <tr>
       <td height="58" style="text-align:center">Dunkle Materie</td>
