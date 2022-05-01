@@ -4,6 +4,21 @@
 
 <br>
 
+## *Dogcat* on TryHackMe
+#### April 30th 2022
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/lfi.png) ![](images/burp.png) ![](images/logpoisoning.png) ![](images/docker.png) ![](images/container.png) ![](images/escape.png)
+
+We use LFI and Apache2 log poisoning to establish initial access on the system and find we're inside of a docker container as the www-data user. Then we figure out how to escalate to container root and eventually escape the container to the host system.
+
+[**Dogcat Walkthrough**](walkthroughs/2022-04-30-Dogcat.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Wpwn* on Proving Grounds
 #### April 28th 2022
 
