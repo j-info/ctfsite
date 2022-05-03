@@ -10,7 +10,7 @@
 
 <br>
 
-### Total CTFs Completed: 9 of 277
+### Total CTFs Completed: 9 of 278
 
 <table>
   <tr>
@@ -22,7 +22,7 @@
   <tr>
     <td style="text-align:center">8 of 84</td>
     <td style="text-align:center">1 of 92</td>
-    <td style="text-align:center">0 of 61</td>
+    <td style="text-align:center">0 of 62</td>
     <td style="text-align:center">0 of 40</td>
   </tr>
 </table>
@@ -435,7 +435,7 @@
     </tr>
     <tr>
       <td style="text-align:center">Zipper</td>
-      <td style="text-align:center"></td>
+      <td style="text-align:center">OverGraph</td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
     </tr>
