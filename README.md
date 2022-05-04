@@ -4,6 +4,21 @@
 
 <br>
 
+## *Gotta Catch'em All!* on TryHackMe
+#### May 3rd 2022
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/decoding.png)
+
+This was clearly an easy and for fun box that doesn't have a lot that would apply to anything real world, but it was a fun machine to walkthrough regardless!
+
+[**Gotta Catch'em All! Walkthrough**](walkthroughs/2022-05-03-Gotta-Catchem-All.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Dogcat* on TryHackMe
 #### April 30th 2022
 
