@@ -48,7 +48,7 @@ PORT   STATE SERVICE VERSION
 
 ## Website Digging
 
-Visiting the main page makes it appear to be a standard Apache2 default page, but the title is set so I take a look at the page source and find a things that have been added:
+Visiting the main page makes it appear to be a standard Apache2 default page, but the title is set so I take a look at the page source and find a few things that have been added:
 
 ![](images/gottacatch1.png)
 
@@ -138,7 +138,7 @@ In the Desktop folder is:
 -rw-rw-r--  1 pokemon pokemon  383 Jun 22  2020 P0kEmOn.zip
 ```
 
-Unzipping that and changing to the folder shows us the a file that contains hex codes rather than a clear text flag.
+Unzipping and changing to the folder that was created shows us a file that contains hex codes rather than a clear text flag.
 
 ```bash
 -rw-rw-r-- 1 pokemon pokemon   53 Jun 22  2020 grass-type.txt
@@ -170,7 +170,7 @@ Ecgudfxq_EcGmP{Ecgudfxq}
 
 Figuring it to be **rot13** I run it through a decoder for that, but it isn't.
 
-Using the Pokemon types from the page source code earlier I determine that a water type is probably going to be **squirtle**, and the number characters in that matches **Ecgudfxq** so we can try to use that as a key to decode the text. I count the number of places from E to S and it's 14, and give that a try for the rest of the letters and it gives us the message. Nice one, wasn't expecting **rot14** for sure.
+Using the Pokemon types from the page source code earlier I determine that a water type is probably going to be **squirtle**, and the number characters in that matches **Ecgudfxq**, so we can use that as a key to decode the text. I count the number of places from E to S and it's 14, and give that a try for the rest of the letters and it gives us the message. Nice one, wasn't expecting **rot14** for sure.
 
 ```
 Squirtle_SqUaD{Squirtle}
@@ -250,7 +250,7 @@ bash: /home/ash/.bashrc: Permission denied
 ash@root:/home/pokemon/Videos/Gotta/Catch/Them/ALL!$
 ```
 
-We're in! I display the **roots-pokemon.txt** file and it shows us which answers our final question:
+After logging in I display the **roots-pokemon.txt** file and it shows us the answer to our final question:
 
 ```
 Pikachu!
@@ -260,7 +260,7 @@ Pikachu!
 
 With that we've completed this CTF!
 
-![](images/gottacatch3.png)
+![](images/gottacatch2.png)
 
 <br>
 
