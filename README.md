@@ -1,5 +1,22 @@
 [<img src="images-other/thm-progress.png">](TryHackMeStats.md)   [<img src="images-other/htb-progress.png">](HTBStats.md)
 
+<br>
+
+## Level 13 on TryHackMe
+#### May 4th 2022
+
+Topics: ![](images/learning.png)
+
+I finally did it! Level 13 is the highest level you can achieve on TryHackMe and I got there today. Out of 1.1 million users on the site I'm currently ranked number 4683. Given the relatively short amount of time I've been using the site I hope that reflects amount of time and effort I've been putting into furthering my learning.
+
+I found and started using TryHackMe a little over 5 months ago right in the middle of their annual Advent of Cyber 3 Christmas event and have been loving it ever since. I've learned so much since then and will continue to do so on a daily basis until I get to where I want to be in cybersecurity.
+
+<br>
+
+![](images-other/tryhackme-level13.png)
+
+<br>
+
 ---
 
 <br>
