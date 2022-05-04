@@ -4,7 +4,7 @@
 
 <br>
 
-### Level 12 - Top 1% of all Users
+### Level 13 (maximum level possible) - Top 1% of all Users
 
 <script src="https://tryhackme.com/badge/800209"></script>
 
