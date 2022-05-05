@@ -10,7 +10,7 @@
 
 <br>
 
-### Total CTFs Completed: 59 of 255
+### Total CTFs Completed: 60 of 255
 
 <table>
   <tr>
@@ -21,7 +21,7 @@
   </tr>
   <tr>
     <td style="text-align:center">42 of 83</td>
-    <td style="text-align:center">13 of 122</td>
+    <td style="text-align:center">14 of 122</td>
     <td style="text-align:center">4 of 45</td>
     <td style="text-align:center">0 of 5</td>
   </tr>
@@ -377,7 +377,7 @@
     <tr>
       <td height="58" style="text-align:center">Nax</td>
       <td height="58" style="text-align:center">NerdHerd</td>
-      <td height="58" style="text-align:center">Net Sec Challenge</td>
+      <td height="58" style="color:#B5E853;text-align:center">Net Sec Challenge</td>
       <td height="58" style="text-align:center">NoNameCTF</td>
     </tr>
     <tr>
