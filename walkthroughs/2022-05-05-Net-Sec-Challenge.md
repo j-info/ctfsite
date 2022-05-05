@@ -23,7 +23,7 @@
 
 ### Nmap Scan
 
-`sudo nmap -sV -sC -Pn -T4 10.10.175.22`
+`sudo nmap -sV -sC -T4 10.10.175.22`
 
 ```
 22/tcp   open  ssh         (protocol 2.0)
