@@ -7,7 +7,7 @@
 ## *Net Sec Challenge* on TryHackMe
 #### May 5th 2022
 
-Topics: ![](web.png) ![](images/hydra.png)
+Topics: ![](images/web.png) ![](images/hydra.png)
 
 This was a quick challenge that asked us to perform enumeration with nmap, brute force a couple users on an FTP server with Hydra, and then use a stealthy nmap scan to avoid IDS detection.
 
