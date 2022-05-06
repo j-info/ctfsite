@@ -4,6 +4,26 @@
 
 <br>
 
+## Web Fundamentals Learning Path on TryHackMe
+#### May 6th 2022
+
+Topics: ![](images/learning.png)
+
+I've been working my way through this learning path and completed it today. It consists of 32 hours of training and covers the following:
+- Using Burp suite intruder, repeater, encoder/decoder, comparer, sequencer, BApp store, and more
+- Went through the OWASP top 10 and also had you go complete the OWASP Juice Shop challenges
+- Covered many standard vulnerability types such as IDOR, LFI, RFI, SSRF, XSS, RCE, SQLi, and more
+
+That's 5 of the 7 learning paths complete now, and the last two I'm over 50% of the way through already. Almost there!
+
+[**Certificate link**](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-IBJZFTD0XY.png)
+
+<br>
+
+---
+
+<br>
+
 ## *Net Sec Challenge* on TryHackMe
 #### May 5th 2022
 
