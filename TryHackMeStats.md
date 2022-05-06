@@ -42,7 +42,7 @@
   </tr>
   <tr>
     <td style="text-align:center">Jr. Penetration Tester</td>
-    <td style="text-align:center">33% Complete</td>
+    <td style="text-align:center">55% Complete</td>
     <td style="text-align:center">Intermediate</td>
     <td style="text-align:center">56 Hours</td>
     <td style="text-align:center"></td>
@@ -84,10 +84,10 @@
   </tr>
   <tr>
     <td style="text-align:center">Web Fundamentals</td>
-    <td style="text-align:center">75% Complete</td>
+    <td style="text-align:center">Completed 5/06/2022</td>
     <td style="text-align:center">Easy</td>
     <td style="text-align:center">32 Hours</td>
-    <td style="text-align:center"></td>
+    <td style="text-align:center"><a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-IBJZFTD0XY.png">View Certificate</a></td>
   </tr>
 </table>
 
