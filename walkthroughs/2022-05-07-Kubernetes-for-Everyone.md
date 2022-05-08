@@ -28,7 +28,7 @@
 
 `sudo nmap -sV -sC -T4 10.10.191.70`
 
-```
+```bash
 PORT     STATE SERVICE VERSION
 22/tcp   open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
 111/tcp  open  rpcbind 2-4 (RPC #100000)
@@ -48,7 +48,7 @@ An additional all ports scan picks up port **6443**.
 
 `gobuster dir -u http://10.10.191.70:3000 --exclude-length 28034 -t 100 -r -x php,txt,html -w dir-med.txt 2>/dev/null`
 
-```
+```bash
 /signup               (Status: 200) [Size: 27985]
 /verify               (Status: 200) [Size: 27985]
 /apidocs              (Status: 401) [Size: 32]   
@@ -137,7 +137,7 @@ Viewing the page source code doesn't show anything, but viewing the main.css fil
 
 Visiting the link:
 
-![](images/kubevery4.png)
+![](images/kubevery5.png)
 
 And since that looks like base32 I decode it from the command line:
 
@@ -284,7 +284,7 @@ Running the following produces an error message:
 
 `k0s kubectl exec -it kube-api --namespace=kube-system -- /bin/bash`
 
-```
+```bash
 Error from server: error dialing backend: dial tcp 10.0.2.15:10250: i/o timeout
 ```
 
@@ -292,7 +292,7 @@ That doesn't end up working no matter what I try so I dig around for awhile and 
 
 Making my way to **/var/lib/k0s/containerd/io.containerd.snapshotter.v1.overlayfs/snapshots/38/fs/home/ubuntu/jokes** shows several files with jokes in them, as well as a .git folder.
 
-```
+```bash
 -rw-r--r-- 1 root root 1284 Feb  7 17:47 crush.jokes
 -rw-r--r-- 1 root root  718 Feb  7 17:47 dad.jokes
 drwxr-xr-x 8 root root 4096 May  8 02:13 .git
@@ -304,7 +304,7 @@ Looking at the git commits:
 
 `git log --pretty=oneline`
 
-```
+```bash
 224b741fa904ee98c75913eafbefa12ac820659f (HEAD -> master, origin/master, origin/HEAD) feat: add programming.jokes
 22cd540f3df22a2f373d95e145056d5370c058f5 feat: add crush.jokes
 4b2c2d74b31d922252368c112a3907c5c1cf1ba3 feat: add cold.joke
@@ -316,7 +316,7 @@ And searching through those leads us to our flag:
 
 `git show 4b2c2d74b31d922252368c112a3907c5c1cf1ba3`
 
-```
+```bash
 commit 4b2c2d74b31d922252368c112a3907c5c1cf1ba3
 Author: Aju100 <ajutamang10@outlook.com>
 Date:   Mon Feb 7 22:37:13 2022 +0545
@@ -356,7 +356,7 @@ In the results we see the following command:
     "26c3d1c068e7e01599c3612447410b5e56c779f1"
 ```
 
-Running that through **hashcat** cracks the hash quickly:
+It turns out to be a **sha1 hash** and running it through **hashcat** cracks it pretty quickly:
 
 `hashcat -m 100 -w 3 -D 1,2 hash.txt rockyou.txt`
 
@@ -387,7 +387,7 @@ A quick run down of what we covered in this CTF:
 <br>
 
 Many thanks to:
-- [**csaju**](https://tryhackme.com/p/csaju) and [**teardown**](https://tryhackme.com/p/teardown )for creating this CTF
+- [**csaju**](https://tryhackme.com/p/csaju) and [**teardown**](https://tryhackme.com/p/teardown) for creating this CTF
 - **TryHackMe** for hosting this CTF
 
 <br>
