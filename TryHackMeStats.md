@@ -10,7 +10,7 @@
 
 <br>
 
-### Total CTFs Completed: 60 of 255
+### Total CTFs Completed: 61 of 256
 
 <table>
   <tr>
@@ -21,7 +21,7 @@
   </tr>
   <tr>
     <td style="text-align:center">42 of 83</td>
-    <td style="text-align:center">14 of 122</td>
+    <td style="text-align:center">15 of 122</td>
     <td style="text-align:center">4 of 45</td>
     <td style="text-align:center">0 of 5</td>
   </tr>
@@ -449,7 +449,7 @@
     <tr>
       <td height="58" style="text-align:center">WWBuddy</td>
       <td height="58" style="text-align:center">Zeno</td>
-      <td height="58" style="text-align:center"></td>
+      <td height="58" style="color:#B5E853;text-align:center">Kubernetes for Everyone</td>
       <td height="58" style="text-align:center"></td>
     </tr>
   </table>
