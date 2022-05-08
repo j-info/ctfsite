@@ -4,6 +4,21 @@
 
 <br>
 
+## *Kubernetes for Everyone* on TryHackMe
+#### May 7th 2022
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/grafana.png) ![](images/cve.png) ![](images/dirtraversal.png) ![](images/decoding.png) ![](images/kubernetes.png) ![](images/git.png) ![](images/cracking.png) ![](images/hashcat.png)
+
+Brand new machine that was just released yesterday. We exploited a CVE in the Grafana web application to enumerate the system with directory traversal. After we established a foothold on the system we used the k0s distro of Kubernetes for several things, as well as finding hidden information in a local git repository. Decoding and cracking were also required on this one.
+
+[**Kubernetes for Everyone**](walkthroughs/2022-05-07-Kubernetes-for-Everyone.md)
+
+<br>
+
+---
+
+<br>
+
 ## Web Fundamentals Learning Path on TryHackMe
 #### May 6th 2022
 
