@@ -4,6 +4,21 @@
 
 <br>
 
+## *Chill Hack* on TryHackMe
+#### May 10th 2022
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/ftp.png) ![](images/mysql.png) ![](images/cracking.png) ![](images/hashcat.png) ![](images/steg.png) ![](images/jtr.png) ![](images/decoding.png) ![](images/container.png) ![](images/docker.png)
+
+There was a lot going on with this box from cracking, to decoding, and even steganography. We used a webshell embedded into the website for initial access and then found credentials for a SQL database, which led us to additional credentials we could use to ssh in. After that we were able to laterally move to a user who was a member of the docker group which allowed us to mount an image as root to find our final flag.
+
+[**Chill Hack**](walkthroughs/2022-05-10-Chill-Hack.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Kubernetes for Everyone* on TryHackMe
 #### May 7th 2022
 
@@ -285,7 +300,7 @@ Thanks to **SANS** for hosting this wonderful event and I look forward to next y
 
 Topics: ![](images/windows.png) ![](images/web.png) ![](images/oscommerce.png) ![](images/sshtunnel.png) ![](images/mimikatz.png)
 
-In this CTF we get to poke around osCommerce to obtain a shell, and then use mimikatz to pull credentials out of memroy.
+In this CTF we get to poke around osCommerce to obtain a shell, and then use mimikatz to pull credentials out of memory.
 
 [**Blueprint Walkthrough**](walkthroughs/2022-04-06-Blueprint.md)
 
