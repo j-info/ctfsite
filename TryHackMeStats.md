@@ -10,7 +10,7 @@
 
 <br>
 
-### Total CTFs Completed: 61 of 256
+### Total CTFs Completed: 62 of 256
 
 <table>
   <tr>
@@ -20,7 +20,7 @@
     <th style="text-align:center">Insane</th>
   </tr>
   <tr>
-    <td style="text-align:center">42 of 83</td>
+    <td style="text-align:center">43 of 83</td>
     <td style="text-align:center">15 of 122</td>
     <td style="text-align:center">4 of 45</td>
     <td style="text-align:center">0 of 5</td>
@@ -157,7 +157,7 @@
       <td style="color:#B5E853;text-align:center">c4ptur3-th3-fl4g</td>
       <td style="text-align:center">Cat Pictures</td>
       <td style="text-align:center">CC: Radare2</td>
-      <td style="text-align:center">Chill Hack</td>
+      <td style="color:#B5E853;text-align:center">Chill Hack</td>
     </tr>
     <tr>
       <td style="color:#B5E853;text-align:center">Chocolate Factory</td>
