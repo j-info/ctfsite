@@ -405,8 +405,8 @@
       <td style="text-align:center">Scripting</td>
     </tr>
     <tr>
-      <td style="text-align:center">Snort Challenge - Live Attacks</td>
-      <td style="text-align:center">Snort Challenge - The Basics</td>
+      <td style="text-align:center">Snort Challenge LA</td>
+      <td style="text-align:center">Snort Challenge TB</td>
       <td style="text-align:center">SQHell</td>
       <td style="text-align:center">StuxCTF</td>
     </tr>
