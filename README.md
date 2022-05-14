@@ -4,6 +4,21 @@
 
 <br>
 
+## *VulnNet: Active* on TryHackMe
+#### May 14th 2022
+
+Topics: ![](images/windows.png) ![](images/redis.png) ![](images/responder.png) ![](images/cracking.png) ![](images/hashcat.png) ![](images/crackmapexec.png) ![](images/smb.png) ![](images/impacket.png) ![](images/msfvenom.png) ![](images/metasploit.png) ![](images/powershell.png) ![](images/cve.png)
+
+This box had us exploiting an exposed Redis instance to view files and run commands on the system, using responder to capture hashes and then cracking them with hashcat, enumerating SMB shares, creating payloads with msfvenom, and exploiting PrintNightmare for privilege escalation.
+
+[**VulnNet: Active**](walkthroughs/2022-05-14-VulnNet-Active.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Chill Hack* on TryHackMe
 #### May 10th 2022
 
