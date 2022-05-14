@@ -10,7 +10,7 @@
 
 <br>
 
-### Total CTFs Completed: 62 of 256
+### Total CTFs Completed: 63 of 256
 
 <table>
   <tr>
@@ -21,7 +21,7 @@
   </tr>
   <tr>
     <td style="text-align:center">43 of 83</td>
-    <td style="text-align:center">15 of 122</td>
+    <td style="text-align:center">16 of 122</td>
     <td style="text-align:center">4 of 45</td>
     <td style="text-align:center">0 of 5</td>
   </tr>
@@ -435,7 +435,7 @@
       <td style="text-align:center">VulnNet</td>
     </tr>
     <tr>
-      <td style="text-align:center">VulnNet: Active</td>
+      <td style="color:#B5E853;text-align:center">VulnNet: Active</td>
       <td style="text-align:center">VulnNet: dogjar</td>
       <td style="text-align:center">VulnNet: dotpy</td>
       <td style="text-align:center">Watcher</td>
