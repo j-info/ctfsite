@@ -274,7 +274,7 @@
     </tr>
     <tr>
       <td style="text-align:center">Aster</td>
-      <td style="text-align:center">Attacking ICS Planet #2</td>
+      <td style="text-align:center">Attack ICS Planet #2</td>
       <td style="color:#B5E853;text-align:center">Attacktive Directory</td>
       <td style="text-align:center">Basic Malware RE</td>
     </tr>
@@ -317,7 +317,7 @@
     <tr>
       <td style="text-align:center">Debug</td>
       <td style="text-align:center">Develpy</td>
-      <td style="text-align:center">Disk Analysis & Autopsy</td>
+      <td style="text-align:center">Disk Analysis</td>
       <td style="color:#B5E853;text-align:center">dogcat</td>
     </tr>
     <tr>
@@ -342,10 +342,10 @@
       <td style="text-align:center">harder</td>
       <td style="text-align:center">HaskHell</td>
       <td style="text-align:center">Inferno</td>
-      <td style="text-align:center">Investigating Windows 2.0</td>
+      <td style="text-align:center">Invest Windows 2.0</td>
     </tr>
     <tr>
-      <td style="text-align:center">Investigating Windows 3.x</td>
+      <td style="text-align:center">Invest Windows 3.x</td>
       <td style="text-align:center">Jacob the Boss</td>
       <td style="text-align:center">JVM Reverse Engineering</td>
       <td style="text-align:center">Keldagrim</td>
@@ -419,7 +419,7 @@
     <tr>
       <td style="text-align:center">The Blob Blog</td>
       <td style="text-align:center">The Great Escape</td>
-      <td style="text-align:center">The Impossible Challenge</td>
+      <td style="text-align:center">Impossible Challenge</td>
       <td style="text-align:center">The Marketplace</td>
     </tr>
     <tr>
@@ -449,7 +449,7 @@
     <tr>
       <td style="text-align:center">WWBuddy</td>
       <td style="text-align:center">Zeno</td>
-      <td style="color:#B5E853;text-align:center">Kubernetes for Everyone</td>
+      <td style="color:#B5E853;text-align:center">Kubernetes Everyone</td>
       <td style="text-align:center"></td>
     </tr>
   </table>
