@@ -10,7 +10,7 @@
 
 <br>
 
-### Total CTFs Completed: 63 of 256
+### Total CTFs Completed: 64 of 256
 
 <table>
   <tr>
@@ -21,7 +21,7 @@
   </tr>
   <tr>
     <td style="text-align:center">43 of 83</td>
-    <td style="text-align:center">16 of 122</td>
+    <td style="text-align:center">17 of 122</td>
     <td style="text-align:center">4 of 45</td>
     <td style="text-align:center">0 of 5</td>
   </tr>
@@ -389,7 +389,7 @@
     <tr>
       <td style="text-align:center">PalsForLife</td>
       <td style="text-align:center">pyLon</td>
-      <td style="text-align:center">RazorBlack</td>
+      <td style="color:#B5E853;text-align:center">RazorBlack</td>
       <td style="text-align:center">Recovery</td>
     </tr>
     <tr>
