@@ -4,6 +4,21 @@
 
 <br>
 
+## *RazorBlack* on TryHackMe
+#### May 16th 2022
+
+Topics: ![](images/windows.png) ![](images/nfs.png) ![](images/kerberos.png) ![](images/impacket.png) ![](images/cracking.png) ![](images/hashcat.png) ![](images/smb.png) ![](images/crackmapexec.png) ![](images/jtr.png) ![](images/secretsdump.png) ![](images/evilwinrm.png) ![](images/powershell.png) ![](images/kerbroast.png) ![](images/decoding.png) ![](images/robocopy.png)
+
+This was a long box but I learned a lot and it was well done and fun to go through. We initially found files on a public NFS share that we deduced usernames from, and then used crackmapexec to find the hash of a user which we cracked and began to enumerate SMB with. 3 lateral movements later we finally land on a user who has the backup operators group and are able to exploit robocopy to escalate our privileges to system.
+
+[**RazorBlack**](walkthroughs/2022-05-16-RazorBlack.md)
+
+<br>
+
+---
+
+<br>
+
 ## *VulnNet: Active* on TryHackMe
 #### May 14th 2022
 
