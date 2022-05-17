@@ -721,7 +721,7 @@ Our last objective is asking what the top secret is, so I try and search for any
 
 Mode                LastWriteTime         Length Name
 ----                -------------         ------ ----
-d-----        2/25/2021  10:13 AM                Top Secret
+d-----        2/25/2021  10:13 AM         Top Secret
 
 
     Directory: C:\Program Files\Top Secret
