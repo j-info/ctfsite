@@ -222,7 +222,7 @@ In his home directory it shows:
 -rw-rw-r-- 1 mitch mitch   19 aug 17  2019 user.txt
 ```
 
-And viewing it with `cat user.txt` answers our 
+And viewing it with `cat user.txt` answers question 7:
 
 ```
 G00d j0b, keep up!

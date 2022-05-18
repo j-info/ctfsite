@@ -4,6 +4,21 @@
 
 <br>
 
+## *Simple CTF* on TryHackMe
+#### May 17th 2022
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/ftp.png) ![](images/hydra.png) ![](images/cracking.png)
+
+A quick and simple CTF. We brute forced our way in via SSH using Hydra and used GTFOBins to escalate to root.
+
+[**Simple CTF Walkthrough**](walkthroughs/2022-05-17-SimpleCTF.md)
+
+<br>
+
+---
+
+<br>
+
 ## *RazorBlack* on TryHackMe
 #### May 16th 2022
 
@@ -11,7 +26,7 @@ Topics: ![](images/windows.png) ![](images/nfs.png) ![](images/kerberos.png) ![]
 
 This was a long box but I learned a lot and it was well done and fun to go through. We initially found files on a public NFS share that we deduced usernames from, and then used crackmapexec to find the hash of a user which we cracked and began to enumerate SMB with. 3 lateral movements later we finally land on a user who has the backup operators group and are able to exploit robocopy to escalate our privileges to system.
 
-[**RazorBlack**](walkthroughs/2022-05-16-RazorBlack.md)
+[**RazorBlack Walkthrough**](walkthroughs/2022-05-16-RazorBlack.md)
 
 <br>
 
@@ -26,7 +41,7 @@ Topics: ![](images/windows.png) ![](images/redis.png) ![](images/responder.png) 
 
 This box had us exploiting an exposed Redis instance to view files and run commands on the system, using responder to capture hashes and then cracking them with hashcat, enumerating SMB shares, creating payloads with msfvenom, and exploiting PrintNightmare for privilege escalation.
 
-[**VulnNet: Active**](walkthroughs/2022-05-14-VulnNet-Active.md)
+[**VulnNet: Active Walkthrough**](walkthroughs/2022-05-14-VulnNet-Active.md)
 
 <br>
 
@@ -41,7 +56,7 @@ Topics: ![](images/linux.png) ![](images/web.png) ![](images/ftp.png) ![](images
 
 There was a lot going on with this box from cracking, to decoding, and even steganography. We used a webshell embedded into the website for initial access and then found credentials for a SQL database, which led us to additional credentials we could use to ssh in. After that we were able to laterally move to a user who was a member of the docker group which allowed us to mount an image as root to find our final flag.
 
-[**Chill Hack**](walkthroughs/2022-05-10-Chill-Hack.md)
+[**Chill Hack Walkthrough**](walkthroughs/2022-05-10-Chill-Hack.md)
 
 <br>
 
@@ -56,7 +71,7 @@ Topics: ![](images/linux.png) ![](images/web.png) ![](images/grafana.png) ![](im
 
 Brand new machine that was just released yesterday. We exploited a CVE in the Grafana web application to enumerate the system with directory traversal. After we established a foothold on the system we used the k0s distro of Kubernetes for several things, as well as finding hidden information in a local git repository. Decoding and cracking were also required on this one.
 
-[**Kubernetes for Everyone**](walkthroughs/2022-05-07-Kubernetes-for-Everyone.md)
+[**Kubernetes for Everyone Walkthrough**](walkthroughs/2022-05-07-Kubernetes-for-Everyone.md)
 
 <br>
 
