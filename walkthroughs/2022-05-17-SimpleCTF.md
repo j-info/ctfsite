@@ -111,7 +111,7 @@ And displaying that file:
 Dammit man... you'te the worst dev i've seen. You set the same pass for the system user, and the password is so weak... i cracked it in seconds. Gosh... what a mess!
 ```
 
-So it looks like we have a username of Mitch, and we'll likely not have a hard time cracking whatever password we come across.
+So it looks like we have a username of Mitch, and we'll likely not have a hard time cracking whatever password he's using.
 
 <br>
 
@@ -134,6 +134,10 @@ Disallow: /openemr-5_0_1_3
 #
 ```
 
+Looking at the link from robots.txt **/openemr-5_0_1_3** shows us it doesn't exist:
+
+![](images/simplectf4.png)
+
 Visiting **/simple** link we see a CMS page called **CMS Made Simple**:
 
 ![](images/simplectf2.png)
@@ -142,19 +146,13 @@ In the lower left corner we see version that's running:
 
 ![](images/simplectf3.png)
 
-Looking at the link from robots.txt **/openemr-5_0_1_3** shows us it doesn't exist
-
-![](images/simplectf4.png)
-
 I check **exploit-db** to see if the CMS version is exploitable and it appears to be:
 
 ![](images/simplectf5.png)
 
-I download the exploit and it asks for the following:
+I download and run the exploit but I can't get it to work properly. It just tries to enumerate and doesn't actually populate any of the info it's supposed to:
 
-`python2 46635.py`
-
-Every time I run the exploit it doesn't populate any of the results.
+`python2 46635.py -u http://10.10.184.34 --crack -w rockyou.txt`
 
 ```
 [+] Salt for password found: 
@@ -288,9 +286,9 @@ In the **/root** directory we see:
 W3ll d0n3. You made it!
 ```
 
-All objectives complete!
-
 <br>
+
+With that we've finished this CTF!
 
 ![](images/simplectf7.png)
 
@@ -301,14 +299,10 @@ All objectives complete!
 A quick run down of what we covered in this CTF:
 
 - Basic enumeration with **nmap** and **gobuster**
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
+- Finding a username in a file on the **ftp** site
+- The CMS system is vulnerable to **CVE-2019-905** which is an **SQLi** that enumerates usernames and passwords
+- The downloaded script did not work and we end up using **hydra** to brute force the password for our initial foothold
+- Checking **sudo -l** shows us we can run **vim as root**, and we use **GTFOBins** for privilege escalation
 
 <br>
 
