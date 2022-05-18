@@ -250,7 +250,7 @@ User mitch may run the following commands on Machine:
 
 Since we can run **vim** as root I check [**GTFOBins**](https://gtfobins.github.io/gtfobins/vim/) and see that we can easily escalate to root:
 
-![](images/simplectf5.png)
+![](images/simplectf6.png)
 
 I run `sudo vim -c ':!/bin/sh'`:
 
@@ -292,7 +292,7 @@ All objectives complete!
 
 <br>
 
-![](images/.png)
+![](images/simplectf7.png)
 
 <br>
 
