@@ -243,7 +243,7 @@ We're already in the root directory and see **root.txt** waiting for us.
 
 With that we've finished this CTF!
 
-![](images/anonforce0.png)
+![](images/anonforce1.png)
 
 <br>
 
