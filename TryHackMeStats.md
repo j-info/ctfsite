@@ -10,7 +10,7 @@
 
 <br>
 
-### Total CTFs Completed: 64 of 256
+### Total CTFs Completed: 65 of 256
 
 <table>
   <tr>
@@ -20,7 +20,7 @@
     <th style="text-align:center">Insane</th>
   </tr>
   <tr>
-    <td style="text-align:center">43 of 83</td>
+    <td style="text-align:center">44 of 83</td>
     <td style="text-align:center">17 of 122</td>
     <td style="text-align:center">4 of 45</td>
     <td style="text-align:center">0 of 5</td>
@@ -139,7 +139,7 @@
       <td style="text-align:center">0x41haz</td>
       <td style="color:#B5E853;text-align:center">Agent Sudo</td>
       <td style="text-align:center">All in One</td>
-      <td style="text-align:center">Anonforce</td>
+      <td style="color:#B5E853;text-align:center">Anonforce</td>
     </tr>
     <tr>
       <td style="color:#B5E853;text-align:center">Anthem</td>
