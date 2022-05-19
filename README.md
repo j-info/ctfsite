@@ -4,6 +4,21 @@
 
 <br>
 
+## *Anonforce* on TryHackMe
+#### May 18th 2022
+
+Topics: ![](images/linux.png) ![](images/ftp.png) ![](images/jtr.png) ![](images/cracking.png) ![](images/gpg.png) ![](images/hashcat.png)
+
+This was also a pretty quick CTF. We only had 2 ports open: FTP and SSH, and when connecting to the FTP server and logging in as anonymous we find the entire file system available to us. We find a private PGP key and encrypted backup file and then crack the password on the PGP key and use it to decrypt the backup which gives us a copy of the /etc/shadow file. We then crack the root hash and login to the system.
+
+[**Anonforce Walkthrough**](walkthroughs/2022-05-18-Anonforce.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Simple CTF* on TryHackMe
 #### May 17th 2022
 
