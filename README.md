@@ -4,6 +4,21 @@
 
 <br>
 
+## *Gaara* on Proving Grounds
+#### May 20th 2022
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/decoding.png) ![](images/hydra.png) ![](images/suid.png)
+
+This box has us manually enumerate a website to find encoded text, and when decoding we find a system username that we're able to brute force with hydra. After that we find that the GNU Debugger has a SUID bit set on it which allows us to escalate to root.
+
+[**Gaara Walkthrough**](walkthroughs/2022-05-20-Gaara.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Anonforce* on TryHackMe
 #### May 18th 2022
 
