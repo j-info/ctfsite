@@ -1,3 +1,27 @@
+## Certifications
+
+---
+
+<br>
+
+<table>
+  <tr>
+    <th style="text-align:center">Date</th>
+    <th style="text-align:center">Certification</th>
+    <th style="text-align:center">Expiration</th>
+    <th style="text-align:center">Certificate</th>
+  </tr>
+  <tr>
+    <th style="text-align:center">1/13/2022</th>
+    <th style="text-align:center">AWS Certified Cloud Practitioner</th>
+    <th style="text-align:center">1/13/2025</th>
+    <th style="text-align:center"><a href="/ctfsite/certs/aws-cloudpractitioner.pdf">View Certificate</a></th>
+  </tr>
+</table>
+
+
+<br>
+
 ## Additional Training
 
 ---
@@ -47,3 +71,4 @@
     <th style="text-align:center">16</th>
     <th style="text-align:center">In Progress - Done on 5/26</th>
   </tr>
+</table>
