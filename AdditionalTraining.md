@@ -13,16 +13,16 @@
     <th style="text-align:center">Certificate</th>
   </tr>
   <tr>
-    <th style="text-align:center">March 29th 2022</th>
+    <th style="text-align:center">Mar 29th 2022</th>
     <th style="text-align:center">Antisyphon</th>
     <th style="text-align:center">Intro to Social Engineering</th>
     <th style="text-align:center">4</th>
     <th style="text-align:center"><a href="/certs/as-introtosocialengineering.pdf">View Certificate</a></th>
   </tr>
   <tr>
-    <th style="text-align:center">April 7th 2022</th>
+    <th style="text-align:center">Apr 7th 2022</th>
     <th style="text-align:center">SANS</th>
-    <th style="text-align:center">2022 OSINT Summit</th>
+    <th style="text-align:center">2022 SANS OSINT Summit</th>
     <th style="text-align:center">8</th>
     <th style="text-align:center"><a href="/certs/sans-osintsummit.pdf">View Certificate</a></th>
   </tr>
