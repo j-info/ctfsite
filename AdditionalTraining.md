@@ -17,21 +17,21 @@
     <th style="text-align:center">Antisyphon</th>
     <th style="text-align:center">Intro to Social Engineering</th>
     <th style="text-align:center">4</th>
-    <th style="text-align:center"><a href="/certs/as-introtosocialengineering.pdf">View Certificate</a></th>
+    <th style="text-align:center"><a href="/ctfsite/certs/as-introtosocialengineering.pdf">View Certificate</a></th>
   </tr>
   <tr>
     <th style="text-align:center">4/07/2022</th>
     <th style="text-align:center">SANS</th>
     <th style="text-align:center">2022 SANS OSINT Summit</th>
     <th style="text-align:center">8</th>
-    <th style="text-align:center"><a href="/certs/sans-osintsummit.pdf">View Certificate</a></th>
+    <th style="text-align:center"><a href="/ctfsite/certs/sans-osintsummit.pdf">View Certificate</a></th>
   </tr>
   <tr>
     <th style="text-align:center">5/19/2022</th>
     <th style="text-align:center">Antisyphon</th>
     <th style="text-align:center">MITRE ATT&CK Framework</th>
     <th style="text-align:center">16</th>
-    <th style="text-align:center"><a href="/certs/as-mitreattackframework.pdf">View Certificate</a></th>
+    <th style="text-align:center"><a href="/ctfsite/certs/as-mitreattackframework.pdf">View Certificate</a></th>
   </tr>
   <tr>
     <th style="text-align:center">5/23/2022</th>
