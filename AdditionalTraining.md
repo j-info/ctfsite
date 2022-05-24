@@ -13,7 +13,7 @@
     <th style="text-align:center">Certificate</th>
   </tr>
   <tr>
-    <th style="text-align:center">3/29/022</th>
+    <th style="text-align:center">3/29/2022</th>
     <th style="text-align:center">Antisyphon</th>
     <th style="text-align:center">Intro to Social Engineering</th>
     <th style="text-align:center">4</th>
