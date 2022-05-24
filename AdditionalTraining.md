@@ -27,6 +27,13 @@
     <th style="text-align:center"><a href="/ctfsite/certs/sans-osintsummit.pdf">View Certificate</a></th>
   </tr>
   <tr>
+    <th style="text-align:center">5/3/2022</th>
+    <th style="text-align:center">SANS</th>
+    <th style="text-align:center">2022 SANS CloudSecNext Summit</th>
+    <th style="text-align:center">16</th>
+    <th style="text-align:center"><a href="/ctfsite/certs/sans-cloudsecnext.pdf">View Certificate</a></th>
+  </tr>
+  <tr>
     <th style="text-align:center">5/19/2022</th>
     <th style="text-align:center">Antisyphon</th>
     <th style="text-align:center">MITRE ATT&CK Framework</th>
