@@ -2,8 +2,6 @@
 
 ---
 
-<br>
-
 <table>
   <tr>
     <th style="text-align:center">Date</th>
@@ -22,11 +20,11 @@
 
 <br>
 
+<br>
+
 ## Additional Training
 
 ---
-
-<br>
 
 <table>
   <tr>
