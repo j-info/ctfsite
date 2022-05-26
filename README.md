@@ -5,6 +5,21 @@
 
 <br>
 
+## *Biblioteca* on TryHackMe
+#### May 23rd 2022
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/sqlmap.png) ![](images/sqli.png) ![](images/mysql.png) ![](images/hydra.png) ![](images/python.png) ![](images/libraryhijacking.png)
+
+New box that came out a couple days ago. We find ourselves with a website vulnerable to SQLi which we use to obtain an initial foothold on the system. From there we laterally move after taking advantage of a weak password. And finally we use Python library hijacking to escalate to root.
+
+[**Biblioteca Walkthrough**](walkthroughs/2022-05-23-Biblioteca.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Gaara* on Proving Grounds
 #### May 20th 2022
 
