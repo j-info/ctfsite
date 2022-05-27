@@ -5,6 +5,21 @@
 
 <br>
 
+## *AllSignsPoint2Pwnage* on TryHackMe
+#### May 27th 2022
+
+Topics: ![](images/windows.png) ![](images/web.png) ![](images/ftp.png) ![](images/smb.png) ![](images/crackmapexec.png)
+
+This was a fun Windows based box that had us using FTP, SMB, PHP reverse shells, VNC, and plenty of manual enumeration.
+
+[**AllSignsPoint2Pwnage Walkthrough**](walkthroughs/2022-05-27-AllSignsPoint2Pwnage.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Biblioteca* on TryHackMe
 #### May 23rd 2022
 
