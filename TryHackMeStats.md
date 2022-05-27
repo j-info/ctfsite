@@ -10,7 +10,7 @@
 
 <br>
 
-### Total CTFs Completed: 66 of 257
+### Total CTFs Completed: 67 of 257
 
 <table>
   <tr>
@@ -21,7 +21,7 @@
   </tr>
   <tr>
     <td style="text-align:center">44 of 83</td>
-    <td style="text-align:center">18 of 123</td>
+    <td style="text-align:center">19 of 123</td>
     <td style="text-align:center">4 of 45</td>
     <td style="text-align:center">0 of 5</td>
   </tr>
@@ -268,7 +268,7 @@
   <table>
     <tr>
       <td style="text-align:center">0day</td>
-      <td style="text-align:center">AllSignsPoint2Pwnage</td>
+      <td style="color:#B5E853;text-align:center">AllSignsPoint2Pwnage</td>
       <td style="color:#B5E853;text-align:center">Anonymous</td>
       <td style="color:#B5E853;text-align:center">Aratus</td>
     </tr>
