@@ -182,11 +182,9 @@ Due to customer complaints about using FTP we have now moved 'images' to a hidde
 
 When we connect to **Installs$** and try to view the files we get an accessed denied message which answers the 4th objective: "What hidden, non-standard share is only remotely accessible as an administrative account?"
 
-Looking in the **Users** share:
+Looking in the **Users** share shows files we can access and I **mget** them all:
 
 `smbclient -N \\\\10.10.101.231\\Users`
-
-Looking in the **Users** share shows files we can access and I **mget** them all:
 
 ```bash
 smb: \> prompt
