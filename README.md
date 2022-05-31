@@ -12,16 +12,22 @@ I attended this emergency webcast today where Jake Williams from the SANS Instit
 
 This exploit abuses the ms-mdt protocol handler and there are already several POC published. In addition it's pretty trivial to exploit.
 
+<br>
+
 ### A couple ways to mitigate:
 - Disable the MSDT protocol:
 > https://msrc-blog.microsoft.com/2022/05/30/guidance-for-cve-2022-30190-microsoft-support-diagnostic-tool-vulnerability/
 - Disable troubleshooting tools via GPO
 > reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\ScriptedDiagnostics" /t REG_DWORD /v EnableDiagnostics /d 0
 
+<br>
+
 ### A few ways to detect:
 - Check for msdt.exe running, this is the one thing that will always be a constant in this exploit
 - sdiagnhost.exe will be the parent process
 - Check to see if winword.exe connects to websites other than *.microsoft.com or *.office.com
+ 
+<br>
 
 ### Forensics and hunting:
 - Check the Microsoft Office internet cache:
