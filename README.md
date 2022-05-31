@@ -3,6 +3,38 @@
 
 ---
 
+## SANS Emergency Webcast - MSDT "Follina" (CVE-2022-30190)
+#### May 31st 2022
+
+Topics: ![](images/cve.png)
+
+I attended this emergency webcast today where Jake Williams from the SANS Institute covered Follina (CVE-2022-30190) and ways to detect, mitigate, and hunt for it.
+
+This exploit abuses the ms-mdt protocol handler and there are already several POC published. In addition it's pretty trivial to exploit.
+
+### A couple ways to mitigate:
+- Disable the MSDT protocol:
+> https://msrc-blog.microsoft.com/2022/05/30/guidance-for-cve-2022-30190-microsoft-support-diagnostic-tool-vulnerability/
+- Disable troubleshooting tools via GPO
+> reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\ScriptedDiagnostics" /t REG_DWORD /v EnableDiagnostics /d 0
+
+### A few ways to detect:
+- Check for msdt.exe running, this is the one thing that will always be a constant in this exploit
+- sdiagnhost.exe will be the parent process
+- Check to see if winword.exe connects to websites other than *.microsoft.com or *.office.com
+
+### Forensics and hunting:
+- Check the Microsoft Office internet cache:
+> reg query "hkcu\software\microsoft\office\16.0\common\internet\server cache"
+- Yara rule by Joe Security:
+> https://joesecurity.org/resources/follina.yara
+- Sigma rules by Chris Peacock or Kostas:
+> https://github.com/securepeacock/sigma/blob/963289fbbc961454979d3b0219ac103a4142e1b4/rules/windows/process_creation/proc_creation_win_msdt_follina.yml
+
+<br>
+
+---
+
 <br>
 
 ## *Thompson* on TryHackMe
@@ -34,6 +66,30 @@ This was a fun Windows based box that had us using FTP, SMB, PHP reverse shells,
 ---
 
 <br>
+
+## Antisyphon: Active Defense & Cyber Deception
+#### May 26th 2022
+
+Topics: ![](images/learning.png)
+
+This was a 4 day class taught by former SANS instructor John Strand. A few of the topics covered were:
++ Various open source tools that can be easily configured and setup in your environment to detect, delay, and gather information on attackers
++ The legality of active defense: what to avoid and what is ok based on actual legal precedence
++ The MITRE Engage framework
++ Canarytokens, port spoofing, honeypots, honeyports, and other honey measures
++ 9 different hands on labs
++ And much more
+
+This course really drove home how you can use active defense and cyber deception not just for malicious "hackback" type activies, but also for attribution, detection capabilities, and slowing attackers down giving you more time to respond. I had a great time taking this training and look forward to additional Antisyphon classes soon!
+
+[**View Certificate**](certs/as-activedefensecyberdeception.pdf)
+
+<br>
+
+---
+
+<br>
+
 
 ## *Biblioteca* on TryHackMe
 #### May 23rd 2022
