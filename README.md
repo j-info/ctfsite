@@ -12,12 +12,10 @@ I attended this emergency webcast today where Jake Williams from the SANS Instit
 
 This exploit abuses the ms-mdt protocol handler and there are already several POC published. In addition it's pretty trivial to exploit.
 
-<br>
-
 ### A couple ways to mitigate:
 - Disable the MSDT protocol:
-> https://msrc-blog.microsoft.com/2022/05/30/guidance-for-cve-2022-30190-microsoft-support-diagnostic-tool-vulnerability/
-- Disable troubleshooting tools via GPO
+> [**https://msrc-blog.microsoft.com/2022/05/30/guidance-for-cve-2022-30190-microsoft-support-diagnostic-tool-vulnerability/**](https://msrc-blog.microsoft.com/2022/05/30/guidance-for-cve-2022-30190-microsoft-support-diagnostic-tool-vulnerability/)
+- Disable troubleshooting tools via GPO:
 > reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\ScriptedDiagnostics" /t REG_DWORD /v EnableDiagnostics /d 0
 
 <br>
@@ -33,9 +31,10 @@ This exploit abuses the ms-mdt protocol handler and there are already several PO
 - Check the Microsoft Office internet cache:
 > reg query "hkcu\software\microsoft\office\16.0\common\internet\server cache"
 - Yara rule by Joe Security:
-> https://joesecurity.org/resources/follina.yara
+> [**https://joesecurity.org/resources/follina.yara**](https://joesecurity.org/resources/follina.yara)
 - Sigma rules by Chris Peacock or Kostas:
-> https://github.com/securepeacock/sigma/blob/963289fbbc961454979d3b0219ac103a4142e1b4/rules/windows/process_creation/proc_creation_win_msdt_follina.yml
+> [**https://github.com/securepeacock/sigma/blob/963289fbbc961454979d3b0219ac103a4142e1b4/rules/windows/process_creation/proc_creation_win_msdt_follina.yml**](https://github.com/securepeacock/sigma/blob/963289fbbc961454979d3b0219ac103a4142e1b4/rules/windows/process_creation/proc_creation_win_msdt_follina.yml)
+[**https://github.com/tsale/Sigma_rules/blob/main/windows_exploitation/ms-msdt_exploitation.yml**](https://github.com/tsale/Sigma_rules/blob/main/windows_exploitation/ms-msdt_exploitation.yml)
 
 <br>
 
