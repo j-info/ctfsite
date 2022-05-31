@@ -5,6 +5,21 @@
 
 <br>
 
+## *Thompson* on TryHackMe
+#### May 30th 2022
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/tomcat.png) ![](images/msfvenom.png) ![](images/cron.png) ![](images/scripting.png)
+
+This was a quick and easy box with default credentials that let us into the Apache Tomcat manager panel. From there we were able to deplaoy a WAR reverse shell and ended up finding a cron job that ran as root calling a script we could modify for privilege escalation.
+
+[**Thompson Walkthrough**](walkthroughs/2022-05-30-Thompson.md)
+
+<br>
+
+---
+
+<br>
+
 ## *AllSignsPoint2Pwnage* on TryHackMe
 #### May 27th 2022
 
