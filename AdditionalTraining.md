@@ -63,10 +63,10 @@
     <th style="text-align:center"><a href="/ctfsite/certs/as-mitreattackframework.pdf">View Certificate</a></th>
   </tr>
   <tr>
-    <th style="text-align:center">5/23/2022</th>
+    <th style="text-align:center">5/26/2022</th>
     <th style="text-align:center">Antisyphon</th>
     <th style="text-align:center">Active Defense & Cyber Deception</th>
     <th style="text-align:center">16</th>
-    <th style="text-align:center">In Progress - Done on 5/26</th>
+    <th style="text-align:center"><a href="/ctfsite/certs/as-activedefensecyberdeception.pdf">View Certificate</a></th>
   </tr>
 </table>
