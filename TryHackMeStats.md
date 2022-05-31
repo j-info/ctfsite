@@ -10,7 +10,7 @@
 
 <br>
 
-### Total CTFs Completed: 67 of 257
+### Total CTFs Completed: 68 of 257
 
 <table>
   <tr>
@@ -20,7 +20,7 @@
     <th style="text-align:center">Insane</th>
   </tr>
   <tr>
-    <td style="text-align:center">44 of 83</td>
+    <td style="text-align:center">45 of 83</td>
     <td style="text-align:center">19 of 123</td>
     <td style="text-align:center">4 of 45</td>
     <td style="text-align:center">0 of 5</td>
@@ -240,7 +240,7 @@
     <tr>
       <td style="color:#B5E853;text-align:center">Startup</td>
       <td style="color:#B5E853;text-align:center">Team</td>
-      <td style="text-align:center">Thompson</td>
+      <td style="color:#B5E853;text-align:center">Thompson</td>
       <td style="color:#B5E853;text-align:center">tomghost</td>
     </tr>
     <tr>
