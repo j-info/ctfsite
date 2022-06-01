@@ -65,10 +65,10 @@ Decoding that string:
 `echo "Y3liZXJzcGxvaXR7eW91dHViZS5jb20vYy9jeWJlcnNwbG9pdH0=" | base64 -d`
 
 ```
-cybersploit{youtube.com/c/cybersploit}
+<REDACTED>
 ```
 
-Visiting that webpage doesn't provide anything for the CTF but it does look like it's probably the channel for the maker of this challenge.
+Visiting that YouTube page doesn't provide anything for the CTF but it does look like it's probably the channel for the maker of this challenge.
 
 Looking at **/hacker** just shows us the image on the home page.
 
@@ -76,7 +76,7 @@ Looking at **/hacker** just shows us the image on the home page.
 
 ## System Access
 
-Not having much else to go on I try the decoded base64 string (which looks more like a flag than a password) and it works for an ssh in as itsskv:
+Not having much else to go on I try the decoded base64 string as a password (which looks more like a flag than a password) and it works for an ssh in as itsskv:
 
 ```
 itsskv@192.168.216.92's password: 
@@ -137,7 +137,7 @@ Taking a look at **/etc/issues** shows us that it's:
 Ubuntu 12.04.5 LTS \n \l
 ```
 
-Doing a quick google search for "ubuntu 12.04.5 exploit" shows us this as the top result:
+Doing a quick **google search** for "ubuntu 12.04.5 exploit" shows us this as the top result:
 
 ![](images/cybersploit14.png)
 
