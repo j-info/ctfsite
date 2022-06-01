@@ -5,6 +5,21 @@
 
 <br>
 
+## *CyberSploit1* on Proving Grounds
+#### June 1st 2022
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/cve.png)
+
+This was a quick and easy box with default credentials that let us into the Apache Tomcat manager panel. From there we were able to deplaoy a WAR reverse shell and ended up finding a cron job that ran as root calling a script we could modify for privilege escalation.
+
+[**CyberSploit1 Walkthrough**](walkthroughs/2022-06-01-CyberSploit1.md)
+
+<br>
+
+---
+
+<br>
+
 ## SANS Emergency Webcast - MSDT "Follina" (CVE-2022-30190)
 #### May 31st 2022
 
