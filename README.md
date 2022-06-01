@@ -34,7 +34,6 @@ This exploit abuses the ms-mdt protocol handler and there are already several PO
 > [**https://joesecurity.org/resources/follina.yara**](https://joesecurity.org/resources/follina.yara)
 - Sigma rules by Chris Peacock or Kostas:
 > [**https://github.com/securepeacock/sigma/blob/963289fbbc961454979d3b0219ac103a4142e1b4/rules/windows/process_creation/proc_creation_win_msdt_follina.yml**](https://github.com/securepeacock/sigma/blob/963289fbbc961454979d3b0219ac103a4142e1b4/rules/windows/process_creation/proc_creation_win_msdt_follina.yml)
-
 >[**https://github.com/tsale/Sigma_rules/blob/main/windows_exploitation/ms-msdt_exploitation.yml**](https://github.com/tsale/Sigma_rules/blob/main/windows_exploitation/ms-msdt_exploitation.yml)
 
 <br>
