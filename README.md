@@ -3,6 +3,8 @@
 
 ---
 
+<br>
+
 ## SANS Emergency Webcast - MSDT "Follina" (CVE-2022-30190)
 #### May 31st 2022
 
