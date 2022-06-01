@@ -10,7 +10,7 @@
 
 Topics: ![](images/linux.png) ![](images/web.png) ![](images/cve.png)
 
-This was a quick and easy box with default credentials that let us into the Apache Tomcat manager panel. From there we were able to deplaoy a WAR reverse shell and ended up finding a cron job that ran as root calling a script we could modify for privilege escalation.
+This system we find a username in the web pages source code, a password in robots.txt, and then ssh over for our initial foothold. Then we see the system was running a very old version of Ubuntu that's vulnerable to the **CVE-2015-1328** aka **overlayfs** exploit which we use to escalate our privileges to root.
 
 [**CyberSploit1 Walkthrough**](walkthroughs/2022-06-01-CyberSploit1.md)
 
