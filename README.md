@@ -5,6 +5,21 @@
 
 <br>
 
+## *Katana* on Proving Grounds
+#### June 3rd 2022
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/cms.png) ![](images/capabilities.png)
+
+A lot of website enumeration was required on this CTF since there were 3 different websites and rabbit holes to dig into. We eventually find an upload form that allows us to send a php reverse shell and establish our initial foothold on the system. After that we find cap_setuid+ep set on python2.7 and use it to escalate to root.
+
+[**Katana Walkthrough**](walkthroughs/2022-06-03-Katana.md)
+
+<br>
+
+---
+
+<br>
+
 ## *CyberSploit1* on Proving Grounds
 #### June 1st 2022
 
