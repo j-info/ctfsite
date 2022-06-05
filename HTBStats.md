@@ -10,7 +10,7 @@
 
 <br>
 
-### Total CTFs Completed: 9 of 278
+### Total CTFs Completed: 9 of 284
 
 <table>
   <tr>
@@ -20,10 +20,10 @@
     <th style="text-align:center">Insane</th>
   </tr>
   <tr>
-    <td style="text-align:center">8 of 84</td>
-    <td style="text-align:center">1 of 92</td>
-    <td style="text-align:center">0 of 62</td>
-    <td style="text-align:center">0 of 40</td>
+    <td style="text-align:center">8 of 86</td>
+    <td style="text-align:center">1 of 94</td>
+    <td style="text-align:center">0 of 63</td>
+    <td style="text-align:center">0 of 41</td>
   </tr>
 </table>
 
@@ -192,8 +192,8 @@
     <tr>
       <td style="color:#B5E853;text-align:center">Validation</td>
       <td style="text-align:center">Writeup</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
+      <td style="text-align:center">Late</td>
+      <td style="text-align:center">OpenSource</td>
     </tr>
   </table>
 </div>
@@ -338,6 +338,12 @@
       <td style="text-align:center">Writer</td>
       <td style="text-align:center">Ypuffy</td>
     </tr>
+    <tr>
+      <td style="text-align:center">Noter</td>
+      <td style="text-align:center">StreamIO</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+    </tr>
   </table>
 </div>
 <button class="collapsible">Hard</button>
@@ -436,7 +442,7 @@
     <tr>
       <td style="text-align:center">Zipper</td>
       <td style="text-align:center">OverGraph</td>
-      <td style="text-align:center"></td>
+      <td style="text-align:center">Seventeen</td>
       <td style="text-align:center"></td>
     </tr>
   </table>
@@ -503,6 +509,12 @@
       <td style="text-align:center">Smasher2</td>
       <td style="text-align:center">Stacked</td>
       <td style="text-align:center">Toby</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Response</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
     </tr>
   </table>
 </div>
