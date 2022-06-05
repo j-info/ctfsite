@@ -10,7 +10,7 @@
 
 Topics: ![](images/linux.png) ![](images/mysql.png) ![](images/hydra.png) ![](images/crypto.png) ![](images/python.png) ![](images/scripting.png)
 
-An interesting box that finds us brute forcing our way into an exposed MySql database to find some Fernet encrypted credentials which we decrypt to establish an initial foothold. Then we find a python script that can be executed as root to escalate our privileges.
+An interesting box that finds us brute forcing our way into an exposed MySQL database to find some Fernet encrypted credentials which we decrypt to establish an initial foothold. Then we find a python script that can be executed as root to escalate our privileges.
 
 [**PyExp Walkthrough**](walkthroughs/2022-06-04-PyExp.md)
 
