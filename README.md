@@ -5,6 +5,21 @@
 
 <br>
 
+## *FunboxEasy* on Proving Grounds
+#### June 9th 2022
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/sqli.png) ![](images/cms.png) ![](images/sudo.png)
+
+This box has several websites to investigate and we eventually find one we're able to login as admin to and use a php reverse shell to gain our initial foothold. After that we find user credentials in a file and use those to laterally move. The user we move to has sudo privileges for both pkexec and time, and we can use either to escalate to root.
+
+[**FunboxEasy Walkthrough**](walkthroughs/2022-06-08-FunboxEasy.md)
+
+<br>
+
+---
+
+<br>
+
 ## Security+ Certification
 #### June 6th 2022
 
