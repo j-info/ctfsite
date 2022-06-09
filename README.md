@@ -12,7 +12,7 @@ Topics: ![](images/linux.png) ![](images/web.png) ![](images/sqli.png) ![](image
 
 This box has several websites to investigate and we eventually find one we're able to login as admin to and use a php reverse shell to gain our initial foothold. After that we find user credentials in a file and use those to laterally move. The user we move to has sudo privileges for both pkexec and time, and we can use either to escalate to root.
 
-[**FunboxEasy Walkthrough**](walkthroughs/2022-06-08-FunboxEasy.md)
+[**FunboxEasy Walkthrough**](walkthroughs/2022-06-09-FunboxEasy.md)
 
 <br>
 
