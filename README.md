@@ -5,6 +5,23 @@
 
 <br>
 
+## Security+ Certification
+#### June 6th 2022
+
+Topics: ![](images/learning.png)
+
+The Evolve bootcamp I've been in since January will be ending in a little over 2 weeks so I'm preparing for the final project and test there, as well as spending a lot of time studying for the Security+ certification.
+
+The bootcamp includes an exam voucher for the Security+ and I decided to take a work backwards approach and schedule a date to sit for the exam. I've always liked this approach since it let's you avoid the trap of drawing the process out longer than it needs to be and forces you to really focus on the objective.
+
+So with that said I'll be taking the exam on June 29th, and because of that you'll see less CTF walkthroughs here than normal since I'm focusing on finishing the bootcamp and studying for the Security+.
+
+<br>
+
+---
+
+<br>
+
 ## *PyExp* on Proving Grounds
 #### June 4th 2022
 
