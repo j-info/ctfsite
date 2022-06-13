@@ -5,6 +5,21 @@
 
 <br>
 
+## *FunboxRookie* on Proving Grounds
+#### June 12th 2022
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/ftp.png) ![](images/jtr.png) ![](images/sudo.png)
+
+A quick finish on this one. We find password protected .zip files on an FTP server that we can login to anonymously. We download the .zip files, crack the passwords, and unzip them to find they contain id_rsa files. We use one of those to ssh into the system and find clear text credentials inside of a .mysql_history file, and use credentials to check sudo -l which shows us we can run anything as root.
+
+[**FunboxRookie Walkthrough**](walkthroughs/2022-06-12-FunboxRookie.md)
+
+<br>
+
+---
+
+<br>
+
 ## *FunboxEasy* on Proving Grounds
 #### June 9th 2022
 
