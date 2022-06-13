@@ -64,7 +64,7 @@ PORT      STATE SERVICE VERSION
 
 ## Website Digging
 
-The main page has a default unconfigured Apache2 page.
+The main page is a default unconfigured Apache2 site.
 
 **robots.txt** has the following in it:
 
