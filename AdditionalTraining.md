@@ -69,4 +69,18 @@
     <th style="text-align:center">16</th>
     <th style="text-align:center"><a href="/ctfsite/certs/as-activedefensecyberdeception.pdf">View Certificate</a></th>
   </tr>
+  <tr>
+    <th style="text-align:center">6/16/2022</th>
+    <th style="text-align:center">SANS</th>
+    <th style="text-align:center">2022 SANS Ransomware Summit</th>
+    <th style="text-align:center">8</th>
+    <th style="text-align:center">TBD</th>
+  </tr>
+  <tr>
+    <th style="text-align:center">6/21/2022</th>
+    <th style="text-align:center">Antisyphon</th>
+    <th style="text-align:center">Intelligence Investigations: Business</th>
+    <th style="text-align:center">8</th>
+    <th style="text-align:center">TBD</th>
+  </tr>
 </table>
