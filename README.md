@@ -5,6 +5,21 @@
 
 <br>
 
+## *SunsetNoontide* on Proving Grounds
+#### June 20th 2022
+
+Topics: ![](images/linux.png) ![](images/unrealircd.png) ![](images/metasploit.png) ![](images/defaultcreds.png)
+
+Very easy machine. We find an UnrealIRCd server running on the system that's vulnerable to an RCE exploit and use that to establish a foothold on the system. Then we find default credentials for the root user and escalate our privileges that way.
+
+[**SunsetNoontide Walkthrough**](walkthroughs/2022-06-20-SunsetNoontide.md)
+
+<br>
+
+---
+
+<br>
+
 ## *FunboxRookie* on Proving Grounds
 #### June 12th 2022
 
