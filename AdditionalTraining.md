@@ -73,8 +73,8 @@
     <th style="text-align:center">6/16/2022</th>
     <th style="text-align:center">SANS</th>
     <th style="text-align:center">2022 SANS Ransomware Summit</th>
-    <th style="text-align:center">8</th>
-    <th style="text-align:center">TBD</th>
+    <th style="text-align:center">14</th>
+    <th style="text-align:center"><a href="/ctfsite/certs/sans-ransomwaresummit.pdf">View Certificate</a></th>
   </tr>
   <tr>
     <th style="text-align:center">6/21/2022</th>

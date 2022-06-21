@@ -20,6 +20,28 @@ Very easy machine. We find an UnrealIRCd server running on the system that's vul
 
 <br>
 
+## SANS Ransomware Summit 2022
+#### June 16th and 17th 2022
+
+Topics: ![](images/learning.png)
+
+This summit was 14 hours split over 2 days and had some very interesting and useful information covering a wide range of randomware topics. Some of the presentations I found the most interesting were:
+
++ How to engage with an attacker after you've fallen victim to an attack
++ Cryptocurrency and it's role in organized cybercrime
++ The cybercriminal supply chain and how it's differenct pieces are getting more and more specialized, and how they're starting to function more like legit businesses
++ And an incident response retelling from a targetted ransomware attack in the industrial sector
+
+This is the 3rd summit I've attended from SANS and they're always such great events.
+
+[**View Certificate**](certs/sans-ransomwaresummit.pdf)
+
+<br>
+
+---
+
+<br>
+
 ## *FunboxRookie* on Proving Grounds
 #### June 12th 2022
 
