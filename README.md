@@ -3,6 +3,25 @@
 
 ---
 
+## Antisyphon - Intelligence Investigations: Business
+#### June 21st and 22nd 2022
+
+Topics: ![](images/learning.png)
+
+This was a 2 day course taught by Joe Gray that focused on advanced OSINT topics. Some of the topics covered were:
+- Deep dive into DNS for use in investigations
+- Public filings: where you can find them and what you can learn from them
+- Using social media sites to gather information for use in social engineering campaigns
+- Building technology maps, associated vendors, and more from job postings
+
+It rounded out with a CTF that required the use of techniques learned throughout the course to find required information which was a lot of fun. Thanks to Antisyphon for yet another great pay what you can course!
+
+[**View Certificate**](certs/as-intelligenceinvestigations.pdf)
+
+<br>
+
+---
+
 <br>
 
 ## *SunsetNoontide* on Proving Grounds
