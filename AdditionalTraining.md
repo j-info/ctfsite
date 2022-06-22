@@ -80,7 +80,7 @@
     <th style="text-align:center">6/21/2022</th>
     <th style="text-align:center">Antisyphon</th>
     <th style="text-align:center">Intelligence Investigations: Business</th>
-    <th style="text-align:center">8</th>
-    <th style="text-align:center">TBD</th>
+    <th style="text-align:center">16</th>
+    <th style="text-align:center"><a href="/ctfsite/certs/as-intelligenceinvestigations.pdf">View Certificate</a></th>
   </tr>
 </table>
