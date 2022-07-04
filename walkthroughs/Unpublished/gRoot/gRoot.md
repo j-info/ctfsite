@@ -57,7 +57,7 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
 
 Visiting the main page shows us it's a default Apache2 site that hasn't been configured yet:
 
-![](groot1.png)
+![](walkthroughs/Unpublished/gRoot/groot1.png)
 
 There is no **robots.txt** file so we don't find anything useful there.
 
@@ -111,7 +111,7 @@ User localuser may run the following commands on ip-10-50-153-253:
 
 Knowing that there is a privilege escalation vulnerability when you're able to run **vi** as root I head over to **GTFOBins** and look it up there:
 
-![](groot2.png)
+![](walkthroughs/Unpublished/gRoot/groot2.png)
 
 <br>
 
@@ -131,7 +131,7 @@ root
 
 Looking in the **/root** directory we find a file called **flag.txt** and the contents are:
 
-![](groot3.png)
+![](walkthroughs/Unpublished/gRoot/groot3.png)
 
 <br>
 
@@ -141,13 +141,13 @@ Looking in the **/root** directory we find a file called **flag.txt** and the co
 
 Looking in the **/home/localuser/Documents/backup/20210530_1830** directory shows us 2 files owned by the root user. One is an executable binary file and the other is a .sh script.
 
-![](groot4.png)
+![](walkthroughs/Unpublished/gRoot/groot4.png)
 
 Looking at the file permissions shows us that it's a SUID file meaning we can run the script as the owning user and that happens to be root in this case. It also shows us that everyone has read and execute privileges. Combining those means we can not only run it, but we can run it as root.
 
 Running `strings` on the binary file shows us that it calls the .sh script when ran:
 
-![](groot5.png)
+![](walkthroughs/Unpublished/gRoot/groot5.png)
 
 Looking at the .sh file shows us:
 
@@ -160,7 +160,7 @@ bash -i
 
 So when we run the binary file it will execute the .sh script, which runs a shell, and all of this will be done as the root user spawning us a root shell and allowing us to escalate our privileges:
 
-![](groot6.png)
+![](walkthroughs/Unpublished/gRoot/groot6.png)
 
 ---
 
@@ -184,11 +184,11 @@ Running that through hashcat cracks it pretty quickly:
 
 `hashcat -m 1800 -w 3 -D 1,2 hash.txt rockyou.txt`
 
-![](groot7.png)
+![](walkthroughs/Unpublished/gRoot/groot7.png)
 
 I then run `su root` and use the password that was just cracked to login as root:
 
-![](groot8.png)
+![](walkthroughs/Unpublished/gRoot/groot8.png)
 
 If you're curious why the **/etc/shadow** file is set to 777 permissions check out **/etc/cron.hourly/rootme** which is a job that runs every hour and changes the permission on the file:
 
@@ -215,7 +215,7 @@ I first create a new **sha512crypt** password hash of the word **jason** and the
 
 Once that's done I run `su jason` and login with the password **jason** and we get root:
 
-![](groot9.png)
+![](walkthroughs/Unpublished/gRoot/groot9.png)
 
 ---
 
@@ -241,11 +241,11 @@ But if we edit it with vim.basic:
 
 `vim.basic /etc/sudoers`
 
-![](groot10.png)
+![](walkthroughs/Unpublished/gRoot/groot10.png)
 
 It works, and on top of that we can change the file. We can change our localuser account to have full sudo access. I comment out the 2 lines at the bottom for our user and then add a line below the root account with ALL to everything:
 
-![](groot11.png)
+![](walkthroughs/Unpublished/gRoot/groot11.png)
 
 Note: you have to use **:wq!** to get it to save the file.
 
@@ -320,7 +320,7 @@ And then I start the service which connects back to our system and gives us a ro
 
 `/bin/systemctl start test`
 
-![](groot12.png)
+![](walkthroughs/Unpublished/gRoot/groot12.png)
 
 ---
 
@@ -328,7 +328,7 @@ And then I start the service which connects back to our system and gives us a ro
 
 I downloaded a copy of PwnKit from github to my ESA machine and compiled it, then transferred it over to the gRoot box and made it executable. When running the exploit you immediately get root:
 
-![](groot12.png)
+![](walkthroughs/Unpublished/gRoot/groot13.png)
 
 <br>
 
