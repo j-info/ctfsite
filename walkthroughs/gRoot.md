@@ -162,6 +162,8 @@ So when we run the binary file it will execute the .sh script, which runs a shel
 
 ![](images/groot6.jpg)
 
+<br>
+
 ---
 
 <br>
@@ -201,6 +203,8 @@ If you're curious why the **/etc/shadow** file is set to 777 permissions check o
  chmod 777 /etc/shadow
 ```
 
+<br>
+
 ---
 
 <br>
@@ -220,6 +224,8 @@ I first create a new **sha512crypt** password hash of the word **jason** and the
 Once that's done I run `su jason` and login with the password **jason** and we get root:
 
 ![](images/groot9.jpg)
+
+<br>
 
 ---
 
@@ -276,6 +282,8 @@ root@ip-10-50-153-253:~# whoami
 root
 ```
 
+<br>
+
 ---
 
 <br>
@@ -329,6 +337,8 @@ And then I start the service which connects back to our system and gives us a ro
 `/bin/systemctl start test`
 
 ![](images/groot12.jpg)
+
+<br>
 
 ---
 
