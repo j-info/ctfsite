@@ -15,6 +15,12 @@
     <th style="text-align:center">1/13/2025</th>
     <th style="text-align:center"><a href="/ctfsite/certs/aws-cloudpractitioner.pdf">View Certificate</a></th>
   </tr>
+  <tr>
+    <th style="text-align:center">7/12/2022</th>
+    <th style="text-align:center">CompTIA Security+</th>
+    <th style="text-align:center">7/12/2025</th>
+    <th style="text-align:center"><a href="/ctfsite/certs/comptia-securityplus.pdf">View Certificate</a></th>
+  </tr>
 </table>
 
 
