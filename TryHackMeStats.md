@@ -10,7 +10,7 @@
 
 <br>
 
-### Total CTFs Completed: 68 of 257
+### Total CTFs Completed: 69 of 263
 
 <table>
   <tr>
@@ -20,9 +20,9 @@
     <th style="text-align:center">Insane</th>
   </tr>
   <tr>
-    <td style="text-align:center">45 of 83</td>
-    <td style="text-align:center">19 of 123</td>
-    <td style="text-align:center">4 of 45</td>
+    <td style="text-align:center">45 of 84</td>
+    <td style="text-align:center">20 of 124</td>
+    <td style="text-align:center">4 of 46</td>
     <td style="text-align:center">0 of 5</td>
   </tr>
 </table>
@@ -400,7 +400,7 @@
     </tr>
     <tr>
       <td style="text-align:center">REvil Corp</td>
-      <td style="text-align:center">Road</td>
+      <td style="color:#B5E853;text-align:center">Road</td>
       <td style="text-align:center">SafeZone</td>
       <td style="text-align:center">Scripting</td>
     </tr>
