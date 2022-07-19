@@ -8,7 +8,7 @@
 ## *Road* on TryHackMe
 #### July 19th 2022
 
-Topics: ![](images/linux.png) ![](images/web.png) ![](images/burp.png) ![](images/montodb.png) ![](images/ldpreload.png)
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/burp.png) ![](images/mongodb.png) ![](images/ldpreload.png)
 
 Very easy machine. We find an UnrealIRCd server running on the system that's vulnerable to an RCE exploit and use that to establish a foothold on the system. Then we find default credentials for the root user and escalate our privileges that way.
 
