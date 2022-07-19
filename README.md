@@ -10,7 +10,7 @@
 
 Topics: ![](images/linux.png) ![](images/web.png) ![](images/burp.png) ![](images/mongodb.png) ![](images/ldpreload.png)
 
-Very easy machine. We find an UnrealIRCd server running on the system that's vulnerable to an RCE exploit and use that to establish a foothold on the system. Then we find default credentials for the root user and escalate our privileges that way.
+This was a fun CTF that saw us exploiting a password reset mechanism to gain admin access on the website and then using that to get an initial foothold on the system. From there we found some credentials in a Mongo database and were able to laterally move to another user. Finally that user had sudo access to run a backup utility along with LD_PRELOAD being set allowing us to create a malicious .c script, compile it, and use it to escalate to root while calling the backup utility.
 
 [**Road Walkthrough**](walkthroughs/2022-07-19-Road.md)
 
