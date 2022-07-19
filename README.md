@@ -5,6 +5,21 @@
 
 <br>
 
+## *Road* on TryHackMe
+#### July 19th 2022
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/burp.png) ![](images/montodb.png) ![](images/ldpreload.png)
+
+Very easy machine. We find an UnrealIRCd server running on the system that's vulnerable to an RCE exploit and use that to establish a foothold on the system. Then we find default credentials for the root user and escalate our privileges that way.
+
+[**Road Walkthrough**](walkthroughs/2022-07-19-Road.md)
+
+<br>
+
+---
+
+<br>
+
 ## General Update
 #### July 18th 2022
 
