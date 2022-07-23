@@ -38,11 +38,13 @@ This was a fun CTF that saw us exploiting a password reset mechanism to gain adm
 ## General Update
 #### July 18th 2022
 
+Topics: ![](images/learning.png)
+
 These past 3 weeks have been pretty crazy leaving me no time to update this blog. The Security+ exam I was supposed to take on June 29th had to be rescheduled due to technical issues at the testing center and was moved to July 12th. I passed on my first try!
 
 [**View Certificate**](https://www.credly.com/badges/37096bdd-da9f-4655-93f8-b8f9d2f54bd2)
 
-The intensive 5 month Evolve Security Academy bootcamp I was in came to a close and we had 2 weeks to complete the multi-part finals, which are now done. Just before the finals our capstone project was a real world vulnerability assessment on a company Evolve Security lined up and the students were responsible for finding vulnerabilities, creating a deliverable report to the customer, and presenting the findings to the customer over Zoom. I was one of the 4 presenters selected to go over findings with the customer.
+The intensive 5 month Evolve Security Academy bootcamp I was in came to a close and we had 2 weeks to complete the multi-part finals, which are now done. Just before the finals our capstone project was a real world vulnerability assessment on a company Evolve Security lined up and the students were responsible for finding vulnerabilities, creating a deliverable report for the customer, and presenting the findings to the customer over Zoom. I was one of the 4 presenters selected to go over findings with the customer.
 
 And as a huge bonus I was offered a job as a Teachers Assistant in the next bootcamp starting at the end of July. I've accepted and will be joining the Evolve Security Academy team as a result.
 
