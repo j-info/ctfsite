@@ -1,4 +1,6 @@
-[<img src="images-other/thm-progress.png">](TryHackMeStats.md)   [<img src="images-other/htb-progress.png">](HTBStats.md)
+[<img src="images-other/thm-progress.png">](TryHackMeStats.md)
+[<img src="images-other/htb-progress.png">](HTBStats.md)
+[<img src="images-other/pg-progress.png">](PGStats.md)
 [<img src="images-other/additionaltraining.png">](AdditionalTraining.md)
 
 ---
