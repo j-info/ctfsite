@@ -5,6 +5,21 @@
 
 <br>
 
+## *Olympus* on TryHackMe
+#### July 22nd 2022
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/sqli.png) ![](images/sqlmap.png) ![](images/hashcat.png) ![](images/burp.png) ![](images/suid.png) ![](images/jtr.png)
+
+A new room that was just released a few days ago. This was an SQL injection heavy CTF which was used along with hashcat to establish an initial foothold. After that we find a non-standard SUID file which allows us to laterally move to another user. We then find a backdoor installed on the system and are able to escalate to root through it. Had a good time going through this one!
+
+[**Olympus Walkthrough**](walkthroughs/2022-07-22-Olympus.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Road* on TryHackMe
 #### July 19th 2022
 
