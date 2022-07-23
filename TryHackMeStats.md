@@ -10,7 +10,7 @@
 
 <br>
 
-### Total CTFs Completed: 69 of 263
+### Total CTFs Completed: 72
 
 <table>
   <tr>
@@ -20,10 +20,10 @@
     <th style="text-align:center">Insane</th>
   </tr>
   <tr>
-    <td style="text-align:center">45 of 84</td>
-    <td style="text-align:center">20 of 124</td>
-    <td style="text-align:center">4 of 46</td>
-    <td style="text-align:center">0 of 5</td>
+    <td style="text-align:center">47</td>
+    <td style="text-align:center">21</td>
+    <td style="text-align:center">4</td>
+    <td style="text-align:center">0</td>
   </tr>
 </table>
 
@@ -259,6 +259,12 @@
       <td style="text-align:center">Wordpress: CVE-2021-29447</td>
       <td style="color:#B5E853;text-align:center">Year of the Rabbit</td>
       <td style="color:#B5E853;text-align:center">Tech_Supp0rt: 1</td>
+      <td style="color:#B5E853;text-align:center">Dig Dug</td>
+    </tr>
+    <tr>
+      <td style="color:#B5E853;text-align:center">Mr.Phisher</td>
+      <td style="text-align:center">Committed</td>
+      <td style="text-align:center">Quotient</td>
       <td style="text-align:center"></td>
     </tr>
   </table>
@@ -452,6 +458,12 @@
       <td style="color:#B5E853;text-align:center">Kubernetes Everyone</td>
       <td style="color:#B5E853;text-align:center">Biblioteca</td>
     </tr>
+    <tr>
+      <td style="text-align:center">Island Orchestration</td>
+      <td style="text-align:center">Annie</td>
+      <td style="color:#B5E853;text-align:center">Olympus</td>
+      <td style="text-align:center"></td>
+    </tr>
   </table>
 </div>
 <button class="collapsible">Hard</button>
@@ -525,7 +537,7 @@
     </tr>
     <tr>
       <td style="text-align:center">Plotted-LMS</td>
-      <td style="text-align:center"></td>
+      <td style="text-align:center">Sea Surfer</td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
     </tr>
