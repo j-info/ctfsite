@@ -10,7 +10,7 @@
 
 <br>
 
-### Total CTFs Completed: 9 of 284
+### Total CTFs Completed: 9
 
 <table>
   <tr>
@@ -20,10 +20,10 @@
     <th style="text-align:center">Insane</th>
   </tr>
   <tr>
-    <td style="text-align:center">8 of 86</td>
-    <td style="text-align:center">1 of 94</td>
-    <td style="text-align:center">0 of 63</td>
-    <td style="text-align:center">0 of 41</td>
+    <td style="text-align:center">8</td>
+    <td style="text-align:center">1</td>
+    <td style="text-align:center">0</td>
+    <td style="text-align:center">0</td>
   </tr>
 </table>
 
@@ -195,6 +195,12 @@
       <td style="text-align:center">Late</td>
       <td style="text-align:center">OpenSource</td>
     </tr>
+    <tr>
+      <td style="text-align:center">Trick</td>
+      <td style="text-align:center">RedPanda</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+    </tr>
   </table>
 </div>
 <button class="collapsible">Medium</button>
@@ -341,6 +347,11 @@
     <tr>
       <td style="text-align:center">Noter</td>
       <td style="text-align:center">StreamIO</td>
+      <td style="text-align:center">Scrambled</td>
+      <td style="text-align:center">Faculty</td>
+    </tr>
+      <td style="text-align:center">Shared</td>
+      <td style="text-align:center"></td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
     </tr>
@@ -443,6 +454,11 @@
       <td style="text-align:center">Zipper</td>
       <td style="text-align:center">OverGraph</td>
       <td style="text-align:center">Seventeen</td>
+      <td style="text-align:center">Carpediem</td>
+    </tr>
+      <td style="text-align:center">Extension</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
       <td style="text-align:center"></td>
     </tr>
   </table>
