@@ -130,6 +130,8 @@ hannah:x:1000:1000:hannah,,,:/home/hannah:/bin/bash
 
 I look for files with SUID set and find a couple out of the norm:
 
+`find / -perm /4000 2>/dev/null`
+
 ```
 /usr/bin/mawk
 /usr/bin/cpulimit
