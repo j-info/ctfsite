@@ -4,7 +4,7 @@
 
 <br>
 
-### Total CTFs Completed: 9
+### Total CTFs Completed: 10
 
 <table>
   <tr>
@@ -13,7 +13,7 @@
     <th style="text-align:center">Hard</th>
   </tr>
   <tr>
-    <td style="text-align:center">9</td>
+    <td style="text-align:center">10</td>
     <td style="text-align:center">0</td>
     <td style="text-align:center">0</td>
   </tr>
@@ -87,7 +87,7 @@
     </tr>
     <tr>
       <td style="text-align:center">Monitoring</td>
-      <td style="text-align:center">OnSystemShellDredd</td>
+      <td style="color:#B5E853;text-align:center">OnSystemShellDredd</td>
       <td style="text-align:center">Photographer</td>
       <td style="text-align:center">Potato</td>
     </tr>
