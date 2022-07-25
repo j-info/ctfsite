@@ -7,6 +7,21 @@
 
 <br>
 
+## *OnSystemShellDredd* on Proving Grounds
+#### July 25th 2022
+
+Topics: ![](images/linux.png) ![](images/ftp.png) ![](images/suid.png)
+
+This one was quick and easy with our nmap scan showing only 2 ports open: FTP and a non-standard SSH port. FTP allowed anonymous access and on the FTP server we found a private ssh key that allowed us on the system. From there we find a SUID file that allowed us to escalate to root.
+
+[**OnSystemShellDredd Walkthrough**](walkthroughs/2022-07-25-OnSystemShellDredd.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Olympus* on TryHackMe
 #### July 22nd 2022
 
