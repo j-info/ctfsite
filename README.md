@@ -7,6 +7,25 @@
 
 <br>
 
+## **eJPT v2 Studying
+#### July 30th 2022
+
+Topics: ![](images/learning.png)
+
+With the Security+ certification down my next goal is to move towards the eJPT v2 certification. It's currently in a transitional phase moving from a multiple choice exam (v1) to a practical exam (v2), but the course materials are already out there for v2 since it will be going live in the not too distant future.
+
+I signed up for the INE service earlier this week and have been going through the course. In total there are 144 hours of training across 4 sections, so it's quite extensive and so far I have to say it's very well done. It's in a video lecture and then practice what you learned in a lab format which I really like.
+
+I just completed section 1 which was 24 hours of training and covered the following with subsections under each:
+
+![](images-other/ejptv2-section1.jpg)
+
+<br>
+
+---
+
+<br>
+
 ## *OnSystemShellDredd* on Proving Grounds
 #### July 25th 2022
 
