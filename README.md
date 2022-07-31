@@ -7,6 +7,21 @@
 
 <br>
 
+## *Brute* on TryHackMe
+#### July 31st 2022
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/hydra.png) ![](images/mysql.png) ![](images/hashcat.png) ![](images/burp.png) ![](images/logpoisoning.png)
+
+This CTF was just released 2 days ago and it was heavy on brute forcing as the name suggests. Some other techniques such as log poisoning were needed which mixed things up a bit.
+
+[**Brute Walkthrough**](walkthroughs/2022-07-31-Brute.md)
+
+<br>
+
+---
+
+<br>
+
 ## **eJPT v2 Studying
 #### July 30th 2022
 
