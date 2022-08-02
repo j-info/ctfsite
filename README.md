@@ -22,7 +22,7 @@ This CTF was just released 2 days ago and it was heavy on brute forcing as the n
 
 <br>
 
-## **eJPT v2 Studying
+## *eJPT v2 Studying*
 #### July 30th 2022
 
 Topics: ![](images/learning.png)
