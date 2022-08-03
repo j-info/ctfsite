@@ -10,7 +10,7 @@
 
 <br>
 
-### Total CTFs Completed: 73
+### Total CTFs Completed: 74
 
 <table>
   <tr>
@@ -20,8 +20,8 @@
     <th style="text-align:center">Insane</th>
   </tr>
   <tr>
-    <td style="text-align:center">47</td>
-    <td style="text-align:center">21</td>
+    <td style="text-align:center">48</td>
+    <td style="text-align:center">22</td>
     <td style="text-align:center">4</td>
     <td style="text-align:center">0</td>
   </tr>
@@ -265,7 +265,7 @@
       <td style="color:#B5E853;text-align:center">Mr.Phisher</td>
       <td style="text-align:center">Committed</td>
       <td style="text-align:center">Quotient</td>
-      <td style="text-align:center"></td>
+      <td style="color:#B5E853;text-align:center">CyberHeroes</td>
     </tr>
   </table>
 </div>
