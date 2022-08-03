@@ -7,6 +7,19 @@
 
 <br>
 
+## *New Job!*
+#### August 1st 2022
+
+Topics: ![](images/learning.png)
+
+I started my first full time job in cybersecurity today! I was hired on at Evolve Security as a Security Analyst and will be primarily performing vulnerability assessments with some penetration testing thrown in as well. Very excited to continue to learn and grow in this field!
+
+<br>
+
+---
+
+<br>
+
 ## *Brute* on TryHackMe
 #### July 31st 2022
 
