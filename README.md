@@ -7,6 +7,21 @@
 
 <br>
 
+## *CyberHeroes* on TryHackMe
+#### August 3rd 2022
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/sourcecode.png)
+
+This is a very beginner friendly challenge and running the nmap scan took longer than solving the actual challenge here. No shell or anything like that you just need to figure out the username and password to login to the website and that's the end of the challenge.
+
+[**CyberHeroes Walkthrough**](walkthroughs/2022-08-03-CyberHeroes.md)
+
+<br>
+
+---
+
+<br>
+
 ## *New Job!*
 #### August 1st 2022
 
