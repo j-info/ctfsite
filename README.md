@@ -7,6 +7,21 @@
 
 <br>
 
+## *eJPT v2 Studying*
+#### August 4th 2022
+
+Topics: ![](images/learning.png)
+
+Section 2 of 4 down in the eJPT v2 training. This was a much shorter section covering general auditing. The next section is host and network pen testing, and it's over 100 hours of training, so that one's going to take a bit to complete!
+
+![](images-other/ejptv2-section2.jpg)
+
+<br>
+
+---
+
+<br>
+
 ## *CyberHeroes* on TryHackMe
 #### August 3rd 2022
 
