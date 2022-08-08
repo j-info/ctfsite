@@ -7,6 +7,21 @@
 
 <br>
 
+## *Dig Dug* on TryHackMe
+#### August 7th 2022
+
+Topics: ![](images/linux.png) ![](images/dns.png) ![](images/dig.png)
+
+I'm not sure why they turned this into a CTF when the solution was running a single dig command, but I finished it.
+
+[**Dig Dug**](walkthroughs/2022-08-07-DigDug.md)
+
+<br>
+
+---
+
+<br>
+
 ## *eJPT v2 Studying*
 #### August 4th 2022
 
