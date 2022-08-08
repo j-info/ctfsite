@@ -14,7 +14,7 @@ Topics: ![](images/linux.png) ![](images/dns.png) ![](images/dig.png)
 
 I'm not sure why they turned this into a CTF when the solution was running a single dig command, but I finished it.
 
-[**Dig Dug**](walkthroughs/2022-08-07-DigDug.md)
+[**Dig Dug Walkthrough**](walkthroughs/2022-08-07-DigDug.md)
 
 <br>
 
