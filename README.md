@@ -7,6 +7,19 @@
 
 <br>
 
+## *DEF CON!*
+#### August 10th 2022
+
+Topics: ![](images/learning.png)
+
+
+
+<br>
+
+---
+
+<br>
+
 ## *Dig Dug* on TryHackMe
 #### August 7th 2022
 
