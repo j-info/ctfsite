@@ -8,11 +8,13 @@
 <br>
 
 ## *DEF CON!*
-#### August 10th 2022
+#### August 9th 2022
 
 Topics: ![](images/learning.png)
 
+I'll be attending my first DEF CON in a couple days! Can't wait to see what it's all about and meet some interesting folks along the way.
 
+![](images-other/defcon30.jpg)
 
 <br>
 
