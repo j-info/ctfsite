@@ -8,6 +8,36 @@
 <br>
 
 ## *DEF CON!*
+#### August 15th 2022
+
+Topics: ![](images/learning.png)
+
+I had such a good time at DEF CON meeting up with my new co-workers at Evolve Security as well as people from the bootcamp I went through, it was great to meet everyone in person.
+
+The conference itself was something to experience for sure. So many smart and interesting people to meet, hang out with, and learn from. The talks were very well done and the hands on activities were also great. They had a really cool badge this year too which was a musical keyboard with challenges to complete on it.
+
+Some of the things I went and saw / did:
+
+- Practical Dark Web Hunting using Automated Scripts
+- Intro to Lockpicking
+- Vulnerability Assessment of a Satellite Simulator
+- The Big Rick: How I Rickrolled my High School District and Got Away With It
+- Tor: Darknet Opsec By a Veteran Darknet Vendor & the Hackers Mentality
+- Offensive Wireless Security 101
+- Hands on lockpicking and tamper proof hacking
+- Wandering around to all of the villages and meeting people
+
+Outside of that I went and saw the OmegaMart exhibit which was really fun and attended several of the DEF CON parties.
+
+If you haven't been I highly recommend it!
+
+<br>
+
+---
+
+<br>
+
+## *DEF CON!*
 #### August 9th 2022
 
 Topics: ![](images/learning.png)
