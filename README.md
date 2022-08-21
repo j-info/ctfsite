@@ -7,6 +7,21 @@
 
 <br>
 
+## *Confidential* on TryHackMe
+#### August 21st 2022
+
+Topics: ![](images/linux.png) ![](images/dfir.png)
+
+Brand new CTF that was just released 2 days ago that focuses on DFIR techniques to uncover a QR code that has images overlayed on top of it. This was a fun challenge!
+
+[**Confidential Walkthrough**](walkthroughs/2022-08-21-Confidential.md)
+
+<br>
+
+---
+
+<br>
+
 ## *DEF CON!*
 #### August 15th 2022
 
