@@ -89,4 +89,11 @@
     <th style="text-align:center">16</th>
     <th style="text-align:center"><a href="/ctfsite/certs/as-intelligenceinvestigations.pdf">View Certificate</a></th>
   </tr>
+  <tr>
+    <th style="text-align:center">8/04/2022</th>
+    <th style="text-align:center">SANS</th>
+    <th style="text-align:center">2022 SANS Security Awareness Summit</th>
+    <th style="text-align:center">16</th>
+    <th style="text-align:center"><a href="/ctfsite/certs/sans-securityawareness.pdf">View Certificate</a></th>
+  </tr>
 </table>
