@@ -10,7 +10,7 @@
 
 <br>
 
-### Total CTFs Completed: 74
+### Total CTFs Completed: 75
 
 <table>
   <tr>
@@ -20,7 +20,7 @@
     <th style="text-align:center">Insane</th>
   </tr>
   <tr>
-    <td style="text-align:center">48</td>
+    <td style="text-align:center">49</td>
     <td style="text-align:center">22</td>
     <td style="text-align:center">4</td>
     <td style="text-align:center">0</td>
@@ -266,6 +266,12 @@
       <td style="text-align:center">Committed</td>
       <td style="text-align:center">Quotient</td>
       <td style="color:#B5E853;text-align:center">CyberHeroes</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Agent T</td>
+      <td style="text-align:center">Nope</td>
+      <td style="color:#B5E853;text-align:center">Confidential</td>
+      <td style="text-align:center"></td>
     </tr>
   </table>
 </div>
