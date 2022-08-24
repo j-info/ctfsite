@@ -7,6 +7,21 @@
 
 <br>
 
+## *Annie* on TryHackMe
+#### August 23rd 2022
+
+Topics: ![](images/linux.png) ![](images/anydesk.png) ![](images/msfvenom.png) ![](images/sshkey.png) ![](images/jtr.png) ![](images/suid.png) ![](images/capabilities.png)
+
+This was a fun CTF where we found a vulnerable version of AnyDesk and exploited it for an initial foothold. After that we abuse SUID and capabilities to escalate over to root.
+
+[**Annie Walkthrough**](walkthroughs/2022-08-23-Annie.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Confidential* on TryHackMe
 #### August 21st 2022
 
