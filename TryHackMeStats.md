@@ -10,7 +10,7 @@
 
 <br>
 
-### Total CTFs Completed: 75
+### Total CTFs Completed: 76
 
 <table>
   <tr>
@@ -21,7 +21,7 @@
   </tr>
   <tr>
     <td style="text-align:center">49</td>
-    <td style="text-align:center">22</td>
+    <td style="text-align:center">23</td>
     <td style="text-align:center">4</td>
     <td style="text-align:center">0</td>
   </tr>
@@ -466,7 +466,7 @@
     </tr>
     <tr>
       <td style="text-align:center">Island Orchestration</td>
-      <td style="text-align:center">Annie</td>
+      <td style="color:#B5E853;text-align:center">Annie</td>
       <td style="color:#B5E853;text-align:center">Olympus</td>
       <td style="color:#B5E853;text-align:center">Brute</td>
     </tr>
