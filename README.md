@@ -7,6 +7,21 @@
 
 <br>
 
+## *b3dr0ck* on TryHackMe
+#### September 2nd 2022
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/certificate.png) ![](images/sshkey.png) ![](images/certutil.png) ![](images/decoding.png)
+
+We find a couple open services running on the system that allow us to recover ssh keys and certificates. Using those with another service allowed us to recover passwords and get a foothold on the system. From there we laterally move and decode / crack the root password.
+
+[**b3dr0ck Walkthrough**](walkthroughs/2022-09-02-b3dr0ck.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Annie* on TryHackMe
 #### August 23rd 2022
 
