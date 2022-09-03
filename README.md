@@ -22,6 +22,23 @@ We find a couple open services running on the system that allow us to recover ss
 
 <br>
 
+## *eJPT v2 Studying*
+#### August 28th 2022
+
+Topics: ![](images/learning.png)
+
+Completed the System/Host Based Attacks section 3-1 of the eJPT v2 training. This was 20.5 hours of training on Windows and Linux covering host based attacks, Windows/Linux vulnerabilities, Windows/Linux privilege escalation, Windows/Linux credential dumping, and Windows file system vulnerabilities.
+
+I'm still very happy with the quality of the training put out in v2 of this course. Learned a lot of new things to try during actual assessments.
+
+![](images-other/ejptv2-section3-1.jpg)
+
+<br>
+
+---
+
+<br>
+
 ## *Annie* on TryHackMe
 #### August 23rd 2022
 
