@@ -7,6 +7,21 @@
 
 <br>
 
+## *DC-1* on Proving Grounds
+#### September 10th 2022
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/drupal.png) ![](images/suid.png)
+
+We find a website running a vulnerable version of Drupal and exploit it for initial access to the system. After that we find misconfigured SUID files which we use to escalate to root.
+
+[**DC-1 Walkthrough**](walkthroughs/2022-09-10-DC-1.md)
+
+<br>
+
+---
+
+<br>
+
 ## *b3dr0ck* on TryHackMe
 #### September 2nd 2022
 
