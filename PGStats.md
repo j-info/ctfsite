@@ -13,7 +13,7 @@
     <th style="text-align:center">Hard</th>
   </tr>
   <tr>
-    <td style="text-align:center">10</td>
+    <td style="text-align:center">11</td>
     <td style="text-align:center">0</td>
     <td style="text-align:center">0</td>
   </tr>
@@ -62,7 +62,7 @@
 <div class="content">
   <table>
     <tr>
-      <td style="text-align:center">DC-1</td>
+      <td style="color:#B5E853;text-align:center">DC-1</td>
       <td style="text-align:center">BBSCute</td>
       <td style="color:#B5E853;text-align:center">CyberSploit1</td>
       <td style="text-align:center">Dawn</td>
