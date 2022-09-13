@@ -13,7 +13,7 @@
     <th style="text-align:center">Hard</th>
   </tr>
   <tr>
-    <td style="text-align:center">11</td>
+    <td style="text-align:center">12</td>
     <td style="text-align:center">0</td>
     <td style="text-align:center">0</td>
   </tr>
@@ -68,7 +68,7 @@
       <td style="text-align:center">Dawn</td>
     </tr>
     <tr>
-      <td style="text-align:center">DC-2</td>
+      <td style="color:#B5E853;text-align:center">DC-2</td>
       <td style="text-align:center">EvilBox-One</td>
       <td style="color:#B5E853;text-align:center">FunboxEasy</td>
       <td style="text-align:center">FunboxEasyEnum</td>
