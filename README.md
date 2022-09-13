@@ -7,6 +7,21 @@
 
 <br>
 
+## *DC-2* on Proving Grounds
+#### September 12th 2022
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/wordpress.png) ![](images/wpscan.png) ![](images/cewl.png) ![](images/cracking.png) ![](images/hydra.png) ![](images/restrictedshell.png) ![](images/sudo.png)
+
+Continuing on to the next CTF in the DC series we tackle DC-2 this time. This CTF has us enumerate a WordPress site, build a custom wordlist, and hydra our way into it. Ultimately we're able to just ssh in with the website credentials and find ourselves in a very restricted shell which we break out of, laterally move to another user, and then escalate to root.
+
+[**DC-2 Walkthrough**](walkthroughs/2022-09-12-DC-2.md)
+
+<br>
+
+---
+
+<br>
+
 ## *DC-1* on Proving Grounds
 #### September 10th 2022
 
