@@ -89,6 +89,13 @@
     <td style="text-align:center">32 Hours</td>
     <td style="text-align:center"><a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-IBJZFTD0XY.png">View Certificate</a></td>
   </tr>
+  <tr>
+    <td style="text-align:center">Red Teaming</td>
+    <td style="text-align:center">7% Complete</td>
+    <td style="text-align:center">Intermediate</td>
+    <td style="text-align:center">56 Hours</td>
+    <td style="text-align:center"></td>
+  </tr>
 </table>
 
 
