@@ -87,7 +87,7 @@ Installing it:
 Successfully installed dulwich-0.20.46 git-dumper-1.0.6
 ```
 
-It installed into a directory not in my path so I had to search it out, and it ended up being in /home/kali/local/bin. Running it:
+It installed into a directory not in my path so I had to search it out, and it ended up being in /home/kali/.local/bin. Running it:
 
 `/home/kali/.local/bin/git-dumper http://10.10.15.121/.git/ repo`
 
