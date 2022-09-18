@@ -7,6 +7,21 @@
 
 <br>
 
+## *Git Happens* on TryHackMe
+#### September 18th 2022
+
+Topics: ![](images/web.png) ![](images/git-dump.png) ![](images/git.png)
+
+We find a git repository on an external webpage but cloing it doesn't work, so a work around is needed. Once it's downloaded to our system we browse the commits and find the flag.
+
+[**Git Happens**](walkthroughs/2022-09-18-Git-Happens.md)
+
+<br>
+
+---
+
+<br>
+
 ## *DC-2* on Proving Grounds
 #### September 12th 2022
 
