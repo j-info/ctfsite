@@ -10,7 +10,7 @@
 
 <br>
 
-### Total CTFs Completed: 77
+### Total CTFs Completed: 78
 
 <table>
   <tr>
@@ -20,7 +20,7 @@
     <th style="text-align:center">Insane</th>
   </tr>
   <tr>
-    <td style="text-align:center">50</td>
+    <td style="text-align:center">51</td>
     <td style="text-align:center">23</td>
     <td style="text-align:center">4</td>
     <td style="text-align:center">0</td>
@@ -186,7 +186,7 @@
     </tr>
     <tr>
       <td style="color:#B5E853;text-align:center">GamingServer</td>
-      <td style="text-align:center">Git Happens</td>
+      <td style="color:#B5E853;text-align:center">Git Happens</td>
       <td style="text-align:center">GLITCH</td>
       <td style="color:#B5E853;text-align:center">Gotta Catch'em All!</td>
     </tr>
