@@ -56,6 +56,8 @@ This answers our 1st question of how many ports are open.
 /index.php            (Status: 200) [Size: 218]
 ```
 
+<br>
+
 ## Website Digging
 
 Visiting the main page:
