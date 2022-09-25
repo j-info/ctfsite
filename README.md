@@ -7,6 +7,21 @@
 
 <br>
 
+## *Agent Sudo* on TryHackMe
+#### September 24th 2022
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/burp.png) ![](images/ftp.png) ![](images/steg.png) ![](images/jtr.png) ![](images/scp.png) ![](images/tineye.png) ![](images/cve.png) ![](images/sudo.png)
+
+There was a lot going on in this CTF from modifying requests and fuzzing with Burp, steganography, reverse image searching, and more. This one was definitely very much a CTF and not as real world applicable as some of the others out there but it was still fun to go through!
+
+[**Agent Sudo**](walkthroughs/2022-09-24-Agent-Sudo.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Git Happens* on TryHackMe
 #### September 18th 2022
 
