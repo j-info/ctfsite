@@ -7,6 +7,21 @@
 
 <br>
 
+## *Team* on TryHackMe
+#### September 28th 2022
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/ffuf.png) ![](images/lfi.png) ![](images/decoding.png) ![](images/burp.png) ![](images/sudo.png) ![](images/scripting.png)
+
+This was a long one. We start off on a webserver and find an LFI vulnerability, then use that LFI issue with Burp to fuzz files on the system and recover a private SSH key for an initial foothold. Then we break out of a program we had sudo access to and laterally move to another user. Finally we have write permissions on a bash script that root executes via crontab and reverse shell back to us with it.
+
+[**Team Walkthrough**](walkthroughs/2022-09-28-Team.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Agent Sudo* on TryHackMe
 #### September 24th 2022
 
@@ -14,7 +29,7 @@ Topics: ![](images/linux.png) ![](images/web.png) ![](images/burp.png) ![](image
 
 There was a lot going on in this CTF from modifying requests and fuzzing with Burp, steganography, reverse image searching, and more. This one was definitely very much a CTF and not as real world applicable as some of the others out there but it was still fun to go through!
 
-[**Agent Sudo**](walkthroughs/2022-09-24-Agent-Sudo.md)
+[**Agent Sudo Walkthrough**](walkthroughs/2022-09-24-Agent-Sudo.md)
 
 <br>
 
@@ -29,7 +44,7 @@ Topics: ![](images/web.png) ![](images/git-dump.png) ![](images/git.png)
 
 We find a git repository on an external webpage but cloning it doesn't work, so a work around is needed. Once it's downloaded to our system we browse the commits and find the flag.
 
-[**Git Happens**](walkthroughs/2022-09-18-Git-Happens.md)
+[**Git Happens Walkthrough**](walkthroughs/2022-09-18-Git-Happens.md)
 
 <br>
 
