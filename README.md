@@ -7,6 +7,21 @@
 
 <br>
 
+## *Ignite* on TryHackMe
+#### October 4th 2022
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/fuelcms.png) ![](images/defaultcreds.png) ![](images/cve.png) ![](images/scripting.png)
+
+We find a vulnerable CMS with POC code that gives us RCE on the machine and use that to get a reverse shell. After that we find some credentials in a config file and use them to escalate to root.
+
+[**Ignite Walkthrough**](walkthroughs/2022-10-04-Ignite.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Team* on TryHackMe
 #### September 28th 2022
 
