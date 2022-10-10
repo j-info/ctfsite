@@ -7,6 +7,21 @@
 
 <br>
 
+## *RootMe* on TryHackMe
+#### October 9th 2022
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/suid.png)
+
+A very beginner friendly machine. Through initial enumeration a webpage with file uploads is found that allows us to upload a reverse shell. From there we find a binary with SUID set that shouldn't have it and use it to escalate to root.
+
+[**RootMe Walkthrough**](walkthroughs/2022-10-09-RootMe.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Ignite* on TryHackMe
 #### October 4th 2022
 
