@@ -12,7 +12,7 @@
 
 Topics: ![](images/linux.png) ![](images/web.png) ![](images/sweetrice.png) ![](images/cracking.png) ![](images/hashcat.png) ![](images/mysql.png) ![](images/sudo.png)
 
-We find a public facing MySQL databse with a username and password hash, which we crack and gain access to the website. From the admin panel we can upload a .php reverse shell to get our initial foothold on the system. From there we find a backup script we can run as sudo that calls another script we have write access to, and use that to escalate to root.
+We find a public facing MySQL database with a username, and password hash, which we crack and gain access to the website. From the admin panel we can upload a .php reverse shell to get our initial foothold on the system. From there we find a backup script we can run as sudo that calls another script we have write access to, and use that to escalate to root.
 
 [**LazyAdmin Walkthrough**](walkthroughs/2022-10-12-LazyAdmin.md)
 

