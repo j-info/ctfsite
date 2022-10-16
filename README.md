@@ -7,6 +7,21 @@
 
 <br>
 
+## *tomghost* on TryHackMe
+#### October 16th 2022
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/tomcat.png) ![](images/cve.png) ![](images/metasploit.png) ![](images/gpg.png) ![](images/jtr.png) ![](images/sudo.png)
+
+The website has a vulnerable tomcat version running that allows us to use the Ghostcat exploit to view sensitive files on the system and obtain login credentials. From there we find an encrypted message, and after decrypting it with GPG it contains additional login credentials allowing us to laterally move to another user. That user can run zip as root and we escalate over to root with it.
+
+[**tomghost Walkthrough**](walkthroughs/2022-10-16-tomghost.md)
+
+<br>
+
+---
+
+<br>
+
 ## *LazyAdmin* on TryHackMe
 #### October 12th 2022
 
