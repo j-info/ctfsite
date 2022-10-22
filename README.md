@@ -7,6 +7,25 @@
 
 <br>
 
+## *Startup* on TryHackMe
+#### October 22nd 2022
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/ftp.png) ![](images/wireshark.png) ![](images/pspy.png)
+
+This CTF had one of the funniest things I've seen in a CTF. One of the users on the system had a file in their directory with the following in it:
+
+```
+I got banned from your library for moving the "C programming language" book into the horror section. Is there a way I can appeal? --Lennie
+```
+
+[**Startup Walkthrough**](walkthroughs/2022-10-22-Startup.md)
+
+<br>
+
+---
+
+<br>
+
 ## *tomghost* on TryHackMe
 #### October 16th 2022
 
