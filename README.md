@@ -14,9 +14,8 @@ Topics: ![](images/linux.png) ![](images/web.png) ![](images/ftp.png) ![](images
 
 This CTF had one of the funniest things I've seen in a CTF. One of the users on the system had a file in their directory with the following in it:
 
-```
-I got banned from your library for moving the "C programming language" book into the horror section. Is there a way I can appeal? --Lennie
-```
+> I got banned from your library for moving the "C programming language" book into the horror section. Is there a way I can appeal? --Lennie
+
 
 [**Startup Walkthrough**](walkthroughs/2022-10-22-Startup.md)
 
