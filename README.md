@@ -7,6 +7,21 @@
 
 <br>
 
+## *Bounty Hacker* on TryHackMe
+#### October 24th 2022
+
+Topics: ![](images/linux.png) ![](images/ftp.png) ![](images/hydra.png) ![](images/brute.png) ![](images/suid.png) ![](images/motd.png)
+
+Enumeration finds sensitive information on an FTP server that allows anonymous logins and we use that to brute force our way onto the system. After that I show 2 different ways to get root.
+
+[**Bounty Hacker Walkthrough**](walkthroughs/2022-10-24-Bounty-Hacker.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Startup* on TryHackMe
 #### October 22nd 2022
 
