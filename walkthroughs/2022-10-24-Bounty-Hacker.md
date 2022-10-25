@@ -154,7 +154,7 @@ ED25519 key fingerprint is SHA256:Y140oz+ukdhfyG8/c5KvqKdvm+Kl+gLSvokSys7SgPU.
 This key is not known by any other names
 Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
 Warning: Permanently added '10.10.221.149' (ED25519) to the list of known hosts.
-lin@10.10.221.149's password: 
+<REDACTED>@10.10.221.149's password: 
 Welcome to Ubuntu 16.04.6 LTS (GNU/Linux 4.15.0-101-generic x86_64)
 
  * Documentation:  https://help.ubuntu.com
@@ -189,11 +189,11 @@ Our permissions via `id` show default groups, nothing extra.
 Looking at `sudo -l` shows us we can run the tar command as root:
 
 ```
-Matching Defaults entries for lin on bountyhacker:
+Matching Defaults entries for <REDACTED> on bountyhacker:
     env_reset, mail_badpass,
     secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin
 
-User lin may run the following commands on bountyhacker:
+User <REDACTED> may run the following commands on bountyhacker:
     (root) /bin/tar
 ```
 
