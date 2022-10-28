@@ -7,6 +7,21 @@
 
 <br>
 
+## *Skynet* on TryHackMe
+#### October 27th 2022
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/smb.png) ![](images/crackmapexec.png) ![](images/hydra.png) ![](images/brute.png) ![](images/squirrelmail.png) ![](images/cuppacms.png) ![](images/lfi.png) ![](images/rfi.png) ![](images/cron.png) ![](images/wildcardinjection.png)
+
+A terminiator themed CTF requiring the use of several different exploit methods.
+
+[**Skynet Walkthrough**](walkthroughs/2022-10-27-Skynet.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Bounty Hacker* on TryHackMe
 #### October 24th 2022
 
