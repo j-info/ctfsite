@@ -7,6 +7,21 @@
 
 <br>
 
+## *OhSINT* on TryHackMe
+#### October 31st 2022
+
+Topics: ![](images/osint.png)
+
+A beginner OSINT related CTF that gives you just a picture to start and has you go from there.
+
+[**OhSINT Walkthrough**](walkthroughs/2022-10-31-OhSINT.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Skynet* on TryHackMe
 #### October 27th 2022
 
