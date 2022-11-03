@@ -7,6 +7,21 @@
 
 <br>
 
+## *Brooklyn Nine Nine* on TryHackMe
+#### November 2nd 2022
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/ftp.png) ![](images/steghide.png) ![](images/stegseek.png) ![](images/sudo.png) ![](images/gtfobins.png) ![](images/hydra.png) ![](images/brute.png) ![](images/hashcat.png) ![](images/cracking.png)
+
+Everyone's favorite super serious police show in CTF form!
+
+[**Brooklyn Nine Nine Walkthrough**](walkthroughs/2022-11-02-Brooklyn-Nine-Nine.md)
+
+<br>
+
+---
+
+<br>
+
 ## *OhSINT* on TryHackMe
 #### October 31st 2022
 
