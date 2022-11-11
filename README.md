@@ -7,6 +7,13 @@
 
 <br>
 
+## **Physical Security Assessment**
+#### November 4th to 9th 2022
+
+A client in India requested an on-site physical security assessment and I was chosen to go and perform it which was a lot of fun. The site was a bit of a mess and I ended up finding quite a few issues to report back to the client, including being able to walk into their data center without the required up front check at the security desk. An overall great experience that should help them improve their security posture.
+
+<br>
+
 ## *Brooklyn Nine Nine* on TryHackMe
 #### November 2nd 2022
 
