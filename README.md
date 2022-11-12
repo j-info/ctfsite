@@ -7,6 +7,32 @@
 
 <br>
 
+## *Wgel CTF* on TryHackMe
+#### November 12th 2022
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/sudo.png) ![](images/gtfobins.png)
+
+A quick and fun CTF that has you enumerate the website and use what you've found to ssh over to the system.
+
+[**Wgel CTF Walkthrough**](walkthroughs/2022-11-12-Wgel-CTF.md)
+
+<br>
+
+---
+
+<br>
+
+## *Physical Security Assessment*
+#### November 4th to 9th 2022
+
+I got to do my first on-site physical security assessment at a customer location these past several days which was a lot of fun!
+
+<br>
+
+---
+
+<br>
+
 ## *Brooklyn Nine Nine* on TryHackMe
 #### November 2nd 2022
 
