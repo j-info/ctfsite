@@ -7,6 +7,21 @@
 
 <br>
 
+## *ToolsRus* on TryHackMe
+#### November 15th 2022
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/hydra.png) ![](images/brute.png) ![](images/tomcat.png) ![](images/msfvenom.png) ![](images/metasploit.png) ![](images/nikto.png)
+
+A good CTF if you want to get yourself familiar with several different tools.
+
+[**ToolsRus Walkthrough**](walkthroughs/2022-11-15-ToolsRus.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Wgel CTF* on TryHackMe
 #### November 12th 2022
 
