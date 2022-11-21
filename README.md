@@ -7,6 +7,21 @@
 
 <br>
 
+## *Lian_Yu* on TryHackMe
+#### November 20th 2022
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/decoding.png) ![](images/ftp.png) ![](images/steg.png) ![](images/hexedit.png) ![](images/magicnumber.png) ![](images/sudo.png) ![](images/gtfobins.png)
+
+A quick CTF that's beginner friendly.
+
+[**Lian_Yu Walkthrough**](walkthroughs/2022-11-20-Lian_Yu.md)
+
+<br>
+
+---
+
+<br>
+
 ## *ToolsRus* on TryHackMe
 #### November 15th 2022
 
