@@ -72,11 +72,11 @@ Disabling javascript and going to the page isn't much better:
 
 ![](images/yrabbit5.png)
 
-Looks like we're stuck watching it for the next clue since it's probably baked in audio given the line "Make sure your audio is turned up!". At 0:56 wear hear "I'll put you out of your misery. You're looking in the wrong place."
+Looks like we're stuck watching it for the next clue since it's probably baked into the audio given the line "Make sure your audio is turned up!". At 0:56 wear hear "I'll put you out of your misery. You're looking in the wrong place."
 
 I run a gobuster scan on /assets and don't find anything additional.
 
-When we turned off javascript and went to sup3r_s3cret_fl4g.php we ultimatedly ended up at /sup3r_secret_flag/ so I try and gobuster scan that as well but also nothing interesting.
+When we turned off javascript and went to sup3r_s3cret_fl4g.php we ultimately ended up at /sup3r_secret_flag/ so I try and gobuster scan that as well but also nothing interesting.
 
 Not knowing what else to do I load up Burp Suite and see if there is anything in the response headers I'm not aware of. When requesting the /sup3r_s3cr3t_fl4g.php file the response header has another directory and file listed:
 
@@ -86,7 +86,7 @@ Checking it out:
 
 ![](images/yrabbit7.png)
 
-Opening the image shows a picture of a woman but nothing else. I download it to see if there is any steganography going on. Running `strings Hot_Babe.png` shows us this at the end:
+Scandalous! Opening the image shows a picture of a woman but nothing else. I download it to see if there is any steganography going on. Running `strings Hot_Babe.png` shows us this at the end:
 
 ![](images/yrabbit8.png)
 
@@ -130,7 +130,7 @@ Checking `sudo -l` shows we don't have anything we can run as root.
 
 Looking for SUID files with `find / -perm /4000 2>/dev/null` doesn't give us anything to go on.
 
-No file with capabilities after checking `getcap -r / 2>/dev/null`.
+No interesting files with capabilities after checking `getcap -r / 2>/dev/null`.
 
 Looking at `id` shows we have quite a few groups:
 
