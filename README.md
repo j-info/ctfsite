@@ -7,6 +7,21 @@
 
 <br>
 
+## *Year of the Rabbit* on TryHackMe
+#### November 25th 2022
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/burp.png) ![](images/steg.png) ![](images/hydra.png) ![](images/brute.png) ![](images/ftp.png) ![](images/sudo.png) ![](images/gtfobins.png) ![](images/cve.png)
+
+This is a very CTF style CTF with rabbit holes all over the place and things you'd never find in the real word. That being said it was a fun challenge to solve!
+
+[**Year of the Rabbit Walkthrough**](walkthroughs/2022-11-25-Year-of-the-Rabbit.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Lian_Yu* on TryHackMe
 #### November 20th 2022
 
