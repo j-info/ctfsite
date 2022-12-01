@@ -296,7 +296,7 @@ With that we've completed this CTF!
 A quick run down of what we covered in this CTF:
 
 - Basic enumeration with **nmap** and **gobuster**
-- Discovering a publically accessible **sql database backup** that contains a username and password hash
+- Discovering a publicly accessible **sql database backup** that contains a username and password hash
 - Cracking the password hash with **hashcat**
 - Logging into the SweetRic CMS with the credentials we've found
 - Finding a page in the admin panel that allows **file uploads** and uploading a **php reverse shell** to it for our intial foothold on the system
