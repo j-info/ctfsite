@@ -7,6 +7,21 @@
 
 <br>
 
+## *IDE* on TryHackMe
+#### December 4th 2022
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/ftp.png) ![](images/burp.png) ![](images/hydra.png) ![](images/brute.png) ![](images/codiad.png) ![](images/cve.png) ![](images/sudo.png) ![](images/service.png)
+
+I really liked the privilege escalation path in this one.
+
+[**IDE Walkthrough**](walkthroughs/2022-12-04-IDE.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Year of the Rabbit* on TryHackMe
 #### November 25th 2022
 
