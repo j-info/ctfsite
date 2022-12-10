@@ -7,6 +7,21 @@
 
 <br>
 
+## *Basic Pentesting* on TryHackMe
+#### December 9th 2022
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/smb.png) ![](images/hydra.png) ![](images/brute.png) ![](images/SUID.png) ![](images/sshkey.png) ![](images/sudo.png) ![](images/jtr.png) ![](images/cracking.png) ![](images/lxc.png)
+
+This CTF had multiple escalation paths and options which made it fun to hunt down the different ways.
+
+[**Basic Pentesting Walkthrough**](walkthroughs/2022-12-09-Basic-Pentesting.md)
+
+<br>
+
+---
+
+<br>
+
 ## *IDE* on TryHackMe
 #### December 4th 2022
 
