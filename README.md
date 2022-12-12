@@ -27,7 +27,7 @@ My nights are going to be opening up again since the cybersecurity bootcamp I'm 
 ## *Basic Pentesting* on TryHackMe
 #### December 9th 2022
 
-Topics: ![](images/linux.png) ![](images/web.png) ![](images/smb.png) ![](images/hydra.png) ![](images/brute.png) ![](images/SUID.png) ![](images/sshkey.png) ![](images/sudo.png) ![](images/jtr.png) ![](images/cracking.png) ![](images/lxc.png)
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/smb.png) ![](images/hydra.png) ![](images/brute.png) ![](images/suid.png) ![](images/sshkey.png) ![](images/sudo.png) ![](images/jtr.png) ![](images/cracking.png) ![](images/lxc.png)
 
 This CTF had multiple escalation paths and options which made it fun to hunt down the different ways.
 
