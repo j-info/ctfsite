@@ -117,6 +117,8 @@ A quick and fun CTF that has you enumerate the website and use what you've found
 ## *Physical Security Assessment*
 #### November 4th to 9th 2022
 
+Topics: ![](images/learning.png)
+
 I got to do my first on-site physical security assessment at a customer location these past several days which was a lot of fun!
 
 <br>
