@@ -7,6 +7,23 @@
 
 <br>
 
+## *eJPT v2 Studying*
+#### December 11th 2022
+
+Topics: ![](images/learning.png)
+
+I haven't updated on the eJPTv2 studying lately because I had to put that on hold for a bit. But, I'm back at it, and just finished the **34 hour Metasploit training module**. That's not a typo it actually was 34 hours. I knew a good portion of the things covered here but I definitely learned quite a few things as well. This puts me at 62% complete on the training for eJPTv2, so I'm getting there, just a bit slower than I had hoped.
+
+My nights are going to be opening up again since the cybersecurity bootcamp I'm a teaching assistant at is winding down with less than a week left. Once that happens it's full steam ahead on this certification now that's finally officially released!
+
+![](images-other/ejptv2-journey-msf.jpg)
+
+<br>
+
+---
+
+<br>
+
 ## *Basic Pentesting* on TryHackMe
 #### December 9th 2022
 
