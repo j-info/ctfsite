@@ -7,6 +7,21 @@
 
 <br>
 
+## *Advent of Cyber 4*
+#### December 24th 2022
+
+Topics: ![](images/learning.png)
+
+I had a lot of fun going through this years Advent of Cyber challenges over at TryHackMe. [**and even won one of the daily prizes believe it or not**](https://mobile.twitter.com/RealTryHackMe/status/1602352579404603393), so that was cool. I ended up giving the voucher away to a student I was teaching in the bootcamp who had started using THM and liked it.
+
+![](images-other/thm-prize.jpg)
+
+I'd have to say my favorite challenges this year were the game hacking and the MQTT web cam challenge with the video flag at the end. Thanks to THM for putting on another great year of challenges!
+
+![](images-other/thm-aoc4.png)
+
+<br>
+
 ## *eJPT v2 Studying*
 #### December 11th 2022
 
