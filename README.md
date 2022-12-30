@@ -7,6 +7,21 @@
 
 <br>
 
+## *Overpass* on TryHackMe
+#### December 29th 2022
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/javascript.png) ![](images/cookies.png) ![](images/cracking.png) ![](images/jtr.png) ![](images/decoding.png) ![](images/cron.png) ![](images/hosts.png)
+
+We find a website with broken access control, and some questionable "encryption", which we exploit to get access to the webserver.
+
+[**Overpass Walkthrough**](walkthroughs/2022-12-29-Overpass.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Advent of Cyber 4*
 #### December 24th 2022
 
