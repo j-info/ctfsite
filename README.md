@@ -12,7 +12,7 @@
 
 Topics: ![](images/learning.png)
 
-I had a lot of fun going through this years Advent of Cyber challenges over at TryHackMe. [**and even won one of the daily prizes believe it or not**](https://mobile.twitter.com/RealTryHackMe/status/1602352579404603393), so that was cool. I ended up giving the voucher away to a student I was teaching in the bootcamp who had started using THM and liked it.
+I had a lot of fun going through this years Advent of Cyber challenges over at TryHackMe [**and even won one of the daily prizes believe it or not**](https://mobile.twitter.com/RealTryHackMe/status/1602352579404603393), so that was cool. I ended up giving the voucher away to a student I was teaching in the bootcamp who had started using THM and liked it.
 
 ![](images-other/thm-prize.jpg)
 
