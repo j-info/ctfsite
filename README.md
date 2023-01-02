@@ -7,6 +7,24 @@
 
 <br>
 
+## *eJPT v2 Studying*
+#### January 1st 2023
+
+Topics: ![](images/learning.png)
+
+Happy New Year to you all!
+
+I've just completed another section of the eJPTv2 course materials, this time the 20 hour and 49 minute exploitation section. Time to move on to the post-exploition training.
+
+![](images-other/ejptv2-journey-exploitation.jpg)
+
+<br>
+
+---
+
+<br>
+
+
 ## *Overpass* on TryHackMe
 #### December 29th 2022
 
