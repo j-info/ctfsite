@@ -8,6 +8,23 @@
 <br>
 
 ## *eJPT v2 Studying*
+#### January 14th 2023
+
+Topics: ![](images/learning.png)
+
+Another section of the eJPTv2 down - the 26 hour and 33 minute post-exploitation module. This leaves only 2 sections to complete and the last 2 are nowhere near as long so I'm almost done!
+
+![](images-other/ejptv2-journey-post-exploitation.jpg)
+
+<br>
+
+---
+
+<br>
+
+ejptv2-journey-post-exploitation.jpg
+
+## *eJPT v2 Studying*
 #### January 1st 2023
 
 Topics: ![](images/learning.png)
