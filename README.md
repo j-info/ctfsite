@@ -7,6 +7,21 @@
 
 <br>
 
+## *Plotted-TMS* on TryHackMe
+#### January 16th 2023
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/decoding.png) ![](images/sqli.png) ![](images/cron.png) ![](images/scripting.png) ![](images/mysql.png) ![](images/cracking.png) ![](images/hashcat.png) ![](images/doas.png) ![](images/openssl.png)
+
+This one was a bit longer than the usual easy CTF's and required initial access and then escalating twice to get to root.
+
+[**Plotted-TMS Walkthrough**](walkthroughs/2023-01-16-Plotted-TMS.md)
+
+<br>
+
+---
+
+<br>
+
 ## *eJPT v2 Studying*
 #### January 14th 2023
 
@@ -55,7 +70,6 @@ I've just completed another section of the eJPTv2 course materials, this time th
 ---
 
 <br>
-
 
 ## *Overpass* on TryHackMe
 #### December 29th 2022
