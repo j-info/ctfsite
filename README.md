@@ -7,6 +7,21 @@
 
 <br>
 
+## *eJPT v2 Studying - COMPLETE!*
+#### January 19th 2023
+
+Topics: ![](images/learning.png)
+
+After finishing the web application penetration testing module I've completed all 144 hours of the eJPT v2 training. Overall I really enjoyed the training format with videos followed up by hands on labs and thought they covered a lot of good material. Certification incoming soon!
+
+![](images-other/ejptv2-journey-webapp.jpg)
+
+<br>
+
+---
+
+<br>
+
 ## *Plotted-TMS* on TryHackMe
 #### January 16th 2023
 
