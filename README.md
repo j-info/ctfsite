@@ -12,7 +12,7 @@
 
 Topics: ![](images/learning.png)
 
-After finishing the web application penetration testing module I've completed all 144 hours of the eJPT v2 training. Overall I really enjoyed the training format with videos followed up by hands on labs and thought they covered a lot of good material. Certification incoming soon!
+After finishing the web application penetration testing module I've completed all 144 hours of the eJPT v2 training. Overall I really enjoyed the training format with videos followed up by hands on labs and thought they covered a lot of good materials and techniques. Certification incoming soon!
 
 ![](images-other/ejptv2-journey-webapp.jpg)
 
