@@ -7,6 +7,23 @@
 
 <br>
 
+## *eJPT v2 Certification*
+#### January 22nd 2023
+
+Topics: ![](images/learning.png)
+
+Even though I just finished the training materials a couple days ago I decided to take the certification exam over the weekend...and passed! The exam was fair in that if you went through the training you have everything you need to pass the exam without studying elsewhere which was good to see. I don't think their detection system is 100% though. It docked me a question on transferring files to and from a system even though I did this on multiple hosts with multiple tools and methods. So it would be nice if they told you what they were looking for regarding how that should be done exactly. Either way, I'm glad I took the time to go for this cert since the training was very well done.
+
+Now on to working towards the OSCP!
+
+![](images-other/ejptv2-passed.jpg)
+
+<br>
+
+---
+
+<br>
+
 ## *eJPT v2 Studying - COMPLETE!*
 #### January 19th 2023
 
