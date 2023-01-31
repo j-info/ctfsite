@@ -7,6 +7,23 @@
 
 <br>
 
+## *1 Year!*
+#### January 31st 2023
+
+Topics: ![](images/learning.png)
+
+Today marks two milestones. The first is that one year ago today I created my first post and put this blog online! I've had a lot of fun keeping this blog going and don't see myself stopping it anytime soon.
+
+The second milestone, also one year ago today, is that I started the Evolve Academy cybersecurity bootcamp. That was the beginning of me going all in with cybersecurity and thankfully with a lot of hard work and effort it paid off and I now have a job in the industry.
+
+Thanks to those of you who are readers of this blog and I hope you all find it useful and manage to learn something from it!
+
+<br>
+
+---
+
+<br>
+
 ## *VulnNet Internal* on TryHackMe
 #### January 28th 2023
 
