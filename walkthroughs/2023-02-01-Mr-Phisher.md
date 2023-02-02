@@ -65,12 +65,12 @@ End Sub
 
 I'm not a Visual Basic guy but looking at the code it appears to be doing the following:
 
-1) Creating a sub procedure called Format
-2) Initializing the a array
-3) Initializing the b string
-4) Populating the a array
-5) Looping from 0 to the upper limit of the array, aka doing something to each and every item in the array
-6) For each pass through the loop it converts an item in the array to a character and runs it through XOR before appending it to the b string
+- Creating a sub procedure called Format
+- Initializing the a array
+- Initializing the b string
+- Populating the a array
+- Looping from 0 to the upper limit of the array, aka doing something to each and every item in the array
+- For each pass through the loop it converts an item in the array to a character and runs it through XOR before appending it to the b string
 
 So in this case it's pretty clear this macro is harmless so I'm going to enable macros and run it to hopefully see what our flag is.
 
