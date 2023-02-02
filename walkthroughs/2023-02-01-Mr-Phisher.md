@@ -94,7 +94,7 @@ There are some other things we could have done here like use [**oledump.py**](ht
 
 With that we've completed this CTF!
 
-![](images/mrphisher.png)
+![](images/mrphisher5.png)
 
 <br>
 
