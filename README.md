@@ -7,6 +7,21 @@
 
 <br>
 
+## *Brute It* on TryHackMe
+#### February 4th 2023
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/brute.png) ![](images/hydra.png) ![](images/cracking.png) ![](images/jtr.png) ![](images/hashcat.png)
+
+All the brute forcing in this one. Good practice if you're looking to brush up on tools such as hydra, John the Ripper, and hashcat.
+
+[**Brute It Walkthrough**](walkthroughs/2023-02-04-Brute-It.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Mr. Phisher* on TryHackMe
 #### February 1st 2023
 
