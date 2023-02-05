@@ -64,7 +64,7 @@ This CTF gives us credentials and asks us to RDP over to the machine which I do 
 
 `xfreerdp /v:$ip /u:Administrator /p:letmein123!`
 
-##### 1 - Whats the version and year of the windows machine?
+### 1 - Whats the version and year of the windows machine?
 
 There are several ways to do this. You can go to the control panel, right click the my computer icon in file explorer, go to a command prompt and type winver or systeminfo, and other ways as well.
 
@@ -74,7 +74,7 @@ There are several ways to do this. You can go to the control panel, right click 
 
 ![](images/iw3.png)
 
-##### 2 - Which user logged in last?
+### 2 - Which user logged in last?
 
 I chose to use PowerShell to check this with the following command:
 
@@ -82,11 +82,11 @@ I chose to use PowerShell to check this with the following command:
 
 ![](images/iw4.png)
 
-##### 3 - When did John log onto the system last?
+### 3 - When did John log onto the system last?
 
 The command I ran in question 2 also displayed this. See above.
 
-##### 4 - What IP does the system connect to when it first starts?
+### 4 - What IP does the system connect to when it first starts?
 
 I got this answer out of the Windows registry by opening up `regedit` and then navigating to:
 
@@ -96,31 +96,31 @@ Which shows you items that automatically run on system startup.
 
 ![](images/iw5.png)
 
-##### 5 - What two accounts had administrative privileges (other than the Administrator user)?
+### 5 - What two accounts had administrative privileges (other than the Administrator user)?
 
 You can find this using the `net localgroup Administrators` command on the command line:
 
 ![](images/iw6.png)
 
-##### 6 - Whats the name of the scheduled task that is malicous.
+### 6 - Whats the name of the scheduled task that is malicous.
 
 I open up the task scheduler and find more than one task that definitely seems malicious, but it's looking for the one called "Clean file system" in this case. You can see that it runs once a day and runs a PowerShell version of netcat to start a listener on port 1348.
 
 ![](images/iw7.png)
 
-##### 7 - What file was the task trying to run daily?
+### 7 - What file was the task trying to run daily?
 
 Answered above. See question 6.
 
-##### 8 - What port did this file listen locally for?
+### 8 - What port did this file listen locally for?
 
 Answered above. See question 6.
 
-##### 9 - When did Jenny last logon?
+### 9 - When did Jenny last logon?
 
 Answered above. See question 2.
 
-##### 10 - At what date did the compromise take place?
+### 10 - At what date did the compromise take place?
 
 Looking at the task scheduler you can see that the malicious scheduled tasks were created on 3/2/2019. You can also look in the c:\TMP directory and see that mimikaz and other tools were put there on the same day.
 
@@ -132,31 +132,31 @@ I am pretty sure they screwed this one up in some manner. If you open the event 
 
 ![](images/iw9.png)
 
-##### 12 - What tool was used to get Windows passwords?
+### 12 - What tool was used to get Windows passwords?
 
 The GameOver scheduled task runs mim.exe which is actually mimikatz. If you run the mim.exe program or open up the mim-out.txt file in c:\TMP you can see that.
 
 ![](images/iw10.png)
 
-##### 13 - What was the attackers external control and command servers IP?
+### 13 - What was the attackers external control and command servers IP?
 
 I looked around in the firewall rules to see if there were any suspicious external IP addresses listed and there weren't. I also looked at all the scheduled tasks to see if they had any IP's listed and no luck there either. Looking in the c:\TMP files to see if any had a hardcoded IP address but none of those did. I eventually found the answer in the hosts file. The google.com entry has the IP set to 76.32.97.132 which isn't a valid Google IP address.
 
 ![](images/iw11.png)
 
-##### 14 - What was the extension name of the shell uploaded via the servers website?
+### 14 - What was the extension name of the shell uploaded via the servers website?
 
 Given this is a Windows machine the website was located in c:\inetpub\wwwroot and the shell ended up being tests.jsp. Opening that file you can see that it asks for a command to run, and then passes it through .exec to run it.
 
 ![](images/iw12.png)
 
-##### 14 - What was the last port the attacker opened?
+### 14 - What was the last port the attacker opened?
 
 Looking at the inbound firewall rules shows the answer to this one.
 
 ![](images/iw13.png)
 
-##### 15 - Check for DNS poisoning, what site was targeted?
+### 15 - Check for DNS poisoning, what site was targeted?
 
 This was answered in question 13. The hosts file points google.com to the attackers IP address.
 
