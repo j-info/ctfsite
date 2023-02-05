@@ -7,6 +7,21 @@
 
 <br>
 
+## *Investigating Windows* on TryHackMe
+#### February 5th 2023
+
+Topics: ![](images/windows.png) ![](images/rdp.png) ![](images/cmd.png) ![](images/powershell.png) ![](images/regedit.png) ![](images/taskscheduler.png) ![](images/eventviewer.png) ![](images/hosts.png) ![](images/firewall.png)
+
+This CTF has us investigate a compromised Windows machine to gather quite a few pieces of information.
+
+[**Investigating Windows Walkthrough**](walkthroughs/2023-02-05-Investigating-Windows.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Brute It* on TryHackMe
 #### February 4th 2023
 
