@@ -7,6 +7,21 @@
 
 <br>
 
+## *CTF collection Vol. 1* on TryHackMe
+#### February 8th 2023
+
+Topics: ![](images/decoding.png) ![](images/steg.png) ![](images/hexedit.png) ![](images/waybackmachine.png) ![](images/wireshark.png)
+
+Now this was a long one with a lot of questions and different methods.
+
+[**CTF collection Vol. 1 Walkthrough**](walkthroughs/2023-02-08-CTF-collection-vol1.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Investigating Windows* on TryHackMe
 #### February 5th 2023
 
