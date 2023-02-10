@@ -7,6 +7,21 @@
 
 <br>
 
+## *c4ptur3-th3-fl4g* on TryHackMe
+#### February 10th 2023
+
+Topics: ![](images/decoding.png) ![](images/steg.png)
+
+This one is heavy on decoding and steganography, and will get you prepared for some basic CTF challenges.
+
+[**c4ptur3-th3-fl4g Walkthrough**](walkthroughs/2023-02-10-c4ptur3-th3-fl4g.md)
+
+<br>
+
+---
+
+<br>
+
 ## *CTF collection Vol. 1* on TryHackMe
 #### February 8th 2023
 
