@@ -1,4 +1,4 @@
-## My Proving Grounds Progress
+## My Proving Grounds Play Progress
 
 ---
 
