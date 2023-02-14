@@ -7,6 +7,21 @@
 
 <br>
 
+## *DriftingBlues6* on Proving Grounds
+#### February 13th 2022
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/cms.png) ![](images/cracking.png) ![](images/jtr.png) ![](images/kernel.png)
+
+A quick and fun CTF involving the Textpattern CMS.
+
+[**DriftingBlues6 Walkthrough**](walkthroughs/2023-02-13-DriftingBlues6.md)
+
+<br>
+
+---
+
+<br>
+
 ## *c4ptur3-th3-fl4g* on TryHackMe
 #### February 10th 2023
 
