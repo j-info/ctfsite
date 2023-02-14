@@ -111,7 +111,7 @@ Running a new gobuster scan on /textpattern shows us:
 
 ## System Access
 
-Looking at /files see the file we uploaded waiting for us:
+Looking at /files shows the file we uploaded waiting for us:
 
 ![](images/db8.png)
 
@@ -141,7 +141,7 @@ I decide to look for kernel exploits. Running `uname -a` shows us:
 Linux driftingblues 3.2.0-4-amd64 #1 SMP Debian 3.2.78-1 x86_64 GNU/Linux
 ```
 
-It looks like this kernel is vulnerable to Dirtycow and doing a google search for an exploit to use on that kernel leads me to this [**Exploit-DB link](https://www.exploit-db.com/exploits/40839).
+Doing a google search shows us that it looks like this kernel is vulnerable to Dirty COW. I end up at this [**Exploit-DB link](https://www.exploit-db.com/exploits/40839).
 
 First I look over the code, then I download the exploit to my system and transfer it over to the target machine. The instructions on Exploit-DB tell you how to compile it which I do with:
 
