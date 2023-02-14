@@ -4,7 +4,7 @@
 
 <br>
 
-### Total CTFs Completed: 12
+### Total CTFs Completed: 13
 
 <table>
   <tr>
@@ -13,7 +13,7 @@
     <th style="text-align:center">Hard</th>
   </tr>
   <tr>
-    <td style="text-align:center">12</td>
+    <td style="text-align:center">13</td>
     <td style="text-align:center">0</td>
     <td style="text-align:center">0</td>
   </tr>
@@ -71,7 +71,7 @@
       <td style="color:#B5E853;text-align:center">DC-1</td>
       <td style="color:#B5E853;text-align:center">DC-2</td>
       <td style="text-align:center">Dawn</td>
-      <td style="text-align:center">DriftingBlues6</td>
+      <td style="color:#B5E853;text-align:center">DriftingBlues6</td>
     </tr>
     <tr>
       <td style="text-align:center">Empire-breakout</td>
