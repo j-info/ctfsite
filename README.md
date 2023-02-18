@@ -7,6 +7,21 @@
 
 <br>
 
+## *FunboxEasyEnum* on Proving Grounds
+#### February 18th 2022
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/hashcat.png) ![](images/cracking.png) ![](images/passwordreuse.png) ![](images/sudo.png)
+
+A quick and fun CTF involving the Textpattern CMS.
+
+[**FunboxEasyEnum Walkthrough**](walkthroughs/2023-02-18-FunboxEasyEnum.md)
+
+<br>
+
+---
+
+<br>
+
 ## *DriftingBlues6* on Proving Grounds
 #### February 13th 2022
 

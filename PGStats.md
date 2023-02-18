@@ -4,7 +4,7 @@
 
 <br>
 
-### Total CTFs Completed: 13
+### Total CTFs Completed: 14
 
 <table>
   <tr>
@@ -13,7 +13,7 @@
     <th style="text-align:center">Hard</th>
   </tr>
   <tr>
-    <td style="text-align:center">13</td>
+    <td style="text-align:center">14</td>
     <td style="text-align:center">0</td>
     <td style="text-align:center">0</td>
   </tr>
@@ -77,7 +77,7 @@
       <td style="text-align:center">Empire-breakout</td>
       <td style="text-align:center">EvilBox-One</td>
       <td style="color:#B5E853;text-align:center">FunboxEasy</td>
-      <td style="text-align:center">FunboxEasyEnum</td>
+      <td style="color:#B5E853;text-align:center">FunboxEasyEnum</td>
     </tr>
     <tr>
       <td style="color:#B5E853;text-align:center">FunboxRookie</td>
