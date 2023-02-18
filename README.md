@@ -12,7 +12,7 @@
 
 Topics: ![](images/linux.png) ![](images/web.png) ![](images/hashcat.png) ![](images/cracking.png) ![](images/passwordreuse.png) ![](images/sudo.png)
 
-A quick and fun CTF involving the Textpattern CMS.
+This CTF did as the name suggests require some enumeration, but it wasn't terribly difficult to solve and ended up being a pretty standard avenue of attack for initial access and escalation to root.
 
 [**FunboxEasyEnum Walkthrough**](walkthroughs/2023-02-18-FunboxEasyEnum.md)
 
