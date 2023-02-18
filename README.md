@@ -10,7 +10,7 @@
 ## *FunboxEasyEnum* on Proving Grounds
 #### February 18th 2022
 
-Topics: ![](images/linux.png) ![](images/web.png) ![](images/hashcat.png) ![](images/cracking.png) ![](images/passwordreuse.png) ![](images/sudo.png)
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/hashcat.png) ![](images/cracking.png) ![](images/hydra.png) ![](images/passwordreuse.png) ![](images/sudo.png)
 
 This CTF did as the name suggests require some enumeration, but it wasn't terribly difficult to solve and ended up being a pretty standard avenue of attack for initial access and escalation to root.
 

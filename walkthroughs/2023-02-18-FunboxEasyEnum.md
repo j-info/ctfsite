@@ -72,7 +72,7 @@ Looking at mini.php shows us something interesting, a "mini shell":
 
 ![](images/fee2.png)
 
-It looks like we can upload files and have a few options under the drop down menu on the listed files as well. It tells us what directory we're in as well as the version number of the software which is helpful.
+It looks like we can upload files and have a few options under the drop down menu next to each file as well. It tells us what directory we're in as well as the version number of the software which is helpful.
 
 I try and edit the robots.txt file and it lets me. Something else that's interesting is when I click on the robots.txt file the URL gives us filesrc and path parameters, which it looks like we can modify to whatever we want so we're not stuck in this directory:
 
@@ -90,7 +90,7 @@ Changing that link to this shows us the /etc/passwd file:
 
 File permissions still apply to this shell and it doesn't let me edit the /etc/passwd file to add my own user unfortunately.
 
-I'll try the obvious upload a reverse PHP shell method now that I've looked around for a bit. I upload the pentestmonkey shell and try to chmod the file so that it has execute permissions but the mini shell won't set the permissions how you enter them. I play around with different numbers like 7777 etc but none of them actually work right.
+I'll try the obvious and upload a reverse PHP shell now that I've looked around for a bit. I upload the pentestmonkey shell and try to chmod the file so that it has execute permissions but the mini shell won't set the permissions how you enter them. I play around with different numbers like 7777 etc but none of them actually work right.
 
 <br>
 
@@ -100,7 +100,7 @@ After that I decide to just edit the mini.php itself since we have full permissi
 
 ![](images/fee4.png)
 
-I then navigate back to mini.php with my browser and it gives us a shell back as www-data and quickly fix it:
+I start up a listener on my system and then navigate back to mini.php with my browser and it gives us a shell back as www-data and quickly fix it:
 
 ![](images/fee5.png)
 
