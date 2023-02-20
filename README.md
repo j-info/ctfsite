@@ -12,9 +12,9 @@
 
 Topics: ![](images/learning.png)
 
-You may have noticed the uptick in Proving Grounds boxes over the last several days and that's because I'm working my way through the recommended OSCP boxes on the TJ Null list and decided to start here.
+You may have noticed the uptick in Proving Grounds boxes over the last several days and that's because I'm working my way through the recommended OSCP boxes on the TJ Null list and decided to start there.
 
-I've decided to work towards the OSCP and hope to achieve it before the end of the year. So this, along with a 2 month OSCP bootcamp I'm starting in a couple weeks coupled with a lot of time and effort will hopefully get me to that goal. I have a feeling it's going to be a tough but rewarding journey!
+That's because I'm working towards the OSCP and hope to achieve it before the end of the year. So this, along with a 2 month OSCP bootcamp I'm starting in a couple weeks coupled with a lot of time and effort will hopefully get me to that goal. I have a feeling it's going to be a tough but rewarding journey!
 
 <br>
 
