@@ -7,8 +7,38 @@
 
 <br>
 
+## *OSCP Preperations*
+#### February 19th, 2023
+
+Topics: ![](images/learning.png)
+
+You may have noticed the uptick in Proving Grounds boxes over the last several days and that's because I'm working my way through the recommended OSCP boxes on the TJ Null list and decided to start here.
+
+I've decided to work towards the OSCP and hope to achieve it before the end of the year. So this, along with a 2 month OSCP bootcamp I'm starting in a couple weeks coupled with a lot of time and effort will hopefully get me to that goal. I have a feeling it's going to be a tough but rewarding journey!
+
+<br>
+
+---
+
+<br>
+
+## *InfosecPrep* on Proving Grounds
+#### February 19th 2023
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/decoding.png) ![](images/hashcat.png) ![](images/cracking.png) ![](images/suid.png) ![](images/container.png) ![](images/lxc.png)
+
+An insecure website leads us to initial access and misconfiguration gains us root access in this CTF.
+
+[**InfosecPrep Walkthrough**](walkthroughs/2023-02-19-InfosecPrep.md)
+
+<br>
+
+---
+
+<br>
+
 ## *FunboxEasyEnum* on Proving Grounds
-#### February 18th 2022
+#### February 18th 2023
 
 Topics: ![](images/linux.png) ![](images/web.png) ![](images/hashcat.png) ![](images/cracking.png) ![](images/hydra.png) ![](images/passwordreuse.png) ![](images/sudo.png)
 
@@ -23,7 +53,7 @@ This CTF did as the name suggests require some enumeration, but it wasn't terrib
 <br>
 
 ## *DriftingBlues6* on Proving Grounds
-#### February 13th 2022
+#### February 13th 2023
 
 Topics: ![](images/linux.png) ![](images/web.png) ![](images/cms.png) ![](images/cracking.png) ![](images/jtr.png) ![](images/kernel.png)
 

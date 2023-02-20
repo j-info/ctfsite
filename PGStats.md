@@ -4,7 +4,7 @@
 
 <br>
 
-### Total CTFs Completed: 14
+### Total CTFs Completed: 15
 
 <table>
   <tr>
@@ -13,7 +13,7 @@
     <th style="text-align:center">Hard</th>
   </tr>
   <tr>
-    <td style="text-align:center">14</td>
+    <td style="text-align:center">15</td>
     <td style="text-align:center">0</td>
     <td style="text-align:center">0</td>
   </tr>
@@ -87,7 +87,7 @@
     </tr>
     <tr>
       <td style="text-align:center">Inclusiveness</td>
-      <td style="text-align:center">InfosecPrep</td>
+      <td style="color:#B5E853;text-align:center">InfosecPrep</td>
       <td style="text-align:center">Internal</td>
       <td style="color:#B5E853;text-align:center">Katana</td>
     </tr>
