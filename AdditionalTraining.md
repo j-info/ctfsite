@@ -31,7 +31,7 @@
     <th style="text-align:center">Estimated EOY 2023</th>
     <th style="text-align:center">OSCP</th>
     <th style="text-align:center">N/A</th>
-    <th style="text-align:center">N/A</a></th>
+    <th style="text-align:center">N/A</th>
   </tr>
 </table>
 
