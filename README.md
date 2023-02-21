@@ -7,7 +7,7 @@
 
 <br>
 
-## *OSCP Preperations*
+## *OSCP Preparations*
 #### February 19th, 2023
 
 Topics: ![](images/learning.png)
