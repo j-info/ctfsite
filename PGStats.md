@@ -4,7 +4,7 @@
 
 <br>
 
-### Total Proving Grounds Play CTFs Completed: 15
+### Total Proving Grounds Play CTFs Completed: 16
 
 <table>
   <tr>
@@ -13,7 +13,7 @@
     <th style="text-align:center">Hard</th>
   </tr>
   <tr>
-    <td style="text-align:center">15</td>
+    <td style="text-align:center">16</td>
     <td style="text-align:center">0</td>
     <td style="text-align:center">0</td>
   </tr>
@@ -121,7 +121,7 @@
       <td style="text-align:center">Sar</td>
     </tr>
     <tr>
-      <td style="text-align:center">Seppuku</td>
+      <td style="color:#B5E853;text-align:center">Seppuku</td>
       <td style="text-align:center">Shakabrah</td>
       <td style="text-align:center">Solstice</td>
       <td style="color:#B5E853;text-align:center">Sumo</td>

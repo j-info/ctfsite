@@ -7,6 +7,21 @@
 
 <br>
 
+## *Seppuku* on Proving Grounds
+#### February 21st 2023
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/sshkey.png) ![](images/cracking.png) ![](images/jtr.png) ![](images/smb.png) ![](images/ftp.png) ![](images/restrictedshell.png) ![](images/hashcat.png) ![](images/sudo.png)
+
+This was a long one with several different users to move between.
+
+[**Seppuku Walkthrough**](walkthroughs/2023-02-21-Seppuku.md)
+
+<br>
+
+---
+
+<br>
+
 ## *OSCP Preparations*
 #### February 19th, 2023
 
