@@ -7,6 +7,21 @@
 
 <br>
 
+## *SunsetMidnight* on Proving Grounds
+#### February 26th 2023
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/wpscan.png) ![](images/mysql.png) ![](images/hashcat.png) ![](images/sql.png) ![](images/wordpress.png) ![](images/metasploit.png) ![](images/suid.png) ![](images/path.png)
+
+This was my first intermediate level CTF on the Proving Grounds platform which thankfully didn't seem any more difficult than the easy ones I've done to date.
+
+[**SunsetMidnight Walkthrough**](walkthroughs/2023-02-26-SunsetMidnight.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Seppuku* on Proving Grounds
 #### February 21st 2023
 
