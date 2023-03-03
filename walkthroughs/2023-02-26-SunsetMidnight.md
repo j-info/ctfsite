@@ -56,9 +56,7 @@ Noticing the redirect on port 80 I go ahead and add that to my hosts file:
 
 `gobuster dir -u http://$ip -t 40 -r -x php,txt,html -w dir-med.txt`
 
-```
 So many results and none of them are actually useful except probably the admin login page and maybe xmlrpc.php if we can use it for brute forcing.
-```
 
 <br>
 
