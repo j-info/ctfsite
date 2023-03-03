@@ -7,6 +7,21 @@
 
 <br>
 
+## *SoSimple* on Proving Grounds
+#### March 2nd 2023
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/wpscan.png) ![](images/wordpress.png) ![](images/mysql.png) ![](images/decoding.png) ![](images/gtfobins.png) ![](images/sudo.png)
+
+I had a lot of fun going through this WordPress based CTF.
+
+[**SoSimple Walkthrough**](walkthroughs/2023-03-02-SoSimple.md)
+
+<br>
+
+---
+
+<br>
+
 ## *SunsetMidnight* on Proving Grounds
 #### February 26th 2023
 
