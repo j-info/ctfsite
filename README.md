@@ -7,6 +7,21 @@
 
 <br>
 
+## *Stapler* on Proving Grounds
+#### March 5th 2023
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/ftp.png) ![](images/smb.png) ![](images/nikto.png) ![](images/wordpress.png) ![](images/wpscan.png) ![](images/searchsploit.png) ![](images/mysql.png) ![](images/hashcat.png) ![](images/sql.png) ![](images/php.png) ![](images/history.png) ![](images/sudo.png) 
+
+This was a bit of a beast to get through and it took me awhile. It's another intermediate rated box but the Proving Grounds community voted it as hard instead of intermediate, and I can see why they did that. Regardless it was a fun challenge!
+
+[**Stapler Walkthrough**](walkthroughs/2023-03-05-Stapler.md)
+
+<br>
+
+---
+
+<br>
+
 ## *SoSimple* on Proving Grounds
 #### March 2nd 2023
 
