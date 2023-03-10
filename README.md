@@ -7,6 +7,19 @@
 
 <br>
 
+## *OSCP Bootcamp*
+#### March 10th 2023
+
+Topics: ![](images/learning.png)
+
+Earlier this week was the first day of the OSCP bootcamp I started at Evolve Security. So far, so good. Our lead instructor has a ton of real world experience and I had a good time the first week meeting fellow students. Looking forward to the next couple months!
+
+<br>
+
+---
+
+<br>
+
 ## *Stapler* on Proving Grounds
 #### March 5th 2023
 
