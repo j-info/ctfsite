@@ -4,7 +4,7 @@
 
 <br>
 
-### Total Proving Grounds Play CTFs Completed: 19
+### Total Proving Grounds Play CTFs Completed: 20
 
 <table>
   <tr>
@@ -14,7 +14,7 @@
   </tr>
   <tr>
     <td style="text-align:center">16</td>
-    <td style="text-align:center">3</td>
+    <td style="text-align:center">4</td>
     <td style="text-align:center">0</td>
   </tr>
 </table>
@@ -138,7 +138,7 @@
 <div class="content">
   <table>
     <tr>
-      <td style="text-align:center">Assertion101</td>
+      <td style="color:#B5E853;text-align:center">Assertion101</td>
       <td style="text-align:center">BTRSys2.1</td>
       <td style="text-align:center">Born2Root</td>
       <td style="text-align:center">Bottleneck</td>

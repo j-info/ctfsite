@@ -7,6 +7,23 @@
 
 <br>
 
+## *Assertion101* on Proving Grounds
+#### March 25th 2023
+
+Topics: ![](images/linux.png) ![](images/web.png) ![](images/phpassert.png) ![](images/sshkey.png) ![](images/lxc.png)
+
+Wow it's been awhile since I've done one of these here. Sorry, busy with the OSCP bootcamp!
+
+This was a fun one that taught me about PHP assert().
+
+[**Assertion101 Walkthrough**](walkthroughs/2023-03-25-Assertion101.md)
+
+<br>
+
+---
+
+<br>
+
 ## *OSCP Bootcamp*
 #### March 10th 2023
 
