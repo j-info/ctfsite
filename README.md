@@ -7,6 +7,19 @@
 
 <br>
 
+## *OSCP Bootcamp*
+#### May 1st 2023
+
+Topics: ![](images/learning.png)
+
+I haven't had time to add any new writeups here but that's changing soon! A couple days ago I finished up the Evolve OSCP bootcamp which was taking my time and focus, and completed the final exam over the weekend, so I'm looking forward to doing some boxes again! More writeups coming soon.
+
+<br>
+
+---
+
+<br>
+
 ## *Assertion101* on Proving Grounds
 #### March 25th 2023
 
