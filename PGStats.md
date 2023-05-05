@@ -4,7 +4,7 @@
 
 <br>
 
-### Total Proving Grounds Play CTFs Completed: 20
+### Total Proving Grounds Play CTFs Completed: 21
 
 <table>
   <tr>
@@ -14,7 +14,7 @@
   </tr>
   <tr>
     <td style="text-align:center">16</td>
-    <td style="text-align:center">4</td>
+    <td style="text-align:center">5</td>
     <td style="text-align:center">0</td>
   </tr>
 </table>
@@ -168,7 +168,7 @@
       <td style="color:#B5E853;text-align:center">SunsetMidnight</td>
     </tr>
     <tr>
-      <td style="text-align:center">Tre</td>
+      <td style="color:#B5E853;text-align:center">Tre</td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
