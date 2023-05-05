@@ -22,6 +22,12 @@
     <th style="text-align:center"><a href="/ctfsite/certs/comptia-securityplus.pdf">View Certificate</a></th>
   </tr>
   <tr>
+    <th style="text-align:center">7/14/2022</th>
+    <th style="text-align:center">Evolve Security Certified Professional</th>
+    <th style="text-align:center">N/A</th>
+    <th style="text-align:center"><a href="https://www.credly.com/badges/85e94015-66b4-4eb9-8ff7-f92d9e12d6df">View Certificate</a></th>
+  </tr>
+  <tr>
     <th style="text-align:center">1/22/2023</th>
     <th style="text-align:center">eJPTv2</th>
     <th style="text-align:center">N/A</th>
