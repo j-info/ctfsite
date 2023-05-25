@@ -7,6 +7,25 @@
 
 <br>
 
+## *OSCP Bootcamp Finals*
+#### May 23rd 2023
+
+Topics: ![](images/learning.png)
+
+I finished up the final exam for the Evolve OSCP bootcamp and passed!
+
+The exam was setup in such a way to mimic the OSCP exam where you have 24 hours to get as many boxes complete as possible, and then another 24 hours to write a detailed report. Really good practice on time management and prioritization for the real OSCP exam.
+
+And now on to working towards the actual OSCP exam. I'll be picking up the Learn One subscription in a couple weeks here and diving into that as the next challenge to tackle.
+
+[**Evolve Academy Certified Penetration Tester Certificate**](https://www.credly.com/badges/0165c83b-476d-4063-8329-9312c115787c/public_url)
+
+<br>
+
+---
+
+<br>
+
 ## *Tre* on Proving Grounds
 #### May 4th 2023
 

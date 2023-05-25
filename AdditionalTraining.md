@@ -34,6 +34,12 @@
     <th style="text-align:center"><a href="https://my.ine.com/certificate/6e72e2c4-01f4-4f0e-9073-60607abcce9b">View Certificate</a></th>
   </tr>
   <tr>
+    <th style="text-align:center">5/23/2023</th>
+    <th style="text-align:center">Evolve Academy Certified Penetration Tester</th>
+    <th style="text-align:center">N/A</th>
+    <th style="text-align:center"><a href="https://www.credly.com/badges/0165c83b-476d-4063-8329-9312c115787c/public_url">View Certificate</th>
+  </tr>
+  <tr>
     <th style="text-align:center">Estimated EOY 2023</th>
     <th style="text-align:center">OSCP</th>
     <th style="text-align:center">N/A</th>
