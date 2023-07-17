@@ -5,6 +5,15 @@
 
 ---
 
+## *Updates to this Blog Paused Temporarily*
+#### June 5th 2023
+
+Topics: ![](images/learning.png)
+
+I picked up the Learn One subscription and have been working on the PEN-200 materials with hopes to take the exam by the end of January 2024!
+
+Due to the time commitment, and that I'm not able to post walkthroughs for official OffSec content, I've decided to temporarily pause updating this blog. Once I've obtained the certification I will pick back up here! Until then I hope you all continue learning and growing!
+
 <br>
 
 ## *OSCP Bootcamp Finals*
