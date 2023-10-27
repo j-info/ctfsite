@@ -37,7 +37,7 @@
     <th style="text-align:center">5/23/2023</th>
     <th style="text-align:center">Evolve Academy Certified Penetration Tester</th>
     <th style="text-align:center">N/A</th>
-    <th style="text-align:center"><a href="https://www.credly.com/badges/0165c83b-476d-4063-8329-9312c115787c/public_url">View Certificate</th>
+    <th style="text-align:center"><a href="https://www.credly.com/badges/0165c83b-476d-4063-8329-9312c115787c/public_url">View Certificate</a></th>
   </tr>
   <tr>
     <th style="text-align:center">Estimated EOY 2023</th>
