@@ -10,7 +10,7 @@
 
 <br>
 
-### Total CTFs Completed: 78
+### Total CTFs Completed: 79
 
 <table>
   <tr>
@@ -21,7 +21,7 @@
   </tr>
   <tr>
     <td style="text-align:center">51</td>
-    <td style="text-align:center">23</td>
+    <td style="text-align:center">24</td>
     <td style="text-align:center">4</td>
     <td style="text-align:center">0</td>
   </tr>
@@ -476,6 +476,12 @@
       <td style="color:#B5E853;text-align:center">Annie</td>
       <td style="color:#B5E853;text-align:center">Olympus</td>
       <td style="color:#B5E853;text-align:center">Brute</td>
+    </tr>
+    <tr>
+      <td style="color:#B5E853;text-align:center">Services</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
     </tr>
   </table>
 </div>

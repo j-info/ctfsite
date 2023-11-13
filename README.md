@@ -7,6 +7,15 @@
 
 <br>
 
+## *Services* on TryHackMe
+#### November 13th 2023
+
+Topics: ![](images/windows.png) ![](images/web.png) ![](images/kerbrute.png) ![](images/asreproast.png) ![](images/cracking.png) ![](images/hashcat.png) ![](images/service.png)
+
+Well, it's certainly been awhile! I'm almost ready to take the OSCP and want a little more practice on Windows based boxes, so I dusted off TryHackMe and did this one last night.
+
+<br>
+
 ## *Updates to this Blog Paused Temporarily*
 #### June 5th 2023
 
