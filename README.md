@@ -8,11 +8,13 @@
 <br>
 
 ## *Services* on TryHackMe
-#### November 13th 2023
+#### November 12th 2023
 
 Topics: ![](images/windows.png) ![](images/web.png) ![](images/kerbrute.png) ![](images/asreproast.png) ![](images/cracking.png) ![](images/hashcat.png) ![](images/service.png)
 
-Well, it's certainly been awhile! I'm almost ready to take the OSCP and want a little more practice on Windows based boxes, so I dusted off TryHackMe and did this one last night.
+Well, it's certainly been awhile! I'm almost ready to take the OSCP and want a little more practice on Windows based boxes, so I dusted off TryHackMe and did this one.
+
+[**Services Walkthrough**](walkthroughs/2023-11-12-Services.md)
 
 <br>
 
