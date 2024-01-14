@@ -10,7 +10,7 @@
 
 <br>
 
-### Total CTFs Completed: 9
+### Total CTFs Completed: 10
 
 <table>
   <tr>
@@ -20,7 +20,7 @@
     <th style="text-align:center">Insane</th>
   </tr>
   <tr>
-    <td style="text-align:center">8</td>
+    <td style="text-align:center">9</td>
     <td style="text-align:center">1</td>
     <td style="text-align:center">0</td>
     <td style="text-align:center">0</td>
@@ -72,7 +72,7 @@
     <tr>
       <td style="text-align:center">Academy</td>
       <td style="text-align:center">Access</td>
-      <td style="text-align:center">Active</td>
+      <td style="color:#B5E853;text-align:center">Active</td>
       <td style="text-align:center">Acute</td>
     </tr>
     <tr>

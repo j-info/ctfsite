@@ -7,6 +7,21 @@
 
 <br>
 
+## *Active* on Hack the Box
+#### January 13th 2024
+
+Topics: ![](images/windows.png) ![](images/smb.png) ![](images/smbmap.png) ![](images/gpp-decrypt.png) ![](images/crackmapexec.png) ![](images/impacket.png) ![](images/cracking.png) ![](images/hashcat.png)
+
+A fairly straightforward Windows machine on HTB that's part of the TJ Null OSCP box list.
+
+[**Active Walkthrough**](walkthroughs/2024-01-13-Active.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Services* on TryHackMe
 #### November 12th 2023
 
@@ -18,6 +33,10 @@ Well, it's certainly been awhile! I'm almost ready to take the OSCP and want a l
 
 <br>
 
+---
+
+<br>
+
 ## *Updates to this Blog Paused Temporarily*
 #### June 5th 2023
 
@@ -26,6 +45,10 @@ Topics: ![](images/learning.png)
 I picked up the Learn One subscription and have been working on the PEN-200 materials with hopes to take the exam by the end of January 2024!
 
 Due to the time commitment, and that I'm not able to post walkthroughs for official OffSec content, I've decided to temporarily pause updating this blog. Once I've obtained the certification I will pick back up here! Until then I hope you all continue learning and growing!
+
+<br>
+
+---
 
 <br>
 
