@@ -10,7 +10,7 @@
 
 <br>
 
-### Total CTFs Completed: 10
+### Total CTFs Completed: 11
 
 <table>
   <tr>
@@ -20,7 +20,7 @@
     <th style="text-align:center">Insane</th>
   </tr>
   <tr>
-    <td style="text-align:center">9</td>
+    <td style="text-align:center">10</td>
     <td style="text-align:center">1</td>
     <td style="text-align:center">0</td>
     <td style="text-align:center">0</td>
@@ -112,7 +112,7 @@
       <td style="text-align:center">Explore</td>
     </tr>
     <tr>
-      <td style="text-align:center">Forest</td>
+      <td style="color:#B5E853;text-align:center">Forest</td>
       <td style="text-align:center">FriendZone</td>
       <td style="text-align:center">Frolic</td>
       <td style="text-align:center">GoodGames</td>

@@ -7,6 +7,21 @@
 
 <br>
 
+## *Forest* on Hack the Box
+#### January 14th 2024
+
+Topics: ![](images/windows.png) ![](images/smb.png) ![](images/crackmapexec.png) ![](images/rpcclient.png) ![](images/asreproast.png) ![](images/impacket-getnpusers.png) ![](images/hashcat.png) ![](images/cracking.png) ![](images/evilwinrm.png) ![](images/winpeas.png) ![](images/bloodhound.png) ![](images/writedacl.png) ![](images/powerview.png) ![](images/powershell.png) ![](images/impacketsecretsdump.png) ![](images/dcsync.png)
+
+Another Windows machine on the TJ Null OSCP box list.
+
+[**Forest Walkthrough**](walkthroughs/2024-01-14-Forest.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Active* on Hack the Box
 #### January 13th 2024
 
