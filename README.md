@@ -14,7 +14,7 @@ Topics: ![](images/windows.png) ![](images/ftp.png) ![](images/nvms-1000.png) ![
 
 Another TJ Null box down. This one was a pain in the butt with the web interface which I'm sure you'll see for yourself.
 
-[**ServMon Walkthrough**](walkthroughs/2024-01-13-ServMon.md)
+[**ServMon Walkthrough**](walkthroughs/2024-01-21-ServMon.md)
 
 <br>
 
