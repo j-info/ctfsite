@@ -10,7 +10,7 @@
 
 <br>
 
-### Total CTFs Completed: 11
+### Total CTFs Completed: 12
 
 <table>
   <tr>
@@ -20,7 +20,7 @@
     <th style="text-align:center">Insane</th>
   </tr>
   <tr>
-    <td style="text-align:center">10</td>
+    <td style="text-align:center">11</td>
     <td style="text-align:center">1</td>
     <td style="text-align:center">0</td>
     <td style="text-align:center">0</td>
@@ -173,7 +173,7 @@
     </tr>
     <tr>
       <td style="text-align:center">Sense</td>
-      <td style="text-align:center">ServMon</td>
+      <td style="color:#B5E853;text-align:center">ServMon</td>
       <td style="text-align:center">Shocker</td>
       <td style="text-align:center">Spectra</td>
     </tr>

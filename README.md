@@ -7,6 +7,21 @@
 
 <br>
 
+## *ServMon* on Hack the Box
+#### January 21st 2024
+
+Topics: ![](images/windows.png) ![](images/ftp.png) ![](images/nvms-1000.png) ![](images/searchsploit.png) ![](images/dirtraversal.png) ![](images/crackmapexec.png) ![](images/nsclient.png) ![](images/configfile.png) ![](images/sshtunnel.png)
+
+Another TJ Null box down. This one was a pain in the butt with the web interface which I'm sure you'll see for yourself.
+
+[**ServMon Walkthrough**](walkthroughs/2024-01-13-ServMon.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Forest* on Hack the Box
 #### January 14th 2024
 
