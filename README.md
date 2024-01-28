@@ -7,6 +7,21 @@
 
 <br>
 
+## *Support* on Hack the Box
+#### January 26th 2024
+
+Topics: ![](images/windows.png) ![](images/smb.png) ![](images/ldap.png) ![](images/mono.png) ![](images/responder.png) ![](images/ldapsearch.png) ![](images/semachineaccountprivilege.png) ![](images/rbcd.png) ![](images/impacket-addcomputer.png) ![](images/impacket-rbcd.png) ![](images/impacket-getst.png) ![](images/impacket-psexec.png)
+
+This was a fun box from 0xdf that's also on the TJ Null list.
+
+[**Support Walkthrough**](walkthroughs/2024-01-26-Support.md)
+
+<br>
+
+---
+
+<br>
+
 ## *ServMon* on Hack the Box
 #### January 21st 2024
 
