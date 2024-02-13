@@ -7,6 +7,21 @@
 
 <br>
 
+## *Intelligence* on Hack the Box
+#### February 13th 2024
+
+Topics: ![](images/windows.png) ![](images/exiftool.png) ![](images/kerbrute.png) ![](images/python.png) ![](images/bash.png) ![](images/scripting.png) ![](images/pdftotext.png) ![](images/crackmapexec.png) ![](images/smb.png) ![](images/powershell.png) ![](images/bloodhound.png) ![](images/ntpdate.png) ![](images/dnstool.png) ![](images/responder.png) ![](images/hashcat.png) ![](images/cracking.png) ![](images/gmsa.png) ![](images/serviceaccount.png) ![](images/impacket-getst.png) ![](images/impacket-psexec.png)
+
+A medium difficulty Windows box on the TJ Null list.
+
+[**Intelligence Walkthrough**](walkthroughs/2024-02-13-Intelligence.md)
+
+<br>
+
+---
+
+<br>
+
 ## *Support* on Hack the Box
 #### January 26th 2024
 
