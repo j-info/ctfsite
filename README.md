@@ -10,7 +10,7 @@
 
 Topics: ![](images/windows.png) ![](images/web.png) ![](images/jenkins.png) ![](images/groovyscript.png) ![](images/responder.png) ![](images/ldapsearch.png) ![](images/seimpersonateprivilege.png) ![](images/msfvenom.png) ![](images/juicypotato.png) ![](images/sweetpotato.png) ![](images/alternatedatastream.png)
 
-This was a fun box from 0xdf that's also on the TJ Null list.
+Another medium difficulty Windows box on the TJ Null list.
 
 [**Jeeves Walkthrough**](walkthroughs/2024-02-18-Jeeves.md)
 
