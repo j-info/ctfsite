@@ -10,7 +10,7 @@
 
 <br>
 
-### Total CTFs Completed: 14
+### Total CTFs Completed: 15
 
 <table>
   <tr>
@@ -21,7 +21,7 @@
   </tr>
   <tr>
     <td style="text-align:center">12</td>
-    <td style="text-align:center">2</td>
+    <td style="text-align:center">3</td>
     <td style="text-align:center">0</td>
     <td style="text-align:center">0</td>
   </tr>
@@ -263,7 +263,7 @@
     <tr>
       <td style="color:#B5E853;text-align:center">Intelligence</td>
       <td style="text-align:center">Jarvis</td>
-      <td style="text-align:center">Jeeves</td>
+      <td style="color:#B5E853;text-align:center">Jeeves</td>
       <td style="text-align:center">Jewel</td>
     </tr>
     <tr>
