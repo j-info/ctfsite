@@ -5,6 +5,8 @@
 
 ---
 
+<br>
+
 ## *Jeeves* on Hack the Box
 #### February 18th 2024
 
@@ -13,8 +15,6 @@ Topics: ![](images/windows.png) ![](images/web.png) ![](images/jenkins.png) ![](
 Another medium difficulty Windows box on the TJ Null list.
 
 [**Jeeves Walkthrough**](walkthroughs/2024-02-18-Jeeves.md)
-
-<br>
 
 ---
 
