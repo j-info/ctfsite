@@ -7,6 +7,21 @@
 
 <br>
 
+## *Escape* on Hack the Box
+#### February 21st 2024
+
+Topics: ![](images/windows.png) ![](images/smb.png) ![](images/cleartextcreds.png) ![](images/crackmapexec.png) ![](images/impacket-mssqlclient.png) ![](images/mssql.png) ![](images/responder.png) ![](images/cracking.png) ![](images/hashcat.png) ![](images/evilwinrm.png) ![](images/logfile.png) ![](images/adcs.png) ![](images/certipy.png)
+
+Another medium difficulty Windows box on the TJ Null list.
+
+[**Escape Walkthrough**](walkthroughs/2024-02-21-Escape.md)
+
+---
+
+<br>
+
+<br>
+
 ## *Jeeves* on Hack the Box
 #### February 18th 2024
 

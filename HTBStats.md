@@ -10,7 +10,7 @@
 
 <br>
 
-### Total CTFs Completed: 15
+### Total CTFs Completed: 16
 
 <table>
   <tr>
@@ -21,7 +21,7 @@
   </tr>
   <tr>
     <td style="text-align:center">12</td>
-    <td style="text-align:center">3</td>
+    <td style="text-align:center">4</td>
     <td style="text-align:center">0</td>
     <td style="text-align:center">0</td>
   </tr>
@@ -352,7 +352,7 @@
     </tr>
 	<tr>
       <td style="text-align:center">Shared</td>
-      <td style="text-align:center"></td>
+      <td style="color:#B5E853;text-align:center">Escape</td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
     </tr>
